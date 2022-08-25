@@ -22,6 +22,8 @@
 
         main>section:first-child{
             background: red;
+            top: 0;
+            left: 0;
         }
 
         main>section:nth-child(2){
@@ -36,10 +38,22 @@
             left: 0;
         }
 
-        main>section:last-child{
+        main>section:nth-child(4){
             background: deeppink;
             bottom: 0;
             right: 0;
+        }
+
+        main>div:first-of-type{
+            border: 2px solid white;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
         }
 
     </style>
@@ -50,6 +64,8 @@
     <section></section>
     <section></section>
     <section></section>
+
+    <div></div>
 </main>
 </body>
 </html>
