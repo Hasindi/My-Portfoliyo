@@ -18,7 +18,7 @@
         main>div:nth-child(4){
             width: 150px;
             height: 150px;
-            position: absolute;
+            position: fixed;
             border: 15px solid red;
             border-radius: 100%;
 
@@ -32,7 +32,7 @@
         main>div:nth-child(5){
             width: 176px;
             height: 176px;
-            position: absolute;
+            position: fixed;
             border: 15px solid #8c6d23;
             border-radius: 100%;
 
@@ -43,13 +43,45 @@
             margin: auto;
         }
 
+        main>section:nth-child(1)>div, main>section:nth-child(2)>div, main>section:nth-child(3)>div{
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            border-radius: 100%;
+
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        main>section:nth-child(1)>div{
+            background: rebeccapurple;
+        }
+
+        main>section:nth-child(2)>div{
+            background: deepskyblue;
+        }
+
+        main>section:nth-child(3)>div{
+            background: lightcoral;
+        }
     </style>
 </head>
 <body>
 <main>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+    </section>
+
+    <section>
+        <div></div>
+    </section>
 
     <div></div>
     <div></div>
