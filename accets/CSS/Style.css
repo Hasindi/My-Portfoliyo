@@ -140,3 +140,13 @@
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
 }
+
+/*Mobile App Development box*/
+.mobileApp{
+    position: relative;
+    margin: auto;
+    width: 389px;
+    height: 235px;
+    background: #242424;
+    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
+}
