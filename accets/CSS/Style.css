@@ -46,3 +46,9 @@
     position: relative;
 }
 
+/*Service section*/
+.service{
+    height: 100vh;
+    background-color: #242424;
+    position: relative;
+}
