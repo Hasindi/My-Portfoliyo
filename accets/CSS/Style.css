@@ -11,9 +11,12 @@
     font-size: 30px;
     color:  #F3BC17;
     margin: auto;
+    position: absolute;
 }
 
 .intro1{
     font-size: 37px;
     color: white;
+    margin: auto;
+    text-align: center;
 }
