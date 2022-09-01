@@ -185,3 +185,11 @@
     color: #0AF0CD;
     margin: auto;
 }
+
+/*Github link box paragraph*/
+.githubP{
+    font-size: 24px;
+    color: white ;
+    margin: auto;
+    text-align: center;
+}
