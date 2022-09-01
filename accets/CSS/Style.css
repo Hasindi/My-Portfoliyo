@@ -166,8 +166,15 @@
 }
 
 /*Web development title*/
-.t2customization{
+.t3webdevelopment{
     font-size: 16px;
     color: #FD2155;
+    margin: auto;
+}
+
+/*UI/UX design title*/
+.t4UIUX{
+    font-size: 16px;
+    color: #7ED4F2;
     margin: auto;
 }
