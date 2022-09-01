@@ -87,3 +87,8 @@
     background-color: #242424;
     position: relative;
 }
+
+/*Customized Scrollbar*/
+::-webkit-scrollbar{
+    width: 0px;
+}
