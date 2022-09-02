@@ -513,6 +513,11 @@ header > nav > ul > li:hover {
     top: 420px;
 }
 
+
+/*=======================================================================================================*/
+/*FOOTER*/
+/*=======================================================================================================*/
+
 /*Customized footer*/
 footer {
     position: absolute;
@@ -525,4 +530,10 @@ footer {
     align-items: center;
     justify-content: center;
     color: #666666;
+}
+
+/*Customize footer for bottom*/
+html {
+    position: relative;
+    min-height: 100%;
 }
