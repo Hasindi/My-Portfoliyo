@@ -450,3 +450,11 @@ header > nav > ul > li:hover {
     top: 90px;
 }
 
+/*Let's make......*/
+.contactP2 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    margin: auto;
+    top: 125px;
+}
