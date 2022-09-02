@@ -18,7 +18,7 @@
 
 /*hii, I am....*/
 .intro1{
-    font-size: 37px;
+    font-size: 33px;
     color: white;
     margin: auto;
     text-align: center;
@@ -28,6 +28,14 @@
 .intro2{
     font-size: 70px;
     color: white;
+    margin: auto;
+    text-align: center;
+}
+
+/*Developer*/
+.intro3{
+    font-size: 70px;
+    color: #F3BC17;
     margin: auto;
     text-align: center;
 }
