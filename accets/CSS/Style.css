@@ -1,50 +1,6 @@
-/*PAGE 1*/
-
-/*first page*/
-.mainpage{
-    width: 100vw;
-    height: 100vh;
-    background-size: 100%;
-    background-position: center center;
-    background-color: #242424;
-    position: relative;
-}
-
-/*hii, I am....*/
-.intro1{
-    font-size: 24px;
-    color: white;
-    margin: auto;
-    text-align: center;
-}
-
-/*Web Developer*/
-.intro2{
-    font-size: 64px;
-    color: white;
-    margin: auto;
-    text-align: center;
-}
-
-/*Developer*/
-.intro3{
-    font-size: 64px;
-    color: #F3BC17;
-    margin: auto;
-    text-align: center;
-}
-
-/*Follow me on*/
-.followMe{
-    font-size: 20px;
-    color: #F3BC17;
-    margin: auto;
-}
-
-
 /*=======================================================================================================*/
-
 /*SECTIONING*/
+/*=======================================================================================================*/
 
 /*About me section*/
 .aboutMe{
@@ -97,16 +53,8 @@
 
 
 /*=======================================================================================================*/
-
-/*Customized Scrollbar*/
-::-webkit-scrollbar{
-    width: 0px;
-}
-
-
-/*=======================================================================================================*/
-
 /*TITLES*/
+/*=======================================================================================================*/
 
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
 .T1, .T2, .T3, .T4, .T5, .T6{
@@ -134,8 +82,155 @@
 
 
 /*=======================================================================================================*/
+/*Customized Scrollbar*/
+::-webkit-scrollbar{
+    width: 0px;
+}
+/*=======================================================================================================*/
 
+
+/*=======================================================================================================*/
+/*HEADER*/
+/*=======================================================================================================*/
+
+/*Customized headding*/
+header {
+    background: transparent;
+    box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    height: 80px;
+}
+
+/*set list inline*/
+header > nav > ul > li {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+/*Customized navigatins*/
+header > nav {
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
+
+/*Added mouse point for list in headder*/
+header > nav > ul > li:hover {
+    color: #F3BC17;
+    cursor: pointer;
+}
+
+/*name logo*/
+.logo{
+    font-size: 30px;
+    color:  #F3BC17;
+    position: absolute;
+    left: 120px;
+    margin-top: 25px;
+}
+
+
+/*=======================================================================================================*/
+/*PAGE 1*/
+/*=======================================================================================================*/
+
+/*first page*/
+.mainpage{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100%;
+    background-position: center center;
+    background-color: #242424;
+    position: relative;
+}
+
+/*hii, I am....*/
+.intro1{
+    font-size: 24px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+/*Web Developer*/
+.intro2{
+    font-size: 64px;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+/*Developer*/
+.intro3{
+    font-size: 64px;
+    color: #F3BC17;
+    margin: auto;
+    text-align: center;
+}
+
+/*Follow me on*/
+.followMe{
+    font-size: 20px;
+    color: #F3BC17;
+    margin: auto;
+}
+
+
+/*=======================================================================================================*/
+/*ABOUT ME SECTION*/
+/*=======================================================================================================*/
+
+/*Hello*/
+.hello{
+    font-size: 24px;
+    color:  white;
+    position: absolute;
+    right: 710px;
+    top: 211px;
+    margin: auto;
+}
+
+/*I AM.....*/
+.name{
+    font-size: 24px;
+    color:  white;
+    position: absolute;
+    right: 430px;
+    top: 250px;
+    margin: auto;
+}
+
+/*Span Name*/
+.SName{
+    font-size: 24px;
+    color:  #F3BC17;
+    margin: auto;
+}
+
+/*About me Paragraph*/
+.AboutP{
+    font-size: 16px;
+    position: absolute;
+    color:  #ACACAC;
+    margin: auto;
+}
+
+/*About me Signature*/
+.Signature{
+    font-size: 48px;
+    color:  #F3BC17;
+    margin: auto;
+    position: absolute;
+    right: 301px;
+    top: 400px;
+}
+
+
+/*=======================================================================================================*/
 /*SERVICE SECTION*/
+/*=======================================================================================================*/
 
 .serp1, .serp2, .serp3, .serp4, .serp5{
     font-size: 16px;
@@ -229,6 +324,25 @@
     margin: auto;
 }
 
+
+/*=======================================================================================================*/
+/*SKILLS SECTION*/
+/*=======================================================================================================*/
+
+
+/*=======================================================================================================*/
+/*EDUCATION SECTION*/
+/*=======================================================================================================*/
+
+
+/*=======================================================================================================*/
+/*PROJECTS SECTION*/
+/*=======================================================================================================*/
+
+
+/*=======================================================================================================*/
+/*GITHUB LINK*/
+
 /*Github link box paragraph*/
 .githubP{
     font-size: 24px;
@@ -239,94 +353,7 @@
 
 
 /*=======================================================================================================*/
-
-/*~HEADER~*/
-
-/*Customized headding*/
-header {
-    background: transparent;
-    box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.25);
-    position: relative;
-    height: 80px;
-}
-
-/*set list inline*/
-header > nav > ul > li {
-    display: inline-block;
-    padding: 20px;
-    color: white;
-    font-size: 16px;
-}
-
-/*Customized navigatins*/
-header > nav {
-    position: absolute;
-    right: 25px;
-    top: 0;
-}
-
-/*Added mouse point for list in headder*/
-header > nav > ul > li:hover {
-    color: #F3BC17;
-    cursor: pointer;
-}
-
-/*name logo*/
-.logo{
-    font-size: 30px;
-    color:  #F3BC17;
-    position: absolute;
-    left: 120px;
-    margin-top: 25px;
-}
-
-
+/*CONTACT ME SECTION*/
 /*=======================================================================================================*/
 
-/*~ABOUT ME SECTION~*/
-
-/*Hello*/
-.hello{
-    font-size: 24px;
-    color:  white;
-    position: absolute;
-    right: 710px;
-    top: 211px;
-    margin: auto;
-}
-
-/*I AM.....*/
-.name{
-    font-size: 24px;
-    color:  white;
-    position: absolute;
-    right: 430px;
-    top: 250px;
-    margin: auto;
-}
-
-/*Span Name*/
-.SName{
-    font-size: 24px;
-    color:  #F3BC17;
-    margin: auto;
-}
-
-/*About me Paragraph*/
-.AboutP{
-    font-size: 16px;
-    position: absolute;
-    color:  #ACACAC;
-    margin: auto;
-}
-
-/*About me Signature*/
-.Signature{
-    font-size: 48px;
-    color:  #F3BC17;
-    margin: auto;
-    position: absolute;
-    right: 301px;
-    top: 400px;
-}
 
