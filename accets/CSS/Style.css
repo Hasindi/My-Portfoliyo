@@ -137,6 +137,13 @@
 
 /*SERVICE SECTION*/
 
+.serp1, .serp2, .serp3, .serp4, .serp5{
+    font-size: 16px;
+    position: absolute;
+    color:  #FFFFFF;
+    margin: auto;
+}
+
 /*web design box*/
 .webDesign{
     position: relative;
