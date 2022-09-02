@@ -329,6 +329,20 @@ header > nav > ul > li:hover {
 /*SKILLS SECTION*/
 /*=======================================================================================================*/
 
+/*TiTle for Languages*/
+.Lang{
+    font-size: 24px;
+    color:  #F3BC17;
+    position: absolute;
+    margin: auto;
+}
+
+.tools{
+    font-size: 24px;
+    color:  #F3BC17;
+    position: absolute;
+    margin: auto;
+}
 
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
