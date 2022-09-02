@@ -112,6 +112,14 @@
     text-align: center;
 }
 
+/*titles: About me, Service, Skills, Education, Projects, Contact me*/
+.TT1, .TT2, .TT3, .TT4, .TT5, .TT6{
+    font-size: 44px;
+    color: #FFFFFFFF;
+    margin: auto;
+    text-align: center;
+}
+
 /*web design box*/
 .webDesign{
     position: relative;
