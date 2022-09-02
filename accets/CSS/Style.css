@@ -236,3 +236,10 @@ header > nav > ul > li {
     color: white;
     font-size: 16px;
 }
+
+/*Customized navigatins*/
+header > nav {
+    position: absolute;
+    right: 25px;
+    top: 0;
+}
