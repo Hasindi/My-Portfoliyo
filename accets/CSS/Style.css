@@ -276,5 +276,25 @@ header > nav > ul > li:hover {
 
 /*=======================================================================================================*/
 
+/*~ABOUT ME SECTION~*/
 
+/*Hello*/
+.hello{
+    font-size: 24px;
+    color:  white;
+    position: absolute;
+    right: 710px;
+    top: 211px;
+    margin: auto;
+}
+
+/*I AM.....*/
+.name{
+    font-size: 24px;
+    color:  white;
+    position: absolute;
+    right: 430px;
+    top: 250px;
+    margin: auto;
+}
 
