@@ -305,3 +305,10 @@ header > nav > ul > li:hover {
     margin: auto;
 }
 
+/*About me Paragraph*/
+.AboutP{
+    font-size: 16px;
+    color:  #ACACAC;
+    margin: auto;
+}
+
