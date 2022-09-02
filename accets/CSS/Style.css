@@ -3,49 +3,49 @@
 /*=======================================================================================================*/
 
 /*About me section*/
-.aboutMe{
+.aboutMe {
     height: 100vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Service section*/
-.service{
+.service {
     height: 100vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Skills section*/
-.skills{
+.skills {
     height: 100vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Education section*/
-.education{
+.education {
     height: 100vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Projects section*/
-.projects{
+.projects {
     height: 100vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Go Github section*/
-.goGithub{
+.goGithub {
     height: 20vh;
     background-color: #242424;
     position: relative;
 }
 
 /*Contact me section*/
-.contactMe{
+.contactMe {
     height: 100vh;
     background-color: #242424;
     position: relative;
@@ -57,7 +57,7 @@
 /*=======================================================================================================*/
 
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-.T1, .T2, .T3, .T4, .T5, .T6{
+.T1, .T2, .T3, .T4, .T5, .T6 {
     font-size: 70px;
     color: rgba(102, 102, 102, 0.15);
     margin: auto;
@@ -65,7 +65,7 @@
 }
 
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-.TT1, .TT2, .TT3, .TT4, .TT5, .TT6{
+.TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
     font-size: 44px;
     color: #FFFFFFFF;
     margin: auto;
@@ -73,7 +73,7 @@
 }
 
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-.ST1, .ST2, .ST3, .ST4, .ST5, .ST6{
+.ST1, .ST2, .ST3, .ST4, .ST5, .ST6 {
     font-size: 44px;
     color: #F3BC17;
     margin: auto;
@@ -83,9 +83,10 @@
 
 /*=======================================================================================================*/
 /*Customized Scrollbar*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0px;
 }
+
 /*=======================================================================================================*/
 
 
@@ -123,9 +124,9 @@ header > nav > ul > li:hover {
 }
 
 /*name logo*/
-.logo{
+.logo {
     font-size: 30px;
-    color:  #F3BC17;
+    color: #F3BC17;
     position: absolute;
     left: 120px;
     margin-top: 25px;
@@ -137,7 +138,7 @@ header > nav > ul > li:hover {
 /*=======================================================================================================*/
 
 /*first page*/
-.mainpage{
+.mainpage {
     width: 100vw;
     height: 100vh;
     background-size: 100%;
@@ -147,7 +148,7 @@ header > nav > ul > li:hover {
 }
 
 /*hii, I am....*/
-.intro1{
+.intro1 {
     font-size: 24px;
     color: white;
     margin: auto;
@@ -155,7 +156,7 @@ header > nav > ul > li:hover {
 }
 
 /*Web Developer*/
-.intro2{
+.intro2 {
     font-size: 64px;
     color: white;
     margin: auto;
@@ -163,7 +164,7 @@ header > nav > ul > li:hover {
 }
 
 /*Developer*/
-.intro3{
+.intro3 {
     font-size: 64px;
     color: #F3BC17;
     margin: auto;
@@ -171,7 +172,7 @@ header > nav > ul > li:hover {
 }
 
 /*Follow me on*/
-.followMe{
+.followMe {
     font-size: 20px;
     color: #F3BC17;
     margin: auto;
@@ -183,9 +184,9 @@ header > nav > ul > li:hover {
 /*=======================================================================================================*/
 
 /*Hello*/
-.hello{
+.hello {
     font-size: 24px;
-    color:  white;
+    color: white;
     position: absolute;
     right: 710px;
     top: 211px;
@@ -193,9 +194,9 @@ header > nav > ul > li:hover {
 }
 
 /*I AM.....*/
-.name{
+.name {
     font-size: 24px;
-    color:  white;
+    color: white;
     position: absolute;
     right: 430px;
     top: 250px;
@@ -203,24 +204,24 @@ header > nav > ul > li:hover {
 }
 
 /*Span Name*/
-.SName{
+.SName {
     font-size: 24px;
-    color:  #F3BC17;
+    color: #F3BC17;
     margin: auto;
 }
 
 /*About me Paragraph*/
-.AboutP{
+.AboutP {
     font-size: 16px;
     position: absolute;
-    color:  #ACACAC;
+    color: #ACACAC;
     margin: auto;
 }
 
 /*About me Signature*/
-.Signature{
+.Signature {
     font-size: 48px;
-    color:  #F3BC17;
+    color: #F3BC17;
     margin: auto;
     position: absolute;
     right: 301px;
@@ -232,15 +233,15 @@ header > nav > ul > li:hover {
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
 
-.serp1, .serp2, .serp3, .serp4, .serp5{
+.serp1, .serp2, .serp3, .serp4, .serp5 {
     font-size: 16px;
     position: absolute;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     margin: auto;
 }
 
 /*web design box*/
-.webDesign{
+.webDesign {
     position: relative;
     margin: auto;
     width: 389px;
@@ -250,7 +251,7 @@ header > nav > ul > li:hover {
 }
 
 /*Customization box*/
-.customiz{
+.customiz {
     position: relative;
     margin: auto;
     width: 389px;
@@ -260,7 +261,7 @@ header > nav > ul > li:hover {
 }
 
 /*WebDevelopment box*/
-.webDevelopment{
+.webDevelopment {
     position: relative;
     margin: auto;
     width: 389px;
@@ -270,7 +271,7 @@ header > nav > ul > li:hover {
 }
 
 /*UI/UX Deesign box*/
-.UIUX{
+.UIUX {
     position: relative;
     margin: auto;
     width: 389px;
@@ -280,7 +281,7 @@ header > nav > ul > li:hover {
 }
 
 /*Mobile App Development box*/
-.mobileApp{
+.mobileApp {
     position: relative;
     margin: auto;
     width: 389px;
@@ -290,35 +291,35 @@ header > nav > ul > li:hover {
 }
 
 /*Web Design title*/
-.t1webDesign{
+.t1webDesign {
     font-size: 16px;
     color: #E4EE89;
     margin: auto;
 }
 
 /*Customization title*/
-.t2customization{
+.t2customization {
     font-size: 16px;
     color: #FFA500;
     margin: auto;
 }
 
 /*Web development title*/
-.t3webdevelopment{
+.t3webdevelopment {
     font-size: 16px;
     color: #FD2155;
     margin: auto;
 }
 
 /*UI/UX design title*/
-.t4UIUX{
+.t4UIUX {
     font-size: 16px;
     color: #7ED4F2;
     margin: auto;
 }
 
 /*mobile app development title*/
-.t5mobileApp{
+.t5mobileApp {
     font-size: 16px;
     color: #0AF0CD;
     margin: auto;
@@ -330,32 +331,32 @@ header > nav > ul > li:hover {
 /*=======================================================================================================*/
 
 /*TiTle for Languages*/
-.Lang{
+.Lang {
     font-size: 24px;
-    color:  #F3BC17;
+    color: #F3BC17;
     position: absolute;
     margin: auto;
 }
 
 /*TiTle for tools*/
-.tools{
+.tools {
     font-size: 24px;
-    color:  #F3BC17;
+    color: #F3BC17;
     position: absolute;
     margin: auto;
 }
 
 /*Span Language*/
-.Lang2{
+.Lang2 {
     font-size: 24px;
-    color:  white;
+    color: white;
     margin: auto;
 }
 
 /*Span tools*/
-.tools2{
+.tools2 {
     font-size: 24px;
-    color:  white;
+    color: white;
     margin: auto;
 }
 
@@ -363,9 +364,9 @@ header > nav > ul > li:hover {
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
 
-.E1, .E2, .E3, .E4, .E5, .E6, .E7, .E8, .E9, .E10{
+.E1, .E2, .E3, .E4, .E5, .E6, .E7, .E8, .E9, .E10 {
     font-size: 16px;
-    color:  white;
+    color: white;
     position: absolute;
     margin: auto;
     left: 0;
@@ -373,7 +374,50 @@ header > nav > ul > li:hover {
     text-align: center;
 }
 
+/*Year for E1*/
+.EY1 {
+    font-size: 20px;
+    color: #E4EE89;
+    position: absolute;
+    margin: auto;
+    top: 30px;
+}
 
+/*Year for E2*/
+.EY2 {
+    font-size: 20px;
+    color: #23C54B;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+}
+
+/*Year for E3*/
+.EY3 {
+    font-size: 20px;
+    color: #FD2155;
+    position: absolute;
+    margin: auto;
+    top: 70px;
+}
+
+/*Year for E4*/
+.EY4 {
+    font-size: 20px;
+    color: #0AF0CD;
+    position: absolute;
+    margin: auto;
+    top: 90px;
+}
+
+/*Year for E5*/
+.EY5 {
+    font-size: 20px;
+    color: #7ED4F2;
+    position: absolute;
+    margin: auto;
+    top: 110px;
+}
 
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
@@ -384,7 +428,7 @@ header > nav > ul > li:hover {
 /*GITHUB LINK*/
 
 /*Github link box paragraph*/
-.githubP{
+.githubP {
     font-size: 24px;
     color: rgba(255, 255, 255, 0.5);
     margin: auto;
