@@ -107,7 +107,7 @@
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
 .T1, .T2, .T3, .T4, .T5, .T6{
     font-size: 70px;
-    color: rgba(102, 102, 102, 0.13);
+    color: rgba(102, 102, 102, 0.15);
     margin: auto;
     text-align: center;
 }
