@@ -243,3 +243,9 @@ header > nav {
     right: 25px;
     top: 0;
 }
+
+/*Added mouse point for list in headder*/
+header > nav > ul > li:hover {
+    color: #F3BC17;
+    cursor: pointer;
+}
