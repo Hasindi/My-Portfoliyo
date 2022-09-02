@@ -458,3 +458,21 @@ header > nav > ul > li:hover {
     margin: auto;
     top: 125px;
 }
+
+/*Email*/
+.email1 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 300px;
+}
+
+/*Email*/
+.email2 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 320px;
+}
