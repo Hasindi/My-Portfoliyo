@@ -2,9 +2,12 @@
 .mainpage{
     width: 100vw;
     height: 100vh;
-    /*background: url("/accets/img/maini.jpg");
-    background-size: 100%;*/
-     background-color: #242424;
+    /*
+    background-image: url("/accets/img/maini.jpg");
+    */
+    background-size: 100%;
+    background-position: center center;
+    background-color: #242424;
     position: relative;
 }
 
@@ -18,7 +21,7 @@
 
 /*hii, I am....*/
 .intro1{
-    font-size: 33px;
+    font-size: 24px;
     color: white;
     margin: auto;
     text-align: center;
@@ -26,7 +29,7 @@
 
 /*Web Developer*/
 .intro2{
-    font-size: 70px;
+    font-size: 64px;
     color: white;
     margin: auto;
     text-align: center;
@@ -34,7 +37,7 @@
 
 /*Developer*/
 .intro3{
-    font-size: 70px;
+    font-size: 64px;
     color: #F3BC17;
     margin: auto;
     text-align: center;
