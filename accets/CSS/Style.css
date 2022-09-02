@@ -476,3 +476,21 @@ header > nav > ul > li:hover {
     margin: auto;
     top: 320px;
 }
+
+/*Address*/
+.address1 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 350px;
+}
+
+/*Address*/
+.address2 {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin: auto;
+    top: 370px;
+}
