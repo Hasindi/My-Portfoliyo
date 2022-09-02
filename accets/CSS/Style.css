@@ -1,10 +1,9 @@
+/*PAGE 1*/
+
 /*first page*/
 .mainpage{
     width: 100vw;
     height: 100vh;
-    /*
-    background-image: url("/accets/img/maini.jpg");
-    */
     background-size: 100%;
     background-position: center center;
     background-color: #242424;
@@ -41,6 +40,11 @@
     color: #F3BC17;
     margin: auto;
 }
+
+
+/*=======================================================================================================*/
+
+/*SECTIONING*/
 
 /*About me section*/
 .aboutMe{
@@ -91,10 +95,18 @@
     position: relative;
 }
 
+
+/*=======================================================================================================*/
+
 /*Customized Scrollbar*/
 ::-webkit-scrollbar{
     width: 0px;
 }
+
+
+/*=======================================================================================================*/
+
+/*TITLES*/
 
 /*titles: About me, Service, Skills, Education, Projects, Contact me*/
 .T1, .T2, .T3, .T4, .T5, .T6{
@@ -119,6 +131,11 @@
     margin: auto;
     text-align: center;
 }
+
+
+/*=======================================================================================================*/
+
+/*SERVICE SECTION*/
 
 /*web design box*/
 .webDesign{
@@ -213,6 +230,11 @@
     text-align: center;
 }
 
+
+/*=======================================================================================================*/
+
+/*~HEADER~*/
+
 /*Customized headding*/
 header {
     background: transparent;
@@ -250,3 +272,9 @@ header > nav > ul > li:hover {
     left: 120px;
     margin-top: 25px;
 }
+
+
+/*=======================================================================================================*/
+
+
+
