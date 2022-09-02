@@ -298,3 +298,10 @@ header > nav > ul > li:hover {
     margin: auto;
 }
 
+/*Span Name*/
+.SName{
+    font-size: 24px;
+    color:  #F3BC17;
+    margin: auto;
+}
+
