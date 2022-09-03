@@ -554,6 +554,20 @@ header > nav > ul > li:hover {
     top: 420px;
 }
 
+/*Button send Massages*/
+.send{
+    background: #f3bc17;
+    buttonwidth: 238px;
+    height: 47px;
+    border-radius: 34px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-right: 70px;
+    text-align: left;
+    font-size: 20px;
+    color: #010101;
+    cursor: pointer;
+}
 
 /*=======================================================================================================*/
 /*FOOTER*/
