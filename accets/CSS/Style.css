@@ -178,6 +178,20 @@ header > nav > ul > li:hover {
     margin: auto;
 }
 
+/*Button Hire me*/
+.hireme{
+    background: #f3bc17;
+    buttonwidth: 171px;
+    height: 45px;
+    border-radius: 34px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 16px;
+    color: #010101;
+    cursor: pointer;
+}
 
 /*=======================================================================================================*/
 /*ABOUT ME SECTION*/
