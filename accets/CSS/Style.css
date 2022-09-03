@@ -228,12 +228,12 @@ header > nav > ul > li:hover {
     top: 400px;
 }
 
+/*Button downlod CV*/
 .dwnlod{
     background: #f3bc17;
     buttonwidth: 219px;
     height: 47px;
     border-radius: 34px;
-    font-family: Poppins;
     font-weight: 700;
     padding-left: 20px;
     padding-right: 20px;
