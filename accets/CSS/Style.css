@@ -230,6 +230,8 @@ header > nav > ul > li:hover {
     position: absolute;
     color: #ACACAC;
     margin: auto;
+    top: 300px;
+    right: 369px;
 }
 
 /*About me Signature*/
