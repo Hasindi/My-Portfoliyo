@@ -151,8 +151,9 @@ header > nav > ul > li:hover {
 .intro1 {
     font-size: 24px;
     color: white;
-    margin: auto;
+    /*margin: auto;*/
     text-align: center;
+    margin-top: 415px;
 }
 
 /*Web Developer*/
