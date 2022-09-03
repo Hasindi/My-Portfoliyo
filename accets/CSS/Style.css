@@ -463,6 +463,20 @@ header > nav > ul > li:hover {
     text-align: center;
 }
 
+/*Button Github*/
+.github{
+    background: #f3bc17;
+    buttonwidth: 207px;
+    height: 57px;
+    border-radius: 34px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 70px;
+    text-align: left;
+    font-size: 20px;
+    color: #010101;
+    cursor: pointer;
+}
 
 /*=======================================================================================================*/
 /*CONTACT ME SECTION*/
