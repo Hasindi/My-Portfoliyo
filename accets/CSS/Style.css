@@ -228,7 +228,20 @@ header > nav > ul > li:hover {
     top: 400px;
 }
 
-
+.dwnlod{
+    background: #f3bc17;
+    buttonwidth: 219px;
+    height: 47px;
+    border-radius: 34px;
+    font-family: Poppins;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #010101;
+    cursor: pointer;
+}
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
