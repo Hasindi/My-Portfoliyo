@@ -182,6 +182,10 @@ header > nav > ul > li:hover {
     font-size: 20px;
     color: #F3BC17;
     margin: auto;
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg);
+    top: 211px;
 }
 
 /*Button Hire me*/
@@ -267,11 +271,6 @@ header > nav > ul > li:hover {
     cursor: pointer;
 }
 
-hr{
-    margin-bottom: 0px;
-    margin-top: 0px;
-    background-color: red;
-}
 
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
