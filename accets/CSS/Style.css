@@ -303,8 +303,8 @@ header > nav > ul > li:hover {
     height: 376px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    top: 350px;
-    left: 310px;
+    top: 330px;
+    left: 350px;
 }
 
 /*UI/UX Deesign box*/
@@ -328,7 +328,6 @@ header > nav > ul > li:hover {
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 560px;
-   /* left: 524px;*/
     left: 0;
     right: 0;
 }
@@ -368,6 +367,11 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #0AF0CD;
     margin: auto;
+}
+.img1{
+    position: absolute;
+    right: 0;
+    top: 26px;
 }
 
 /*=======================================================================================================*/
