@@ -268,6 +268,7 @@ header > nav > ul > li:hover {
     position: absolute;
     color: #FFFFFF;
     margin: auto;
+    top: 138px;
 }
 
 /*web design box*/
@@ -278,8 +279,8 @@ header > nav > ul > li:hover {
     height: 376px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    left: 150px;
-    top: 127px;
+    left: 180px;
+    top: 120px;
 }
 
 /*Customization box*/
@@ -290,8 +291,8 @@ header > nav > ul > li:hover {
     height: 376px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    top: 127px;
-    left: 901px;
+    top: 120px;
+    right: 180px;
 }
 
 /*WebDevelopment box*/
@@ -302,8 +303,8 @@ header > nav > ul > li:hover {
     height: 376px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    top: 337px;
-    left: 294px;
+    top: 350px;
+    left: 310px;
 }
 
 /*UI/UX Deesign box*/
@@ -314,8 +315,8 @@ header > nav > ul > li:hover {
     height: 376px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    top: 337px;
-    left: 785px;
+    top: 330px;
+    right: 350px;
 }
 
 /*Mobile App Development box*/
@@ -326,8 +327,10 @@ header > nav > ul > li:hover {
     height: 235px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
-    top: 601px;
-    left: 524px;
+    top: 560px;
+   /* left: 524px;*/
+    left: 0;
+    right: 0;
 }
 
 /*Web Design title*/
@@ -335,6 +338,8 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #E4EE89;
     margin: auto;
+    top: 162px;
+    left: 178px;
 }
 
 /*Customization title*/
@@ -364,7 +369,6 @@ header > nav > ul > li:hover {
     color: #0AF0CD;
     margin: auto;
 }
-
 
 /*=======================================================================================================*/
 /*SKILLS SECTION*/
