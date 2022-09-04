@@ -188,6 +188,7 @@ header > nav > ul > li:hover {
     top: 211px;
 }
 
+/*line*/
 .follDiv{
     border: 2px solid #f3bc17;
     width: 90px;
@@ -212,6 +213,15 @@ header > nav > ul > li:hover {
     cursor: pointer;
 }
 
+/*image*/
+.imgp1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    right: 42px;
+    bottom: 254px;
+}
 /*=======================================================================================================*/
 /*ABOUT ME SECTION*/
 /*=======================================================================================================*/
