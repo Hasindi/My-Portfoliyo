@@ -199,18 +199,23 @@ header > nav > ul > li:hover {
 }
 
 /*Button Hire me*/
-.hireme{
+.hireme {
     background: #f3bc17;
     buttonwidth: 171px;
-    height: 45px;
+    height: 43px;
     border-radius: 34px;
     font-weight: 700;
     padding-left: 30px;
     padding-right: 30px;
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #010101;
     cursor: pointer;
+}
+
+.hireme:hover{
+    height: 45px;
+    transform: translateY(3px);
 }
 
 /*image*/
@@ -222,6 +227,8 @@ header > nav > ul > li:hover {
     right: 42px;
     bottom: 254px;
 }
+
+
 /*=======================================================================================================*/
 /*ABOUT ME SECTION*/
 /*=======================================================================================================*/
