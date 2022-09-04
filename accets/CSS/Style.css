@@ -7,6 +7,7 @@
     height: 100vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Service section*/
@@ -14,6 +15,7 @@
     height: 100vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Skills section*/
@@ -21,6 +23,7 @@
     height: 100vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Education section*/
@@ -28,6 +31,7 @@
     height: 100vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Projects section*/
@@ -35,6 +39,7 @@
     height: 100vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Go Github section*/
@@ -42,6 +47,7 @@
     height: 20vh;
     background-color: #242424;
     position: relative;
+    border-bottom: 1px solid rgba(102, 102, 102, 0.29);
 }
 
 /*Contact me section*/
@@ -50,7 +56,6 @@
     background-color: #242424;
     position: relative;
 }
-
 
 /*=======================================================================================================*/
 /*TITLES*/
@@ -259,6 +264,13 @@ header > nav > ul > li:hover {
     color: #010101;
     cursor: pointer;
 }
+
+hr{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: red;
+}
+
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
