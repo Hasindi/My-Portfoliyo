@@ -185,9 +185,9 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     margin: auto;
     position: absolute;
-    right: -34px;
+    right: -49px;
     transform: rotate(90deg);
-    top: 211px;
+    top: 275px;
 }
 
 /*line*/
@@ -196,8 +196,8 @@ header > nav > ul > li:hover {
     width: 90px;
     transform: rotate(90deg);
     position: absolute;
-    right: 8px;
-    bottom: 558px;
+    right: -9px;
+    bottom: 489px;
 }
 
 /*Button Hire me*/
@@ -233,8 +233,8 @@ header > nav > ul > li:hover {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    right: 42px;
-    bottom: 254px;
+    right: 27px;
+    bottom: 181px;
 }
 
 
