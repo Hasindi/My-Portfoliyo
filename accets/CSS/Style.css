@@ -110,15 +110,17 @@ header {
 /*set list inline*/
 header > nav > ul > li {
     display: inline-block;
-    padding: 20px;
+    padding: 30px;
     color: white;
     font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 
 /*Customized navigatins*/
 header > nav {
     position: absolute;
-    right: 25px;
+    right: 60px;
     top: 0;
 }
 
@@ -201,16 +203,23 @@ header > nav > ul > li:hover {
 /*Button Hire me*/
 .hireme {
     background: #f3bc17;
-    buttonwidth: 171px;
+    width: 171px;
     height: 43px;
     border-radius: 34px;
     font-weight: 700;
     padding-left: 30px;
     padding-right: 30px;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     color: #010101;
     cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 580px;
+    bottom: 0;
+    margin: auto;
+    border: none;
 }
 
 .hireme:hover{
