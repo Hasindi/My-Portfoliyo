@@ -304,8 +304,10 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     margin: auto;
     position: absolute;
-    right: 123px;
-    top: 351px;
+    right: 137px;
+    top: 330px;
+    font-family: 'Arizonia', cursive;
+    font-weight: normal;
 }
 
 /*Button downlod CV*/
@@ -323,6 +325,7 @@ header > nav > ul > li:hover {
     cursor: pointer;
 }
 
+/*about list*/
 .list1{
     position: absolute;
     right: 661px;
@@ -335,6 +338,7 @@ header > nav > ul > li:hover {
     color: #FFFFFF;
 }
 
+/*details list*/
 .list2{
     position: absolute;
     right: 453px;
@@ -351,6 +355,7 @@ header > nav > ul > li:hover {
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
 
+/*paragraph*/
 .serp1, .serp2, .serp3, .serp4, .serp5 {
     font-size: 16px;
     position: absolute;
