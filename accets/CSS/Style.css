@@ -318,7 +318,6 @@ header > nav > ul > li:hover {
     border-radius: 34px;
     font-weight: 700;
     padding-left: 20px;
-    /*padding-right: 40px;*/
     text-align: left;
     font-size: 20px;
     color: #010101;
@@ -358,6 +357,14 @@ header > nav > ul > li:hover {
     color: #FFFFFF;
 }
 
+/*my image*/
+.imgmy{
+    position: absolute;
+    width: 326px;
+    height: 464px;
+    left: 179px;
+    top: 178px;
+}
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
