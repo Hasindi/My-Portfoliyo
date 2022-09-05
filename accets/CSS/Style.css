@@ -71,7 +71,7 @@
     line-height: 80px;
     margin: auto;
     text-align: center;
-    top: 57px;
+    top: 33px;
 
 }
 
@@ -83,7 +83,7 @@
     color: #FFFFFFFF;
     margin: auto;
     text-align: center;
-    top: -9px;
+    top: -34px;
 
 }
 
@@ -264,8 +264,8 @@ header > nav > ul > li:hover {
     font-size: 24px;
     color: white;
     position: absolute;
-    right: 710px;
-    top: 211px;
+    right: 644px;
+    top: 183px;
     margin: auto;
 }
 
@@ -274,8 +274,8 @@ header > nav > ul > li:hover {
     font-size: 24px;
     color: white;
     position: absolute;
-    right: 430px;
-    top: 250px;
+    right: 370px;
+    top: 220px;
     margin: auto;
 }
 
@@ -292,8 +292,8 @@ header > nav > ul > li:hover {
     position: absolute;
     color: #ACACAC;
     margin: auto;
-    top: 300px;
-    right: 369px;
+    top: 272px;
+    right: 348px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
@@ -304,8 +304,8 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     margin: auto;
     position: absolute;
-    right: 301px;
-    top: 400px;
+    right: 123px;
+    top: 351px;
 }
 
 /*Button downlod CV*/
