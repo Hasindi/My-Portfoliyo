@@ -120,7 +120,7 @@ header {
 /*set list inline*/
 header > nav > ul > li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px;
     color: white;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
@@ -130,7 +130,7 @@ header > nav > ul > li {
 /*Customized navigatins*/
 header > nav {
     position: absolute;
-    right: 60px;
+    right: 40px;
     top: 0;
 }
 
@@ -175,7 +175,7 @@ header > nav > ul > li:hover {
     margin: auto;
     text-align: center;
     position: relative;
-    top: 481px;
+    top: 351px;
 }
 
 /*Web Developer*/
@@ -185,7 +185,7 @@ header > nav > ul > li:hover {
     margin: auto;
     text-align: center;
     position: relative;
-    top: 511px;
+    top: 366px;
 }
 
 /*Developer*/
@@ -198,23 +198,23 @@ header > nav > ul > li:hover {
 
 /*Follow me on*/
 .followMe {
-    font-size: 20px;
+    font-size: 17px;
     color: #F3BC17;
     margin: auto;
     position: absolute;
-    right: -49px;
+    right: -46px;
     transform: rotate(90deg);
-    top: 275px;
+    top: 212px;
 }
 
 /*line*/
 .follDiv{
     border: 2px solid #f3bc17;
-    width: 90px;
+    width: 80px;
     transform: rotate(90deg);
     position: absolute;
-    right: -9px;
-    bottom: 489px;
+    right: -14px;
+    bottom: 363px;
 }
 
 /*Button Hire me*/
@@ -231,9 +231,9 @@ header > nav > ul > li:hover {
     color: #010101;
     cursor: pointer;
     position: absolute;
-    left: -29px;
+    left: -15px;
     right: 0;
-    top: 729px;
+    top: 552px;
     bottom: 0;
     margin: auto;
     border: none;
@@ -249,9 +249,9 @@ header > nav > ul > li:hover {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    right: 27px;
-    bottom: 181px;
+    gap: 6px;
+    right: 18px;
+    bottom: 106px;
 }
 
 
