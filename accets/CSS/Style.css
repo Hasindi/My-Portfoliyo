@@ -157,10 +157,15 @@ header > nav > ul > li:hover {
 /*hii, I am....*/
 .intro1 {
     font-size: 24px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 2px;
     color: white;
-    /*margin: auto;*/
+    margin: auto;
     text-align: center;
-    margin-top: 415px;
+    position: relative;
+    top: 481px;
 }
 
 /*Web Developer*/
