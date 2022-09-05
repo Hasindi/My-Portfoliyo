@@ -265,7 +265,7 @@ header > nav > ul > li:hover {
     color: white;
     position: absolute;
     right: 644px;
-    top: 183px;
+    top: 173px;
     margin: auto;
 }
 
@@ -275,7 +275,7 @@ header > nav > ul > li:hover {
     color: white;
     position: absolute;
     right: 370px;
-    top: 220px;
+    top: 203px;
     margin: auto;
 }
 
@@ -292,7 +292,7 @@ header > nav > ul > li:hover {
     position: absolute;
     color: #ACACAC;
     margin: auto;
-    top: 272px;
+    top: 252px;
     right: 348px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
@@ -325,11 +325,11 @@ header > nav > ul > li:hover {
 
 .list1{
     position: absolute;
-    right: 668px;
-    bottom: 100px;
+    right: 661px;
+    bottom: 90px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 16px;
     line-height: 35px;
     color: #FFFFFF;
@@ -337,11 +337,11 @@ header > nav > ul > li:hover {
 
 .list2{
     position: absolute;
-    right: 668px;
-    bottom: 100px;
+    right: 453px;
+    bottom: 90px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 16px;
     line-height: 35px;
     color: #FFFFFF;
