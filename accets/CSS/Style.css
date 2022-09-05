@@ -221,9 +221,9 @@ header > nav > ul > li:hover {
     color: #010101;
     cursor: pointer;
     position: absolute;
-    left: 0;
+    left: -29px;
     right: 0;
-    top: 580px;
+    top: 729px;
     bottom: 0;
     margin: auto;
     border: none;
