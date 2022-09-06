@@ -957,10 +957,10 @@ header > nav > ul > li:hover {
 
 .edutree{
     position: absolute;
-    width: 482px;
+    width: 511px;
     height: 0px;
-    left: 515px;
-    top: 406px;
+    left: 510px;
+    top: 422px;
     background-color: #F3BC17;
     border: 2px solid #F3BC17;
     transform: rotate(-90deg);
@@ -973,52 +973,108 @@ header > nav > ul > li:hover {
     width: 428px;
     height: 95px;
     right: 288px;
-    top: 145px;
+    top: 153px;
     border: 2px solid #F3BC17;
 }
 
-/*section1 (IT dip)*/
+/*section2 (IT dip)*/
 .EE2{
     box-sizing: border-box;
     position: absolute;
     width: 428px;
     height: 95px;
-    right: 850px;
-    top: 145px;
+    left: 288px;
+    top: 265.5px;
     border: 2px solid #F3BC17;
 }
 
-/*section1 (Eng dip)*/
+/*section3 (Eng dip)*/
 .EE3{
     box-sizing: border-box;
     position: absolute;
     width: 428px;
     height: 95px;
     right: 288px;
-    top: 372px;
+    top: 378px;
     border: 2px solid #F3BC17;
 }
 
-/*section1 (A/L)*/
+/*section4 (A/L)*/
 .EE4{
     box-sizing: border-box;
     position: absolute;
     width: 428px;
     height: 95px;
-    right: 850px;
-    top: 473px;
+    left: 288px;
+    top: 490.5px;
     border: 2px solid #F3BC17;
 }
 
-/*section1 (O/L)*/
+/*section5 (O/L)*/
 .EE5{
     box-sizing: border-box;
     position: absolute;
     width: 428px;
     height: 95px;
     right: 288px;
-    top: 578px;
+    top: 603px;
     border: 2px solid #F3BC17;
+}
+
+/*circle1*/
+.cir1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 737px;
+    top: 197px;
+    background: #F3BC17;
+    border-radius: 100%;
+}
+
+/*circle2*/
+.cir2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 737px;
+    top: 305.5px;
+    background: #F3BC17;
+    border-radius: 100%;
+}
+
+/*circle3*/
+.cir3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 737px;
+    top: 423px;
+    background: #F3BC17;
+    border-radius: 100%;
+}
+
+
+/*circle4*/
+.cir4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 737px;
+    top: 535.5px;
+    background: #F3BC17;
+    border-radius: 100%;
+}
+
+/*circle5*/
+.cir5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 737px;
+    top: 649.5px;
+    background: #F3BC17;
+    border-radius: 100%;
 }
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
