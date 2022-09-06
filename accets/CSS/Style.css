@@ -495,10 +495,10 @@ header > nav > ul > li:hover {
     left: 24px;
 }
 
-.img1{
+.img1, .img2, .img3, .img4, .img5{
     position: absolute;
-    right: 0;
-    top: 26px;
+    left: 265px;
+    top: 9px;
     width: 100px;
     height: 100px;
 }
