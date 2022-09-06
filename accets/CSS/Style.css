@@ -389,7 +389,7 @@ header > nav > ul > li:hover {
     height: 317px;
     background: #242424;
     left: 150px;
-    top: 108px;
+    top: 106px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -400,7 +400,7 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    top: 108px;
+    top: 106px;
     right: 150px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
@@ -500,6 +500,61 @@ header > nav > ul > li:hover {
     top: 7px;
     width: 100px;
     height: 100px;
+}
+
+/*style line for web designing*/
+.syl1{
+    position: absolute;
+    width: 389px;
+    height: 0px;
+    left: 0px;
+    top: 1px;
+    border: 1px solid #E4EE89;;
+    background-color: #E4EE89;;
+}
+
+/*style line for Customization*/
+.syl2{
+    position: absolute;
+    width: 389px;
+    height: 0px;
+    left: 0px;
+    top: 1px;
+    border: 1px solid #FFA500;
+    background-color: #FFA500;
+}
+
+/*style line for web development*/
+.syl3{
+    position: absolute;
+    width: 389px;
+    height: 0px;
+    left: 0px;
+    top: 1px;
+    border: 1px solid #FD2155;
+    background-color: #FD2155;
+}
+
+/*style line for UI/UX design*/
+.syl4{
+    position: absolute;
+    width: 389px;
+    height: 0px;
+    left: 0px;
+    top: 1px;
+    border: 1px solid #7ED4F2;
+    background-color: #7ED4F2;
+}
+
+/*style line for mobile app development*/
+.syl5{
+    position: absolute;
+    width: 389px;
+    height: 0px;
+    left: 0px;
+    top: 1px;
+    border: 1px solid #0AF0CD;
+    background-color: #0AF0CD;
 }
 
 /*=======================================================================================================*/
