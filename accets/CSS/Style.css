@@ -798,6 +798,54 @@ header > nav > ul > li:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
+/*numbers in box*/
+.n1, .n2, .n3{
+    position: absolute;
+    width: 51px;
+    height: 50px;
+    left: 28px;
+    top: -4px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #F3BC17;
+}
+
+/*+ in box*/
+.plus1, .plus2, .plus3 {
+    position: absolute;
+    width: 22px;
+    height: 16px;
+    left: 73px;
+    top: -14px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    color: #F3BC17;
+}
+
+/*instructions for boxes*/
+.completePro, .yearEx, .happyCus {
+    position: absolute;
+    width: 104px;
+    height: 28px;
+    left: 70px;
+    top: 83px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
