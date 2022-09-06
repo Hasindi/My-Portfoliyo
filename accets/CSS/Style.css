@@ -373,10 +373,13 @@ header > nav > ul > li:hover {
 .serp1, .serp2, .serp3, .serp4, .serp5 {
     font-size: 16px;
     position: absolute;
-    color: #FFFFFF;
+    color: #ACACAC;
     margin: auto;
-    top: 106px;
-    left: 28px;
+    top: 117px;
+    left: -43px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
 }
 
 /*web design box*/
@@ -385,8 +388,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    left: 180px;
-    top: 147px;
+    left: 150px;
+    top: 108px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -397,8 +400,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    top: 120px;
-    right: 180px;
+    top: 108px;
+    right: 150px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -409,8 +412,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    top: 330px;
-    left: 350px;
+    top: 286px;
+    left: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -421,8 +424,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    top: 330px;
-    right: 350px;
+    top: 286px;
+    right: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
@@ -431,9 +434,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     width: 389px;
-    height: 235px;
+    height: 202px;
     background: #242424;
-    top: 560px;
+    top: 500px;
     left: 0;
     right: 0;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
@@ -445,8 +448,8 @@ header > nav > ul > li:hover {
     color: #E4EE89;
     margin: auto;
     position: absolute;
-    top: 35px;
-    left: 28px;
+    top: 47px;
+    left: 42px;
 }
 
 /*Customization title*/
@@ -455,8 +458,8 @@ header > nav > ul > li:hover {
     color: #FFA500;
     margin: auto;
     position: absolute;
-    top: 35px;
-    left: 28px;
+    top: 47px;
+    left: 42px;
 }
 
 /*Web development title*/
@@ -465,8 +468,8 @@ header > nav > ul > li:hover {
     color: #FD2155;
     margin: auto;
     position: absolute;
-    top: 35px;
-    left: 28px;
+    top: 47px;
+    left: 42px;
 }
 
 /*UI/UX design title*/
@@ -475,8 +478,8 @@ header > nav > ul > li:hover {
     color: #7ED4F2;
     margin: auto;
     position: absolute;
-    top: 35px;
-    left: 28px;
+    top: 47px;
+    left: 42px;
 }
 
 /*mobile app development title*/
@@ -485,14 +488,14 @@ header > nav > ul > li:hover {
     color: #0AF0CD;
     margin: auto;
     position: absolute;
-    top: 35px;
-    left: 28px;
+    top: 47px;
+    left: 42px;
 }
 
 .img1, .img2, .img3, .img4, .img5{
     position: absolute;
-    left: 265px;
-    top: 6px;
+    left: 257px;
+    top: 7px;
     width: 100px;
     height: 100px;
 }
