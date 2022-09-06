@@ -884,13 +884,14 @@ header > nav > ul > li:hover {
 /*=======================================================================================================*/
 
 /*Description Education evels*/
-.E1, .E2, .E3, .E4, .E5, .E6, .E7, .E8, .E9, .E10 {
+.E1, .E2, .E3, .E4, .E5{
     font-size: 16px;
     color: white;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
+    top: 13px;
     text-align: center;
 }
 
@@ -900,7 +901,7 @@ header > nav > ul > li:hover {
     color: #E4EE89;
     position: absolute;
     margin: auto;
-    top: 30px;
+    bottom: 8px;
     left: 0;
     right: 0;
     text-align: center;
@@ -912,7 +913,7 @@ header > nav > ul > li:hover {
     color: #23C54B;
     position: absolute;
     margin: auto;
-    top: 50px;
+    bottom: 8px;
     left: 0;
     right: 0;
     text-align: center;
@@ -924,7 +925,7 @@ header > nav > ul > li:hover {
     color: #FD2155;
     position: absolute;
     margin: auto;
-    top: 70px;
+    bottom: 8px;
     left: 0;
     right: 0;
     text-align: center;
@@ -936,7 +937,7 @@ header > nav > ul > li:hover {
     color: #0AF0CD;
     position: absolute;
     margin: auto;
-    top: 90px;
+    bottom: 8px;
     left: 0;
     right: 0;
     text-align: center;
@@ -948,7 +949,7 @@ header > nav > ul > li:hover {
     color: #7ED4F2;
     position: absolute;
     margin: auto;
-    top: 110px;
+    bottom: 8px;
     left: 0;
     right: 0;
     text-align: center;
