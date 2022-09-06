@@ -939,6 +939,16 @@ header > nav > ul > li:hover {
     top: 110px;
 }
 
+.edutree{
+    position: absolute;
+    width: 482px;
+    height: 0px;
+    left: 515px;
+    top: 406px;
+    background-color: #F3BC17;
+    border: 2px solid #F3BC17;
+    transform: rotate(-90deg);
+}
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
 /*=======================================================================================================*/
