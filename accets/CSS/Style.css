@@ -857,6 +857,28 @@ header > nav > ul > li:hover {
     background-color: #FFFFFF;
     border: 1.5px solid #FFFFFF;
 }
+
+/*title line(Language and framework)*/
+.titleLine1{
+    position: absolute;
+    width: 303.01px;
+    height: 0px;
+    left: 105px;
+    top: 173px;
+    background-color: #ffffff;
+    border: 2px solid #F3BC17;
+}
+
+/*title line(tools)*/
+.titleLine2{
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: 102px;
+    top: 555px;
+    background-color: #FFFFFF;
+    border: 2px solid #F3BC17;
+}
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
