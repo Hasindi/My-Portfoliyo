@@ -753,6 +753,7 @@ header > nav > ul > li:hover {
     top: 485px;
 }
 
+/*line break*/
 .linebreak{
     position: absolute;
     width: 532.01px;
@@ -763,6 +764,40 @@ header > nav > ul > li:hover {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
     transform: rotate(-90deg);
 }
+
+/*side div 1*/
+.d1{
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    left: 918px;
+    top: 331px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/*side div 2*/
+.d2{
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    left: 1173px;
+    top: 331px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/*side div 3*/
+.d3{
+    position: absolute;
+    width: 190px;
+    height: 150px;
+    left: 918px;
+    top: 546px;
+    background: #242424;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
