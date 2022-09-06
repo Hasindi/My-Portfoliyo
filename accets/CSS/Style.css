@@ -901,6 +901,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     top: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /*Year for E2*/
@@ -910,6 +913,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /*Year for E3*/
@@ -919,6 +925,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     top: 70px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /*Year for E4*/
@@ -928,6 +937,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     top: 90px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 /*Year for E5*/
@@ -937,6 +949,9 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     top: 110px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .edutree{
