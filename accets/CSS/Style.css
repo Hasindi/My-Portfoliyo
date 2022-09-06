@@ -582,8 +582,8 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
-    left: 164px;
-    top: 656px;
+    left: 118px;
+    top: 526px;
     font-family: 'Encode Sans Semi Expanded',sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -690,6 +690,60 @@ header > nav > ul > li:hover {
     position: absolute;
     left: -34px;
     top: -98px;
+}
+
+/*tool img1*/
+.tool1img{
+    position: absolute;
+    left: 167px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
+}
+
+/*tool img2*/
+.tool2img{
+    position: absolute;
+    left: 277px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
+}
+
+/*tool img3*/
+.tool3img{
+    position: absolute;
+    left: 387px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
+}
+
+/*tool img4*/
+.tool4img{
+    position: absolute;
+    left: 497px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
+}
+
+/*tool img5*/
+.tool5img{
+    position: absolute;
+    left: 607px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
+}
+
+/*tool img6*/
+.tool6img{
+    position: absolute;
+    left: 717px;
+    top: 124px;
+    width: 60px;
+    height: 60px;
 }
 
 /*=======================================================================================================*/
