@@ -567,6 +567,13 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
+    left: 118px;
+    top: 138px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 /*TiTle for tools*/
@@ -575,6 +582,13 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
+    left: 164px;
+    top: 656px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 /*Span Language*/
@@ -590,6 +604,81 @@ header > nav > ul > li:hover {
     color: white;
     margin: auto;
 }
+
+/*language img1*/
+.lang1img{
+    position: absolute;
+    width: 74px;
+    height: 71px;
+    left: 161px;
+    top: 231px;
+
+}
+
+/*language img2*/
+.lang2img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 277px;
+    top: 236px;
+}
+
+/*language img3*/
+.lang3img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 394px;
+    top: 236px;
+}
+
+/*language img4*/
+.lang4img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 507px;
+    top: 236px;
+}
+
+/*language img5*/
+.lang5img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 620px;
+    top: 236px;
+}
+
+/*language img6*/
+.lang6img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 167px;
+    top: 484px;
+}
+
+/*language img7*/
+.lang7img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 277px;
+    top: 484px;
+}
+
+/*language img8*/
+.lang8img{
+    position: absolute;
+    width: 180px;
+    height: 90px;
+    left: 387px;
+    top: 484px;
+}
+
+
 
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
