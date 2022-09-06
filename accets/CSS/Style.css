@@ -450,8 +450,8 @@ header > nav > ul > li:hover {
     color: #E4EE89;
     margin: auto;
     position: absolute;
-    top: 28px;
-    left: 24px;
+    top: 35px;
+    left: 28px;
 
 }
 
@@ -461,8 +461,8 @@ header > nav > ul > li:hover {
     color: #FFA500;
     margin: auto;
     position: absolute;
-    top: 28px;
-    left: 24px;
+    top: 35px;
+    left: 28px;
 }
 
 /*Web development title*/
@@ -471,8 +471,8 @@ header > nav > ul > li:hover {
     color: #FD2155;
     margin: auto;
     position: absolute;
-    top: 28px;
-    left: 24px;
+    top: 35px;
+    left: 28px;
 }
 
 /*UI/UX design title*/
@@ -481,8 +481,8 @@ header > nav > ul > li:hover {
     color: #7ED4F2;
     margin: auto;
     position: absolute;
-    top: 28px;
-    left: 24px;
+    top: 35px;
+    left: 28px;
 }
 
 /*mobile app development title*/
@@ -491,14 +491,14 @@ header > nav > ul > li:hover {
     color: #0AF0CD;
     margin: auto;
     position: absolute;
-    top: 28px;
-    left: 24px;
+    top: 35px;
+    left: 28px;
 }
 
 .img1, .img2, .img3, .img4, .img5{
     position: absolute;
     left: 265px;
-    top: 9px;
+    top: 8px;
     width: 100px;
     height: 100px;
 }
