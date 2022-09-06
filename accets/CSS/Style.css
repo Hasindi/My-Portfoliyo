@@ -387,6 +387,7 @@ header > nav > ul > li:hover {
     background: #242424;
     left: 180px;
     top: 147px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
 /*Customization box*/
@@ -398,6 +399,7 @@ header > nav > ul > li:hover {
     background: #242424;
     top: 120px;
     right: 180px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
 /*WebDevelopment box*/
@@ -409,6 +411,7 @@ header > nav > ul > li:hover {
     background: #242424;
     top: 330px;
     left: 350px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
 /*UI/UX Deesign box*/
@@ -420,6 +423,7 @@ header > nav > ul > li:hover {
     background: #242424;
     top: 330px;
     right: 350px;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
 /*Mobile App Development box*/
@@ -432,6 +436,7 @@ header > nav > ul > li:hover {
     top: 560px;
     left: 0;
     right: 0;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
 }
 
 /*Web Design title*/
