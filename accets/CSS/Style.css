@@ -567,7 +567,7 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
-    left: 118px;
+    left: 103px;
     top: 138px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
@@ -582,7 +582,7 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
-    left: 118px;
+    left: 103px;
     top: 526px;
     font-family: 'Encode Sans Semi Expanded',sans-serif;
     font-style: normal;
@@ -681,14 +681,14 @@ header > nav > ul > li:hover {
 /*div for adjust image line 1*/
 .langdiv1{
     position: absolute;
-    left: -34px;
+    left: -50px;
     top: 1px;
 }
 
 /*div for adjust image line 2*/
 .langdiv2{
     position: absolute;
-    left: -34px;
+    left: -50px;
     top: -98px;
 }
 
@@ -749,7 +749,7 @@ header > nav > ul > li:hover {
 /*div for adjust image line 3*/
 .tooldiv{
     position: absolute;
-    left: -34px;
+    left: -50px;
     top: 485px;
 }
 
@@ -758,8 +758,8 @@ header > nav > ul > li:hover {
     position: absolute;
     width: 532.01px;
     height: 0;
-    left: 598px;
-    top: 406px;
+    left: 585px;
+    top: 410px;
     border: 3px solid #242424;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
     transform: rotate(-90deg);
@@ -770,8 +770,8 @@ header > nav > ul > li:hover {
     position: absolute;
     width: 190px;
     height: 150px;
-    left: 918px;
-    top: 331px;
+    right: 382px;
+    top: 215px;
     background: #242424;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
@@ -781,8 +781,8 @@ header > nav > ul > li:hover {
     position: absolute;
     width: 190px;
     height: 150px;
-    left: 1173px;
-    top: 331px;
+    right: 89px;
+    top: 215px;
     background: #242424;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
@@ -792,8 +792,8 @@ header > nav > ul > li:hover {
     position: absolute;
     width: 190px;
     height: 150px;
-    left: 918px;
-    top: 546px;
+    right: 382px;
+    top: 435px;
     background: #242424;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
