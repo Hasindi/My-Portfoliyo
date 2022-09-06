@@ -490,8 +490,10 @@ header > nav > ul > li:hover {
     position: absolute;
     top: 47px;
     left: 42px;
+    line-height: 10px;
 }
 
+/*icon images*/
 .img1, .img2, .img3, .img4, .img5{
     position: absolute;
     left: 257px;
