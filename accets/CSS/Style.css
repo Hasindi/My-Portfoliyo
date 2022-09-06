@@ -383,11 +383,12 @@ header > nav > ul > li:hover {
     position: absolute;
     /*margin: auto;*/
     width: 389px;
-    height: 376px;
+    height: 317px;
     background: #242424;
-    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
+    /*box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);*/
     left: 180px;
-    top: 120px;
+    top: 147px;
+    border: 1px solid white;
 }
 
 /*Customization box*/
@@ -395,11 +396,12 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     width: 389px;
-    height: 376px;
+    height: 317px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 120px;
     right: 180px;
+    border: 1px solid white;
 }
 
 /*WebDevelopment box*/
@@ -407,11 +409,12 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     width: 389px;
-    height: 376px;
+    height: 317px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 330px;
     left: 350px;
+    border: 1px solid white;
 }
 
 /*UI/UX Deesign box*/
@@ -419,11 +422,12 @@ header > nav > ul > li:hover {
     position: absolute;
     margin: auto;
     width: 389px;
-    height: 376px;
+    height: 317px;
     background: #242424;
     box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 330px;
     right: 350px;
+    border: 1px solid white;
 }
 
 /*Mobile App Development box*/
@@ -437,6 +441,7 @@ header > nav > ul > li:hover {
     top: 560px;
     left: 0;
     right: 0;
+    border: 1px solid white;
 }
 
 /*Web Design title*/
@@ -444,8 +449,10 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #E4EE89;
     margin: auto;
-    top: 162px;
-    left: 178px;
+    position: absolute;
+    top: 28px;
+    left: 24px;
+
 }
 
 /*Customization title*/
@@ -453,6 +460,9 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #FFA500;
     margin: auto;
+    position: absolute;
+    top: 28px;
+    left: 24px;
 }
 
 /*Web development title*/
@@ -460,6 +470,9 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #FD2155;
     margin: auto;
+    position: absolute;
+    top: 28px;
+    left: 24px;
 }
 
 /*UI/UX design title*/
@@ -467,6 +480,9 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #7ED4F2;
     margin: auto;
+    position: absolute;
+    top: 28px;
+    left: 24px;
 }
 
 /*mobile app development title*/
@@ -474,7 +490,11 @@ header > nav > ul > li:hover {
     font-size: 16px;
     color: #0AF0CD;
     margin: auto;
+    position: absolute;
+    top: 28px;
+    left: 24px;
 }
+
 .img1{
     position: absolute;
     right: 0;
