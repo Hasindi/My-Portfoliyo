@@ -678,6 +678,20 @@ header > nav > ul > li:hover {
     top: 484px;
 }
 
+/*div for adjust image line 1*/
+.langdiv1{
+    position: absolute;
+    left: -34px;
+    top: 1px;
+}
+
+/*div for adjust image line 2*/
+.langdiv2{
+    position: absolute;
+    left: -34px;
+    top: -98px;
+}
+
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
