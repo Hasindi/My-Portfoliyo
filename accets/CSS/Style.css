@@ -375,20 +375,18 @@ header > nav > ul > li:hover {
     position: absolute;
     color: #FFFFFF;
     margin: auto;
-    top: 138px;
+    top: 106px;
+    left: 28px;
 }
 
 /*web design box*/
 .webDesign {
     position: absolute;
-    /*margin: auto;*/
     width: 389px;
     height: 317px;
     background: #242424;
-    /*box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);*/
     left: 180px;
     top: 147px;
-    border: 1px solid white;
 }
 
 /*Customization box*/
@@ -398,10 +396,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 120px;
     right: 180px;
-    border: 1px solid white;
 }
 
 /*WebDevelopment box*/
@@ -411,10 +407,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 330px;
     left: 350px;
-    border: 1px solid white;
 }
 
 /*UI/UX Deesign box*/
@@ -424,10 +418,8 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 317px;
     background: #242424;
-    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 330px;
     right: 350px;
-    border: 1px solid white;
 }
 
 /*Mobile App Development box*/
@@ -437,11 +429,9 @@ header > nav > ul > li:hover {
     width: 389px;
     height: 235px;
     background: #242424;
-    box-shadow: -23px -23px 45px #242424, 28px 28px 50px rgba(0, 0, 0, 0.25);
     top: 560px;
     left: 0;
     right: 0;
-    border: 1px solid white;
 }
 
 /*Web Design title*/
@@ -452,7 +442,6 @@ header > nav > ul > li:hover {
     position: absolute;
     top: 35px;
     left: 28px;
-
 }
 
 /*Customization title*/
@@ -498,7 +487,7 @@ header > nav > ul > li:hover {
 .img1, .img2, .img3, .img4, .img5{
     position: absolute;
     left: 265px;
-    top: 8px;
+    top: 6px;
     width: 100px;
     height: 100px;
 }
