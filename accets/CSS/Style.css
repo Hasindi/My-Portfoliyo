@@ -949,6 +949,61 @@ header > nav > ul > li:hover {
     border: 2px solid #F3BC17;
     transform: rotate(-90deg);
 }
+
+/*section1 (Digree)*/
+.EE1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 95px;
+    right: 288px;
+    top: 145px;
+    border: 2px solid #F3BC17;
+}
+
+/*section1 (IT dip)*/
+.EE2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 95px;
+    right: 850px;
+    top: 145px;
+    border: 2px solid #F3BC17;
+}
+
+/*section1 (Eng dip)*/
+.EE3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 95px;
+    right: 288px;
+    top: 372px;
+    border: 2px solid #F3BC17;
+}
+
+/*section1 (A/L)*/
+.EE4{
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 95px;
+    right: 850px;
+    top: 473px;
+    border: 2px solid #F3BC17;
+}
+
+/*section1 (O/L)*/
+.EE5{
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 95px;
+    right: 288px;
+    top: 578px;
+    border: 2px solid #F3BC17;
+}
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
 /*=======================================================================================================*/
