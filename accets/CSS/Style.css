@@ -846,6 +846,17 @@ header > nav > ul > li:hover {
     align-items: center;
     color: #FFFFFF;
 }
+
+/*set style lines*/
+.line1, .line2, .line3{
+    position: absolute;
+    width: 35px;
+    height: 0px;
+    left: 25px;
+    top: 97px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+}
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
