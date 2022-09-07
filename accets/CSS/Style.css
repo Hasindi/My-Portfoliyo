@@ -1205,6 +1205,33 @@ header > nav > ul > li:hover {
     align-items: center;
 }
 
+/*contact details image1*/
+.imgC1{
+    position: absolute;
+    top: 306px;
+    left: 190px;
+    width: 24px;
+    height: 24px;
+}
+
+/*contact details image*/
+.imgC2{
+    position: absolute;
+    top: 406px;
+    left: 190px;
+    width: 24px;
+    height: 24px;
+}
+
+/*contact details image*/
+.imgC3{
+    position: absolute;
+    top: 506px;
+    left: 190px;
+    width: 24px;
+    height: 24px;
+}
+
 /*Button send Massages*/
 .send{
     position: absolute;
@@ -1239,7 +1266,6 @@ header > nav > ul > li:hover {
     align-items: center;
     color: rgba(255, 255, 255, 0.5);
 }
-
 
 /*name*/
 .input1{
