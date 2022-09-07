@@ -943,13 +943,17 @@ header > nav > ul > li:hover {
 
 /*Description Education evels*/
 .E1, .E2, .E3, .E4, .E5{
-    font-size: 16px;
     color: white;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     top: 13px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
 }
 
