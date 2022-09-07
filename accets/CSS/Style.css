@@ -1143,7 +1143,7 @@ header > nav > ul > li:hover {
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
     margin: auto;
-    top: 28px;
+    top: 32px;
     left: 0;
     right: 0;
 }
@@ -1152,7 +1152,7 @@ header > nav > ul > li:hover {
 .contactD1{
     position: absolute;
     text-align: center;
-    left: 88px;
+    left: 95px;
     top: 177px;
     width: 348px;
 }
