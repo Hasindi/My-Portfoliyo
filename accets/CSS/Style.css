@@ -1159,56 +1159,92 @@ header > nav > ul > li:hover {
 
 /*Email*/
 .email1 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 300px;
+    /*top: 300px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Email*/
 .email2 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 320px;
+    /*top: 320px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Address*/
 .address1 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 350px;
+    /*top: 350px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Address*/
 .address2 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 370px;
+    /*top: 370px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Contact*/
 .contact1 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 400px;
+    /*top: 400px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Contact*/
 .contact2 {
-    font-size: 16px;
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 420px;
+    /*top: 420px;*/
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Button send Massages*/
