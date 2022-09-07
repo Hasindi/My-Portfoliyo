@@ -274,27 +274,43 @@ header > nav > ul > li:hover {
 
 /*Hello*/
 .hello {
-    font-size: 24px;
     color: white;
     position: absolute;
     right: 644px;
     top: 173px;
     margin: auto;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
+
 }
 
 /*I AM.....*/
 .name {
-    font-size: 24px;
     color: white;
     position: absolute;
     right: 370px;
     top: 203px;
     margin: auto;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-items: center;
 }
 
 /*Span Name*/
 .SName {
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 600;
     font-size: 24px;
+    line-height: 30px;
+    align-items: center;
     color: #F3BC17;
     margin: auto;
 }
