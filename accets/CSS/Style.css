@@ -1213,17 +1213,21 @@ header > nav > ul > li:hover {
 
 /*Button send Massages*/
 .send{
-    background: #f3bc17;
-    buttonwidth: 238px;
-    height: 47px;
+    position: absolute;
+    background: #F3BC17;
+    width: 211px;
+    height: 43px;
     border-radius: 34px;
-    font-weight: 800;
-    padding-left: 30px;
-    padding-right: 70px;
+    font-weight: 700;
+    padding-left: 25px;
     text-align: left;
     font-size: 20px;
     color: #010101;
     cursor: pointer;
+    left: 576px;
+    bottom: 32px;
+    margin: auto;
+    border: none;
 }
 
 /*form content*/
