@@ -1238,3 +1238,9 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+/*footer img*/
+.fImg1, .fImg2, .fImg3, .fImg4{
+    width: 70px;
+    height: 70px;
+}
