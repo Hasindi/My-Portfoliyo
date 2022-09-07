@@ -254,6 +254,12 @@ header > nav > ul > li:hover {
     bottom: 106px;
 }
 
+/*social media image*/
+.imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    width: 24px;
+    height: 24px;
+}
+
 
 /*=======================================================================================================*/
 /*ABOUT ME SECTION*/
