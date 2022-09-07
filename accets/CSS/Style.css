@@ -389,10 +389,20 @@ header > nav > ul > li:hover {
 /*my image*/
 .imgmy{
     position: absolute;
-    width: 326px;
-    height: 464px;
-    left: 179px;
-    top: 178px;
+    width: 304px;
+    height: 428px;
+    left: 19px;
+    top: 18px;
+}
+
+/*image frame*/
+.myIMGFrame{
+    position: absolute;
+    border: 8px solid #F3BC17;
+    left: 202px;
+    top: 176px;
+    width: 341px;
+    height: 463px;
 }
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
