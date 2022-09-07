@@ -1227,17 +1227,11 @@ header > nav > ul > li:hover {
 }
 
 /*form content*/
-/*name*/
-.input1{
+.input1, .input2, .input3, .input4{
     position: absolute;
-    width: 355px;
-    height: 34px;
     background: rgba(217, 217, 217, 0.21);
     border-radius: 34px;
-    padding: 10px 25px 10px 25px;
     border: 2px solid rgba(217, 217, 217, 0.21);
-    left: 527px;
-    top: 230px;
 
     /*text*/
     font-family: 'Encode Sans Semi Expanded',sans-serif;
@@ -1246,69 +1240,43 @@ header > nav > ul > li:hover {
     font-size: 16px;
     align-items: center;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+/*name*/
+.input1{
+    width: 355px;
+    height: 34px;
+    padding: 10px 25px 10px 25px;
+    left: 527px;
+    top: 230px;
 }
 
 /*Email*/
 .input2{
-    position: absolute;
     width: 355px;
     height: 34px;
     left: 1011px;
     top: 230px;
-    background: rgba(217, 217, 217, 0.21);
-    border-radius: 34px;
     padding: 10px 25px 10px 25px;
-    border: 2px solid rgba(217, 217, 217, 0.21);
-
-    /*text*/
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.5);
 }
 
 /*Subject*/
 .input3{
-    position: absolute;
     width: 594px;
     height: 34px;
     left: 527px;
     top: 313px;
-    background: rgba(217, 217, 217, 0.21);
-    border-radius: 34px;
     padding: 10px 25px 10px 25px;
-    border: 2px solid rgba(217, 217, 217, 0.21);
-
-    /*text*/
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.5);
 }
 
 /*Massage*/
 .input4{
-    position: absolute;
     width: 594px;
     height: 223px;
     left: 527px;
     top: 398px;
-    background: rgba(217, 217, 217, 0.21);
-    border-radius: 34px;
     padding: 25px 25px 10px 25px;
-    border: 2px solid rgba(217, 217, 217, 0.21);
-
-    /*text*/
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.5);
 }
 
 /*=======================================================================================================*/
