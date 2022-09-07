@@ -1133,8 +1133,8 @@ header > nav > ul > li:hover {
     color: #F3BC17;
     position: absolute;
     margin: auto;
-    top: 160px;
-    left: 69px;
+    left: 0;
+    right: 0;
 }
 
 /*Let's make......*/
@@ -1143,7 +1143,18 @@ header > nav > ul > li:hover {
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
     margin: auto;
-    top: 125px;
+    top: 28px;
+    left: 0;
+    right: 0;
+}
+
+/*adjust paragraph*/
+.contactD1{
+    position: absolute;
+    text-align: center;
+    left: 119px;
+    top: 155px;
+    width: 273px;
 }
 
 /*Email*/
