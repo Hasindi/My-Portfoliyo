@@ -1256,7 +1256,7 @@ header > nav > ul > li:hover {
 .input2{
     width: 383px;
     height: 34px;
-    left: 1011px;
+    left: 989px;
     top: 230px;
     padding: 10px 25px 10px 25px;
 }
@@ -1277,6 +1277,13 @@ header > nav > ul > li:hover {
     left: 527px;
     top: 398px;
     padding: 25px 25px 10px 25px;
+}
+
+/*adjust form*/
+.adjustForm{
+    left: 42px;
+    top: -49px;
+    position: absolute;
 }
 
 /*=======================================================================================================*/
