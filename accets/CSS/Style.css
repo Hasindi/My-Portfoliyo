@@ -1221,16 +1221,15 @@ header > nav > ul > li:hover {
 /*Customized footer*/
 footer {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
+    /*left: 0;
+    bottom: 0;*/
+    height: 150px;
     width: 100%;
     background-color: #242424;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #666666;
-    font-size: 20px;
 }
 
 /*Customize footer for bottom*/
@@ -1243,4 +1242,17 @@ html {
 .fImg1, .fImg2, .fImg3, .fImg4{
     width: 70px;
     height: 70px;
+}
+
+/*footer text*/
+.footertext{
+    position: absolute;
+    bottom: 3px;
+    /*font-family: 'Encode Sans Semi Expanded', sans-serif;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
 }
