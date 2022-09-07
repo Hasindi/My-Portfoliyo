@@ -1129,7 +1129,7 @@ header > nav > ul > li:hover {
 
 /*Have a Project......*/
 .contactP1 {
-    font-size: 20px;
+    font-size: 22px;
     color: #F3BC17;
     position: absolute;
     margin: auto;
@@ -1139,7 +1139,7 @@ header > nav > ul > li:hover {
 
 /*Let's make......*/
 .contactP2 {
-    font-size: 16px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
     position: absolute;
     margin: auto;
@@ -1152,9 +1152,9 @@ header > nav > ul > li:hover {
 .contactD1{
     position: absolute;
     text-align: center;
-    left: 119px;
-    top: 155px;
-    width: 273px;
+    left: 88px;
+    top: 177px;
+    width: 348px;
 }
 
 /*Email*/
@@ -1162,8 +1162,8 @@ header > nav > ul > li:hover {
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 320px;
-    left: 249px;
+    top: 340px;
+    left: 229px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1178,8 +1178,8 @@ header > nav > ul > li:hover {
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 420px;
-    left: 249px;
+    top: 440px;
+    left: 229px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1194,8 +1194,8 @@ header > nav > ul > li:hover {
     color: rgb(255, 255, 255);
     position: absolute;
     margin: auto;
-    top: 520px;
-    left: 249px;
+    top: 540px;
+    left: 229px;
     font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1208,8 +1208,8 @@ header > nav > ul > li:hover {
 /*contact details image1*/
 .imgC1{
     position: absolute;
-    top: 326px;
-    left: 190px;
+    top: 346px;
+    left: 170px;
     width: 24px;
     height: 24px;
 }
@@ -1217,8 +1217,8 @@ header > nav > ul > li:hover {
 /*contact details image*/
 .imgC2{
     position: absolute;
-    top: 426px;
-    left: 190px;
+    top: 446px;
+    left: 170px;
     width: 24px;
     height: 24px;
 }
@@ -1226,8 +1226,8 @@ header > nav > ul > li:hover {
 /*contact details image*/
 .imgC3{
     position: absolute;
-    top: 526px;
-    left: 190px;
+    top: 546px;
+    left: 170px;
     width: 24px;
     height: 24px;
 }
