@@ -1129,11 +1129,12 @@ header > nav > ul > li:hover {
 
 /*Have a Project......*/
 .contactP1 {
-    font-size: 16px;
+    font-size: 20px;
     color: #F3BC17;
     position: absolute;
     margin: auto;
-    top: 90px;
+    top: 160px;
+    left: 69px;
 }
 
 /*Let's make......*/
