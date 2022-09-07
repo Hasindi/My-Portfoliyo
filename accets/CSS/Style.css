@@ -209,7 +209,8 @@ header > nav > ul > li:hover {
 
 /*line*/
 .follDiv{
-    border: 2px solid #f3bc17;
+    border: 1px solid #F3BC17;
+    background-color: #F3BC17;
     width: 80px;
     transform: rotate(90deg);
     position: absolute;
