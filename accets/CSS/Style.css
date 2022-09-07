@@ -473,53 +473,82 @@ header > nav > ul > li:hover {
 
 /*Web Design title*/
 .t1webDesign {
-    font-size: 16px;
     color: #E4EE89;
     margin: auto;
     position: absolute;
     top: 47px;
     left: 42px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Customization title*/
 .t2customization {
-    font-size: 16px;
     color: #FFA500;
     margin: auto;
     position: absolute;
     top: 47px;
     left: 42px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*Web development title*/
 .t3webdevelopment {
-    font-size: 16px;
     color: #FD2155;
     margin: auto;
     position: absolute;
     top: 47px;
     left: 42px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*UI/UX design title*/
 .t4UIUX {
-    font-size: 16px;
     color: #7ED4F2;
     margin: auto;
     position: absolute;
     top: 47px;
     left: 42px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*mobile app development title*/
 .t5mobileApp {
-    font-size: 16px;
     color: #0AF0CD;
     margin: auto;
     position: absolute;
     top: 47px;
     left: 42px;
+    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
     line-height: 10px;
+    display: flex;
+    align-items: center;
 }
 
 /*icon images*/
