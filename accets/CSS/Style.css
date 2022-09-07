@@ -1085,7 +1085,56 @@ header > nav > ul > li:hover {
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
 /*=======================================================================================================*/
+/*Image Jewellery shop management*/
+.imgPro1{
+    position: absolute;
+    width: 389px;
+    height: 257px;
+    left: 115px;
+    top: 154px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
 
+/*Image Hotel management*/
+.imgPro2{
+    position: absolute;
+    width: 389px;
+    height: 257px;
+    left: 573px;
+    right: 0;
+    top: 154px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+/*Image Hostel management*/
+.imgPro3{
+    position: absolute;
+    width: 389px;
+    height: 257px;
+    right: 115px;
+    top: 154px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+/*Image SuperMarket management*/
+.imgPro4{
+    position: absolute;
+    width: 389px;
+    height: 257px;
+    left: 350px;
+    top: 442px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
+
+/*Image CarParking management*/
+.imgPro5{
+    position: absolute;
+    width: 389px;
+    height: 257px;
+    right: 350px;
+    top: 442px;
+    filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+}
 
 /*=======================================================================================================*/
 /*GITHUB LINK*/
