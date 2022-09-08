@@ -40,16 +40,26 @@
             margin: auto;
         }
 
-        div:hover{
+        /*div:hover{
             transform: rotate(360deg);
-            /*transition-property: all;
-            transition-duration: 2s;*/
+            !*transition-property: all;
+            transition-duration: 2s;*!
             transition: all 2s;
         }
 
         div:hover > h1{
             transform: rotate(-360deg);
             transition: all 2s;
+        }*/
+
+        div::before{
+            content: " ";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: crimson;
         }
 
     </style>
