@@ -13,8 +13,27 @@
             height: 100px;
             border: 2px solid crimson;
             border-radius: 22%;
-            background-color: crimson;
+            background-color: yellow;
+            animation-name: animation;
+            animation-duration: 10s;
+        }
 
+        @keyframes animation {
+            0% {
+                background: crimson;
+            }
+            25% {
+                background: orangered;
+            }
+            50% {
+                background: deeppink;
+            }
+            75% {
+                background: #C114DCFF;
+            }
+            100% {
+                background: purple;
+            }
         }
         
     </style>
