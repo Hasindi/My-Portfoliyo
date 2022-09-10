@@ -17,11 +17,14 @@
             background-size: cover;
         }
 
-        /*section*/
+        /*section city*/
         main > section:nth-child(2) {
             width: max-content;
             position: absolute;
             top: 195px;
+            animation-name: animationCity;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
         }
 
         /*city and road div s*/
@@ -73,6 +76,15 @@
             margin-right: 134px;
         }
 
+        /*city*/
+        @keyframes animationCity {
+            from {
+                margin-left: 0;
+            }
+            to {
+                margin-left: -300vw;
+            }
+        }
 
     </style>
 </head>
