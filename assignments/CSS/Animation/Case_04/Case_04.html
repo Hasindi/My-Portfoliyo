@@ -74,6 +74,10 @@
             height: 63px;
             margin-top: 99px;
             margin-right: 134px;
+            animation-name: animationWheel;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            animation-direction: alternate;
         }
 
         /*city*/
@@ -85,6 +89,23 @@
                 margin-left: -300vw;
             }
         }
+
+        /*wheel*/
+        @keyframes animationWheel {
+            0% {
+                transform: rotate(0deg);
+
+            }
+
+            50% {
+                transform: rotate(-270deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
 
     </style>
 </head>
