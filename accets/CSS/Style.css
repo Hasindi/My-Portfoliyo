@@ -164,7 +164,7 @@ header > nav > ul > li:hover {
 .mainpage {
     width: 100vw;
     height: 100vh;
-    background-size: 100%;
+    background-image: url(/accets/img/maini.jpg);
     background-position: center center;
     background-color: #242424;
     position: relative;
@@ -1479,4 +1479,35 @@ html {
 .footerIMG{
     top: 9px;
     position: absolute;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* 320 - 375 */
+@media all and (min-width: 320px) and (max-width: 375px) {
+
+}
+
+/* 376 - 425 */
+@media all and (min-width: 376px) and (max-width: 425px) {
+
+}
+
+/* 426 - 768 */
+@media all and (min-width: 426px) and (max-width: 768px) {
+
+}
+
+/* 769 - 1024 */
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
+/* 1025 - 1440 */
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+
+}
+
+/* 1441 - 2560 */
+@media all and (min-width: 1026px) and (max-width: 1440px){
+
 }
