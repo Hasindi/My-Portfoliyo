@@ -162,7 +162,7 @@ header > nav > ul > li:hover {
 
 /*first page*/
 .mainpage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url(/accets/img/maini.jpg);
     background-position: center center;
