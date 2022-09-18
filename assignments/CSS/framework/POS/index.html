@@ -62,10 +62,10 @@
 <main>
     <br>
     <section class="row">
-        <div class="container-fluid justify-content-center gap-2 d-flex flex-xxl-row">
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-info" type="submit">Search Here</button>
+        <div class="container-fluid d-flex flex-md-column flex-sm-row">
+            <form class="d-flex flex-column flex-sm-row" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info" type="submit">Search</button>
             </form>
         </div>
     </section>
@@ -77,7 +77,53 @@
             <button type="button" class="btn btn-danger">Delete Customer</button>
         </div>
     </section>
-    <section class="row"></section>
+
+    <br>
+
+    <section class="row">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Salary</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>C001</th>
+                <td>Gunasekara</td>
+                <td>Galle</td>
+                <td>50 000</td>
+            </tr>
+            <tr>
+                <th>C002</th>
+                <td>Punsara</td>
+                <td>Ahangama</td>
+                <td>100 000</td>
+            </tr>
+            <tr>
+                <th>C003</th>
+                <td>Shehan</td>
+                <td>Matara</td>
+                <td>50 000</td>
+            </tr>
+            <tr>
+                <th>C004</th>
+                <td>Thisara</td>
+                <td>Galle</td>
+                <td>30 000</td>
+            </tr>
+            <tr>
+                <th>C005</th>
+                <td>Senanayake</td>
+                <td>Kaluthara</td>
+                <td>90 000</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
 
 </main>
 
