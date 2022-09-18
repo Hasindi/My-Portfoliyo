@@ -79,7 +79,44 @@
 
     <section class="row">
         <div class="container-fluid justify-content-center gap-4 d-flex flex-xxl-row">
-            <button type="button" class="btn btn-success">Save Customer</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Save Customer</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel1">New Customer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput1" class="form-label">Customer ID</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: C001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label">Customer Name</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Hasindi Mudithya">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput3" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: Galle">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput4" class="form-label">Salary</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs.50 000">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Save</button>
+                            <button type="button" class="btn btn-warning">Reset</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button type="button" class="btn btn-warning">Update Customer</button>
             <button type="button" class="btn btn-danger">Delete Customer</button>
         </div>
