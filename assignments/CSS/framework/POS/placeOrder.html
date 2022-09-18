@@ -143,6 +143,36 @@
         </div>
     </div>
 
+    <!--total price-->
+    <div class="col-10 col-md-10 col-lg-3 p-3 mt-2 bg-white shadow-lg" style="height: max-content">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h3 class="text-start p-1">Total:  <span class="text-center text-danger p-1"> Rs. 1500/= </span>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <label for="cash" class="form-label">Cash (Rs.):</label>
+                <input class="form-control" id="cash" type="text">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <label for="discount" class="form-label">Discount:</label>
+                <input class="form-control" id="discount" type="number" role="spinbutton">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <label for="balance" class="form-label">Balance (Rs.):</label>
+                <input class="form-control" disabled id="balance" type="text">
+            </div>
+        </div><br>
+        <div class="row">
+            <button class="btn btn-danger rounded-5" type="submit">Place Order</button>
+        </div>
+</div>
+
+
 </main>
 <!--import js-->
 <script src="assets/js/bootstrap.min.js"></script>
