@@ -140,7 +140,8 @@
                 <label for="buyQty" class="form-label">Order Quntity:</label>
                 <input class="form-control small" id="buyQty" type="text">
             </div>
-        </div><br>
+        </div>
+        <br>
         <div class="row">
             <button class="btn btn-warning rounded-5" type="submit">Add to Cart</button>
         </div>
@@ -150,7 +151,7 @@
     <div class="col-10 col-md-10 col-lg-3 p-3 mt-2 bg-white shadow-lg" style="height: max-content">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
-                <h3 class="text-start p-1">Total:  <span class="text-center text-danger p-1"> Rs. 1500/= </span>
+                <h3 class="text-start p-1">Total: <span class="text-center text-danger p-1"> Rs. 1500/= </span>
                 </h3>
             </div>
         </div>
@@ -169,12 +170,52 @@
                 <label for="balance" class="form-label">Balance (Rs.):</label>
                 <input class="form-control" disabled id="balance" type="text">
             </div>
-        </div><br>
+        </div>
+        <br>
         <div class="row">
             <button class="btn btn-danger rounded-5" type="submit">Place Order</button>
         </div>
-</div>
+    </div>
 
+    <!-- add to cart table-->
+    <section class="container-fluid">
+        <table  class="table table-striped">
+            <thead class="table-success">
+            <tr>
+                <th scope="col">Item Code</th>
+                <th scope="col">Item Name</th>
+                <th scope="col">Quntity</th>
+                <th scope="col">Unit Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>T001</th>
+                <td>Rice</td>
+                <td>RS. 210</td>
+                <td>10kg</td>
+            </tr>
+            <tr>
+                <th>T002</th>
+                <td>Sugar</td>
+                <td>RS. 340</td>
+                <td>2kg</td>
+            </tr>
+            <tr>
+                <th>T004</th>
+                <td>Biscuites</td>
+                <td>RS. 300</td>
+                <td>2 pack</td>
+            </tr>
+            <tr>
+                <th>T005</th>
+                <td>Soap</td>
+                <td>RS. 270</td>
+                <td>5 pack</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
 
 </main>
 <!--import js-->
