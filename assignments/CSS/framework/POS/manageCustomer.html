@@ -79,9 +79,9 @@
 
     <section class="row">
         <div class="container-fluid justify-content-center gap-4 d-flex flex-xxl-row">
+
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Save Customer</button>
-
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
@@ -92,19 +92,19 @@
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput1" class="form-label">Customer ID</label>
+                                <label for="formGroupExampleInput1" class="form-label">Customer ID:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Customer Name</label>
+                                <label for="formGroupExampleInput2" class="form-label">Customer Name:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput3" class="form-label">Address</label>
+                                <label for="formGroupExampleInput3" class="form-label">Address:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput4" class="form-label">Salary</label>
+                                <label for="formGroupExampleInput4" class="form-label">Salary:</label>
                                 <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
@@ -117,8 +117,82 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-warning">Update Customer</button>
-            <button type="button" class="btn btn-danger">Delete Customer</button>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Customer</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel2">Update Customer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput5" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput5" placeholder="Ex: C001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput6" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput6" placeholder="Ex: Hasindi Mudithya">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput7" class="form-label">Address:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput7" placeholder="Ex: Galle">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput8" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput8" placeholder="Ex: Rs.50 000">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Update</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Customer</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel3">Delete Customer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput9" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput9" placeholder="Ex: C001">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput10" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput10" placeholder="Ex: Hasindi Mudithya">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput11" class="form-label">Address:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput11" placeholder="Ex: Galle">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput12" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput12" placeholder="Ex: Rs.50 000">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
