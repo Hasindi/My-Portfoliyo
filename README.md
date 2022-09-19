@@ -6,7 +6,7 @@ My Personal Web Page
 This is Framework Assigment
 
 #
-* Site-Map URL   : 
+* Site-Map URL   : https://www.gloomaps.com/WGlJA3tNGK
 * Wire-Frame URL : 
 * Mock-Up URL    : https://www.figma.com/file/UPmyNn4DZ9JiO5eWY1sonb/POS-System?node-id=1%3A93
 #
