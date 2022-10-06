@@ -670,11 +670,37 @@
     });
 
     /*Show clicking section*/
+
+    /*show dashboard section and hide others*/
+    $('#home').click(function () {
+        $('#Dashbordform').css('display', 'block')
+        $('#Customerform').css('display', 'none');
+        $('#Itemform').css('display', 'none');
+        $('#PlaceOrderform').css('display', 'none');
+    });
+
+    /*show customer section and hide others*/
+    $('#customer').click(function () {
+        $('#Dashbordform').css('display', 'none')
+        $('#Customerform').css('display', 'block');
+        $('#Itemform').css('display', 'none');
+        $('#PlaceOrderform').css('display', 'none');
+    });
+
+    /*show item section and hide others*/
     $('#item').click(function () {
         $('#Dashbordform').css('display', 'none')
         $('#Customerform').css('display', 'none');
         $('#Itemform').css('display', 'block');
         $('#PlaceOrderform').css('display', 'none');
+    });
+
+    /*show placeOrder section and hide others*/
+    $('#placeOrder').click(function () {
+        $('#Dashbordform').css('display', 'none')
+        $('#Customerform').css('display', 'none');
+        $('#Itemform').css('display', 'none');
+        $('#PlaceOrderform').css('display', 'block');
     });
 
 </script>
