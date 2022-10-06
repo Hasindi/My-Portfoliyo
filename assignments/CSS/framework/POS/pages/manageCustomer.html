@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Manage Items Form</title>
+    <title>Manage Customer Form</title>
+
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!--import css-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <header>
@@ -14,7 +15,7 @@
     <!--nav logo-->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid shadow p-3 mb-3 bg-body rounded">
-            <img src="assets/image/shopping-cart.png" width="70" height="70">
+            <img src="../assets/image/shopping-cart.png" width="70" height="70">
             <a class="navbar-brand" href="#">Fresh Food Store</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -29,16 +30,16 @@
                         <a class="nav-link active" aria-current="page" href="./manageCustomer.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./manageCustomer.html">Customers</a>
+                        <a class="nav-link" href="./manageCustomer.html">Customers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./manageItems.html">Items</a>
+                        <a class="nav-link" href="manageItems.html">Items</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./placeOrder.html">Place Order</a>
+                        <a class="nav-link" href="placeOrder.html">Place Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./allOrderDetails.html">All Order details</a>
+                        <a class="nav-link" href="allOrderDetails.html">All Order details</a>
                     </li>
                 </ul>
 
@@ -62,7 +63,7 @@
 
 <main class="container-fluid">
     <br>
-    <h1>~MANAGE ITEMS~</h1>
+    <h1>~MANAGE CUSTOMER~</h1>
     <br>
 
     <section class="row">
@@ -78,32 +79,33 @@
 
     <section class="row">
         <div class="container-fluid justify-content-center gap-4 d-flex flex-xxl-row">
+
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Item</button>
+            <button type="button" class="btn btn-success " data-bs-toggle="modal" data-bs-target="#exampleModal">Save Customer</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-success">
-                            <h5 class="modal-title" id="exampleModalLabel1">Add New Item</h5>
+                            <h5 class="modal-title" id="exampleModalLabel1">New Customer</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput1" class="form-label">Item Code:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: I001">
+                                <label for="formGroupExampleInput1" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Item Name:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Biscuites">
+                                <label for="formGroupExampleInput2" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput3" class="form-label">Quntity:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: 100Kg">
+                                <label for="formGroupExampleInput3" class="form-label">Address:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput4" class="form-label">Unit Price:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs. 230">
+                                <label for="formGroupExampleInput4" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -118,31 +120,31 @@
 
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Item</button>
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal2">Update Customer</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-success">
-                            <h5 class="modal-title" id="exampleModalLabel2">Update Item</h5>
+                            <h5 class="modal-title" id="exampleModalLabel2">Update Customer</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput5" class="form-label">Item Code:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: I001">
+                                <label for="formGroupExampleInput5" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput6" class="form-label">Item Name:</label>
-                                <input type="text" class="form-control"  disabled id="formGroupExampleInput6" placeholder="Ex: Biscuites">
+                                <label for="formGroupExampleInput6" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput6" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput7" class="form-label">Quntity:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: 100Kg">
+                                <label for="formGroupExampleInput7" class="form-label">Address:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput8" class="form-label">Unit Price:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs. 500">
+                                <label for="formGroupExampleInput8" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -155,31 +157,31 @@
 
 
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Item</button>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">Delete Customer</button>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header bg-success">
-                            <h5 class="modal-title" id="exampleModalLabel3">Delete Item</h5>
+                            <h5 class="modal-title" id="exampleModalLabel3">Delete Customer</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput9" class="form-label">Item Code:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput9" placeholder="Ex: I001">
+                                <label for="formGroupExampleInput9" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput9" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput10" class="form-label">Item Name:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput10" placeholder="Ex: Biscuites">
+                                <label for="formGroupExampleInput10" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput10" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput11" class="form-label">Quntity:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput11" placeholder="Ex: 100Kg">
+                                <label for="formGroupExampleInput11" class="form-label">Address:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput11" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput12" class="form-label">Unit Price:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput12" placeholder="Ex: Rs. 500">
+                                <label for="formGroupExampleInput12" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" disabled id="formGroupExampleInput12" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -189,6 +191,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -198,44 +201,43 @@
         <table  class="table table-striped">
             <thead class="table-dark">
             <tr>
-                <th scope="col">Item Code</th>
-                <th scope="col">Item Name</th>
-                <th scope="col">Quntity</th>
-                <th scope="col">Unit Price</th>
+                <th scope="col">Customer ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">Salary</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <th>T001</th>
-                <td>Rice</td>
-                <td>100kg</td>
-                <td>RS. 210</td>
+                <th>C001</th>
+                <td>Gunasekara</td>
+                <td>Galle</td>
+                <td>50 000</td>
             </tr>
             <tr>
-                <th>T002</th>
-                <td>Sugar</td>
-                <td>100kg</td>
-                <td>RS. 340</td>
+                <th>C002</th>
+                <td>Punsara</td>
+                <td>Ahangama</td>
+                <td>100 000</td>
             </tr>
             <tr>
-                <th>T003</th>
-                <td>Noodles</td>
-                <td>50 pack</td>
-                <td>RS. 170</td>
+                <th>C003</th>
+                <td>Shehan</td>
+                <td>Matara</td>
+                <td>50 000</td>
             </tr>
             <tr>
-                <th>T004</th>
-                <td>Manchee Biscuites</td>
-                <td>50 pack</td>
-                <td>RS. 300</td>
+                <th>C004</th>
+                <td>Thisara</td>
+                <td>Galle</td>
+                <td>30 000</td>
             </tr>
             <tr>
-                <th>T005</th>
-                <td>Soap</td>
-                <td>100 pack</td>
-                <td>RS. 270</td>
+                <th>C005</th>
+                <td>Senanayake</td>
+                <td>Kaluthara</td>
+                <td>90 000</td>
             </tr>
-
             </tbody>
         </table>
     </section>
@@ -243,7 +245,7 @@
 </main>
 
 <!--import js-->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
 
 </body>
 </html>
