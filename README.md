@@ -1,7 +1,13 @@
-# My-Portfoliyo
-My Personal Web Page
+~My-Portfoliyo~
+#My Personal Web Page
 
 
+#ASSIGNMENTS
+     Basic
+     Animation
+     Transition
+     
+     
 # Web POS System
 This is Framework Assigment
 
