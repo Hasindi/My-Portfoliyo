@@ -8,13 +8,32 @@
 
     <!--import css-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #typearea{
+            width: 100%;
+            padding: 12px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        input[type=button]{
+            width: 89px;
+            padding: 12px;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
-<body>
-    <div>
+<body class="bg-info">
+    <div class="wrap bg-dark" style="height: auto; width: 400px; padding: 15px; margin: auto;">
         <form name="cal">
             <!--display area-->
-            <input type="text" name="display">
+            <input type="text" name="display" id="typearea">
             <br><br>
 
             <!--buttons row 1-->
