@@ -1,11 +1,14 @@
-#My-Portfoliyo
+# My-Portfoliyo
 My Personal Web Page
 
 
-#ASSIGNMENTS
-*Basic
-*Animation
-*Transition
+# ASSIGNMENTS
+
+    #
+    *Basic
+    *Animation
+    *Transition
+    #
      
      
 # Web POS System
