@@ -7,7 +7,7 @@ My Personal Web Page
 * <a href="https://github.com/Hasindi" target="_blank">GitHub</a>
 * <a href="https://www.gloomaps.com/GP22PWs9hs" target="_blank">Site-Map</a>
 * <a href="https://wireframe.cc/loWpT3" target="_blank">Wire-Frame</a>
-* <a href="https://www.figma.com/file/dJoILQtJpSfhoXv83FcBmK/Untitled?node-id=1%3A2
+* <a href="https://www.figma.com/proto/BaKcwU2yoLE4SgFG4oRZ0F/My-Portfolio?scaling=min-zoom&page-id=0%3A1&node-id=1%3A2
 " target="_blank">Mock-Up</a>
 * <a href="https://www.linkedin.com/in/hasindi-mudithya" target="_blank">Linked-In</a>
 #
