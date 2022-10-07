@@ -5742,36 +5742,21 @@ html {
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
-        position: relative;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 800;
-        color: rgba(102, 102, 102, 0.13);
-        line-height: 80px;
-        margin: auto;
-        text-align: center;
-        top: 33px;
+        font-size: 58px;
+        top: 1px;
 
     }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
-        position: relative;
-        font-size: 46px;
-        font-style: normal;
-        color: #FFFFFFFF;
-        margin: auto;
-        text-align: center;
-        top: -34px;
+        font-size: 37px;
+        top: -62px;
 
     }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .ST1, .ST2, .ST3, .ST4, .ST5, .ST6 {
-        font-size: 46px;
-        color: #F3BC17;
-        margin: auto;
-        text-align: center;
+        font-size: 37px;
     }
 
 
@@ -5781,136 +5766,76 @@ html {
 
     /*Hello*/
     .hello {
-        color: white;
-        position: absolute;
-        right: 644px;
-        top: 173px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
-
+        right: 303px;
+        top: 130px;
+        font-size: 19px;
     }
 
     /*I AM.....*/
     .name {
-        color: white;
-        position: absolute;
-        right: 370px;
-        top: 203px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
+        right: 107px;
+        top: 154px;
+        font-size: 19px;
     }
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
-        color: #F3BC17;
-        margin: auto;
+        font-size: 19px;
     }
 
     /*About me Paragraph*/
     .AboutP {
-        font-size: 16px;
-        position: absolute;
-        color: #ACACAC;
-        margin: auto;
-        top: 252px;
-        right: 348px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
+        font-size: 14px;
+        top: 193px;
+        right: 38px;
     }
 
     /*About me Signature*/
     .Signature {
-        font-size: 48px;
-        color: #F3BC17;
-        margin: auto;
-        position: absolute;
-        right: 137px;
-        top: 330px;
-        font-family: 'Arizonia', cursive;
-        font-weight: normal;
+        font-size: 30px;
+        right: 18px;
+        top: 264px;
     }
 
     /*Button downlod CV*/
     .dwnlod{
-        background: #F3BC17;
-        width: 200px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
-        text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
-        left: 0;
-        right: -287px;
-        top: 0;
-        bottom: -591px;
-        margin: auto;
-        border: none;
+        width: 174px;
+        height: 36px;
+        font-size: 16px;
+        right: -197px;
+        bottom: -506px;
     }
 
     /*about list*/
     .list1{
-        position: absolute;
-        right: 661px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 550;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 315px;
+        bottom: 63px;
+        font-size: 14px;
+        line-height: 30px;
     }
 
     /*details list*/
     .list2{
-        position: absolute;
-        right: 453px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 132px;
+        bottom: 63px;
+        font-size: 14px;
+        line-height: 30px;
     }
 
     /*my image*/
     .imgmy{
-        position: absolute;
-        width: 304px;
-        height: 428px;
-        left: 19px;
-        top: 18px;
-
+        width: 259px;
+        height: 365px;
+        left: 14px;
+        top: 15px;
     }
 
     /*image frame*/
     .myIMGFrame{
-        position: absolute;
-        border: 8px solid #F3BC17;
-        left: 202px;
-        top: 176px;
-        width: 341px;
-        height: 463px;
+        left: 43px;
+        top: 139px;
+        width: 286px;
+        height: 392px;
     }
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
