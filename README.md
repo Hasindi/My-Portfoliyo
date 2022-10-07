@@ -23,7 +23,7 @@ This is CSS Assignments
 #
 Animation
 
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/Case_01.html" target="_blank">Case 1</a>
 * <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/" target="_blank">Case 2</a>
 * <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/" target="_blank">Case 3</a>
 * <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/" target="_blank">Case 4</a>
