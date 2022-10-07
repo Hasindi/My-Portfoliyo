@@ -24,9 +24,9 @@ This is CSS Assignments
 Animation
 
 * <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/Case_01.html" target="_blank">Case 1</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/" target="_blank">Case 2</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/" target="_blank">Case 3</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/" target="_blank">Case 4</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/Case_02.html" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/Case_03.html" target="_blank">Case 3</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/Case_04.html" target="_blank">Case 4</a>
 
 #
 
@@ -34,8 +34,8 @@ Animation
 #
 Transition
 
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_01/" target="_blank">Case 1</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_02/" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_01/Case_01.html" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_02/Case_02.html" target="_blank">Case 2</a>
 
 #
 
@@ -43,12 +43,12 @@ Transition
 #
 Basic
 
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case1/" target="_blank">Case 1</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case2/" target="_blank">Case 2</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case3/" target="_blank">Case 3</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case4/" target="_blank">Case 4</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case5/" target="_blank">Case 5</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case6/" target="_blank">Case 6</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case1/Case_One.html" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case2/Case2.html" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case3/Case_03.html" target="_blank">Case 3</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case4/Case_04.html" target="_blank">Case 4</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case5/Case_05.html" target="_blank">Case 5</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case6/Case_06.html" target="_blank">Case 6</a>
 
 #
 
