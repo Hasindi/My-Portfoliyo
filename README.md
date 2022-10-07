@@ -2,7 +2,6 @@
 My Personal Web Page
 
 
-
 #
 * <a href="https://github.com/Hasindi" target="_blank">GitHub</a>
 * <a href="https://www.gloomaps.com/GP22PWs9hs" target="_blank">Site-Map</a>
@@ -13,31 +12,8 @@ My Personal Web Page
 #
 
 
-
-
-
 # ASSIGNMENTS
 This is CSS Assignments
-
-
-#
-Animation
-
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/Case_01.html" target="_blank">Case 1</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/Case_02.html" target="_blank">Case 2</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/Case_03.html" target="_blank">Case 3</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/Case_04.html" target="_blank">Case 4</a>
-
-#
-
-
-#
-Transition
-
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_01/Case_01.html" target="_blank">Case 1</a>
-* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_02/Case_02.html" target="_blank">Case 2</a>
-
-#
 
 
 #
@@ -52,12 +28,25 @@ Basic
 
 #
 
+#
+Animation
 
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/Case_01.html" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/Case_02.html" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/Case_03.html" target="_blank">Case 3</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/Case_04.html" target="_blank">Case 4</a>
+#
 
+#
+Transition
+
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_01/Case_01.html" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_02/Case_02.html" target="_blank">Case 2</a>
+
+#
 
 # Web POS System
 This is Framework Assigment (JS)
-
 
 
 #
@@ -67,12 +56,8 @@ This is Framework Assigment (JS)
 #
 
 
-
-
-
 # Calculator
 This is Framework Assigment (JS)
-
 
 
 #
