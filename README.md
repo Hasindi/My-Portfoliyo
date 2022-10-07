@@ -20,45 +20,43 @@ My Personal Web Page
 This is CSS Assignments
 
 
-
+#
 Animation
-==========
+
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_01/" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_02/" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_03/" target="_blank">Case 3</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Animation/Case_04/" target="_blank">Case 4</a>
 
 #
-* <a href="" target="_blank">Case 1</a>
-* <a href="" target="_blank">Case 2</a>
-* <a href="" target="_blank">Case 3</a>
-* <a href="" target="_blank">Case 4</a>
+
+
 #
-
-
 Transition
-===========
+
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_01/" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Transition/Case_02/" target="_blank">Case 2</a>
 
 #
-* <a href="" target="_blank">Case 1</a>
-* <a href="" target="_blank">Case 2</a>
+
+
 #
-
-
 Basic
-======
 
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case1/" target="_blank">Case 1</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case2/" target="_blank">Case 2</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case3/" target="_blank">Case 3</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case4/" target="_blank">Case 4</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case5/" target="_blank">Case 5</a>
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/CSS/Basic/Case6/" target="_blank">Case 6</a>
 
-#
-* <a href="" target="_blank">Case 1</a>
-* <a href="" target="_blank">Case 2</a>
-* <a href="" target="_blank">Case 3</a>
-* <a href="" target="_blank">Case 4</a>
-* <a href="" target="_blank">Case 5</a>
-* <a href="" target="_blank">Case 6</a>
 #
 
 
 
 
 # Web POS System
-This is Framework Assigment(JS)
+This is Framework Assigment (JS)
 
 
 
@@ -73,7 +71,7 @@ This is Framework Assigment(JS)
 
 
 # Calculator
-This is Framework Assigment(JS)
+This is Framework Assigment (JS)
 
 
 
