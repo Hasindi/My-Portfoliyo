@@ -173,7 +173,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger">Save</button>
+                            <button id="btnCustomer" type="button" class="btn btn-danger">Save</button>
                             <button type="button" class="btn btn-warning">Reset</button>
                             <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
 
@@ -862,6 +862,12 @@
         $('#AllOrderform').css('display', 'block');
     });
 
+</script>
+
+<script>
+    $("#btnCustomer").click(function (){
+        alert("Customer Saved Succussfully...!")
+    });
 </script>
 
 </body>
