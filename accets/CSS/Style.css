@@ -448,6 +448,15 @@ header > nav > ul > li > a:hover {
     left: 150px;
     top: 106px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: all .5s;
+}
+
+.webDesign:hover{
+    z-index: 10;
+    transition: all .5s!important;
+    transform: translateY(-10px);
 }
 
 /*Customization box*/
@@ -460,6 +469,15 @@ header > nav > ul > li > a:hover {
     top: 106px;
     right: 150px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: all .5s;
+}
+
+.customiz:hover{
+    z-index: 10;
+    transition: all .5s!important;
+    transform: translateY(-10px);
 }
 
 /*WebDevelopment box*/
@@ -472,6 +490,15 @@ header > nav > ul > li > a:hover {
     top: 286px;
     left: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: all .5s;
+}
+
+.webDevelopment:hover{
+    z-index: 10;
+    transition: all .5s!important;
+    transform: translateY(-10px);
 }
 
 /*UI/UX Deesign box*/
@@ -484,6 +511,15 @@ header > nav > ul > li > a:hover {
     top: 286px;
     right: 294px;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    transition: all .5s;
+}
+
+.UIUX:hover{
+    z-index: 10;
+    transition: all .5s!important;
+    transform: translateY(-10px);
 }
 
 /*Mobile App Development box*/
@@ -497,6 +533,14 @@ header > nav > ul > li > a:hover {
     left: 0;
     right: 0;
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.mobileApp:hover{
+    z-index: 10;
+    transition: all .5s!important;
+    transform: translateY(-10px);
 }
 
 /*Web Design title*/
@@ -865,6 +909,7 @@ header > nav > ul > li > a:hover {
 
 .d1:hover{
     transform: translateY(-10px);
+    transition: all .5s!important;
 }
 
 /*side div 2*/
@@ -880,6 +925,7 @@ header > nav > ul > li > a:hover {
 
 .d2:hover{
     transform: translateY(-10px);
+    transition: all .5s!important;
 }
 
 /*side div 3*/
@@ -895,6 +941,7 @@ header > nav > ul > li > a:hover {
 
 .d3:hover{
     transform: translateY(-10px);
+    transition: all .5s!important;
 }
 
 /*numbers in box*/
@@ -1644,14 +1691,14 @@ html {
     /*//////////////////////////////////////////////////////////*/
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .T1, .T2, .T3, .T4, .T5, .T6 {
+    .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
         line-height: 68px;
         top: 17px;
 
     }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
+    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6, .TT7 {
         top: -44px;
     }
 
@@ -1973,6 +2020,90 @@ html {
         height: 239px;
     }
 
+    /*=======================================================================================================*/
+    /*Assignment SECTION*/
+    /*=======================================================================================================*/
+
+    .asign1{
+        position: absolute;
+        width: 366px;
+        height: 247px;
+        left: 115px;
+        top: 132px;
+        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .asign2{
+        position: absolute;
+        width: 366px;
+        height: 247px;
+        left: 573px;
+        right: 0;
+        top: 132px;
+        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .asign3{
+        position: absolute;
+        width: 366px;
+        height: 247px;
+        right: 115px;
+        top: 132px;
+        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .asign4{
+        position: absolute;
+        width: 366px;
+        height: 247px;
+        left: 573px;
+        top: 425px;
+        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+    }
+
+    .asignBasic{
+        position: absolute;
+        font-size: 20px;
+        left: 232px;
+        top: 354px;
+        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+    }
+
+    .asignAnim{
+        position: absolute;
+        font-size: 20px;
+        left: 673px;
+        top: 354px;
+        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+    }
+
+    .asignTransi{
+        position: absolute;
+        font-size: 20px;
+        left: 1151px;
+        top: 354px;
+        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+    }
+
+    .asignFram{
+        position: absolute;
+        font-size: 20px;
+        left: 672px;
+        top: 645px;
+        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+    }
     /*=======================================================================================================*/
     /*GITHUB LINK*/
 
