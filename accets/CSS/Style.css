@@ -5843,219 +5843,144 @@ html {
 
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
-        font-size: 16px;
-        position: absolute;
-        color: #ACACAC;
-        margin: auto;
-        top: 117px;
-        left: -43px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 600;
+        font-size: 14px;
+        top: 98px;
+        left: -42px;
         line-height: 20px;
     }
 
     /*web design box*/
     .webDesign {
-        position: absolute;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        left: 150px;
+        width: 324px;
+        height: 248px;
+        left: 19px;
         top: 106px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
     }
 
     /*Customization box*/
     .customiz {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
+        width: 324px;
+        height: 248px;
         top: 106px;
-        right: 150px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        right: 19px;
     }
 
     /*WebDevelopment box*/
     .webDevelopment {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        top: 286px;
-        left: 294px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 324px;
+        height: 248px;
+        top: 249px;
+        left: 53px;
     }
 
     /*UI/UX Deesign box*/
     .UIUX {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        top: 286px;
-        right: 294px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 324px;
+        height: 248px;
+        top: 249px;
+        right: 53px;
     }
 
     /*Mobile App Development box*/
     .mobileApp {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 202px;
-        background: #242424;
-        top: 500px;
+        width: 324px;
+        height: 176px;
+        top: 392px;
         left: 0;
         right: 0;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
     }
 
     /*Web Design title*/
     .t1webDesign {
-        color: #E4EE89;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
+        top: 35px;
+        left: 36px;
+        font-size: 14px;
         line-height: 20px;
-        display: flex;
-        align-items: center;
     }
 
     /*Customization title*/
     .t2customization {
-        color: #FFA500;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
+        top: 35px;
+        left: 36px;
+        font-size: 14px;
         line-height: 20px;
-        display: flex;
-        align-items: center;
     }
 
     /*Web development title*/
     .t3webdevelopment {
-        color: #FD2155;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
+        top: 35px;
+        left: 36px;
+        font-size: 14px;
         line-height: 20px;
-        display: flex;
-        align-items: center;
     }
 
     /*UI/UX design title*/
     .t4UIUX {
-        color: #7ED4F2;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
+        top: 35px;
+        left: 36px;
+        font-size: 14px;
         line-height: 20px;
-        display: flex;
-        align-items: center;
     }
 
     /*mobile app development title*/
     .t5mobileApp {
-        color: #0AF0CD;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
+        top: 35px;
+        left: 36px;
+        font-size: 14px;
         line-height: 10px;
-        display: flex;
-        align-items: center;
     }
 
     /*icon images*/
     .img1, .img2, .img3, .img4, .img5{
-        position: absolute;
-        left: 257px;
-        top: 7px;
-        width: 100px;
-        height: 100px;
+        left: 213px;
+        top: 14px;
+        width: 80px;
+        height: 80px;
     }
 
     /*style line for web designing*/
     .syl1{
         position: absolute;
-        width: 389px;
+        width: 324px;
         height: 0px;
         left: 0px;
         top: 1px;
-        border: 1px solid #E4EE89;;
-        background-color: #E4EE89;;
     }
 
     /*style line for Customization*/
     .syl2{
         position: absolute;
-        width: 389px;
+        width: 324px;
         height: 0px;
         left: 0px;
         top: 1px;
-        border: 1px solid #FFA500;
-        background-color: #FFA500;
     }
 
     /*style line for web development*/
     .syl3{
         position: absolute;
-        width: 389px;
+        width: 324px;
         height: 0px;
         left: 0px;
         top: 1px;
-        border: 1px solid #FD2155;
-        background-color: #FD2155;
     }
 
     /*style line for UI/UX design*/
     .syl4{
         position: absolute;
-        width: 389px;
+        width: 324px;
         height: 0px;
         left: 0px;
         top: 1px;
-        border: 1px solid #7ED4F2;
-        background-color: #7ED4F2;
     }
 
     /*style line for mobile app development*/
     .syl5{
         position: absolute;
-        width: 389px;
+        width: 324px;
         height: 0px;
         left: 0px;
         top: 1px;
-        border: 1px solid #0AF0CD;
-        background-color: #0AF0CD;
     }
 
     /*=======================================================================================================*/
