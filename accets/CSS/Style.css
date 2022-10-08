@@ -763,6 +763,7 @@ header > nav > ul > li > a:hover {
     top: 1px;
 }
 
+
 /*div for adjust image line 2*/
 .langdiv2{
     position: absolute;
@@ -854,6 +855,10 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
+.d1:hover{
+    transform: translateY(-10px);
+}
+
 /*side div 2*/
 .d2{
     position: absolute;
@@ -865,6 +870,10 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
+.d2:hover{
+    transform: translateY(-10px);
+}
+
 /*side div 3*/
 .d3{
     position: absolute;
@@ -874,6 +883,10 @@ header > nav > ul > li > a:hover {
     top: 435px;
     background: #242424;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.d3:hover{
+    transform: translateY(-10px);
 }
 
 /*numbers in box*/
@@ -1058,6 +1071,7 @@ header > nav > ul > li > a:hover {
     right: 288px;
     top: 153px;
     border: 2px solid #F3BC17;
+   /* background-image: linear-gradient(red, yellow);*/
 }
 
 /*section2 (IT dip)*/
