@@ -6201,6 +6201,7 @@ html {
         left: 44px;
         top: 455px;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
@@ -6216,7 +6217,7 @@ html {
         font-family: 'Encode Sans Semi Expanded',sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         text-align: center;
 
@@ -6224,7 +6225,7 @@ html {
 
     /*Year for E1*/
     .EY1 {
-        font-size: 20px;
+        font-size: 14px;
         color: #E4EE89;
         position: absolute;
         margin: auto;
@@ -6236,7 +6237,7 @@ html {
 
     /*Year for E2*/
     .EY2 {
-        font-size: 20px;
+        font-size: 14px;
         color: #23C54B;
         position: absolute;
         margin: auto;
@@ -6248,7 +6249,7 @@ html {
 
     /*Year for E3*/
     .EY3 {
-        font-size: 20px;
+        font-size: 14px;
         color: #FD2155;
         position: absolute;
         margin: auto;
@@ -6260,7 +6261,7 @@ html {
 
     /*Year for E4*/
     .EY4 {
-        font-size: 20px;
+        font-size: 14px;
         color: #0AF0CD;
         position: absolute;
         margin: auto;
@@ -6272,7 +6273,7 @@ html {
 
     /*Year for E5*/
     .EY5 {
-        font-size: 20px;
+        font-size: 14px;
         color: #7ED4F2;
         position: absolute;
         margin: auto;
@@ -6283,124 +6284,90 @@ html {
     }
 
     .edutree{
-        position: absolute;
-        width: 511px;
+        width: 430px;
         height: 0px;
-        left: 510px;
-        top: 422px;
-        background-color: #F3BC17;
-        border: 2px solid #F3BC17;
-        transform: rotate(-90deg);
+        left: 166px;
+        top: 344px;
     }
 
     /*section1 (Digree)*/
     .EE1{
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 153px;
-        border: 2px solid #F3BC17;
+        width: 317px;
+        height: 85px;
+        right: 24px;
+        top: 117px;
     }
 
     /*section2 (IT dip)*/
     .EE2{
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        left: 288px;
-        top: 265.5px;
-        border: 2px solid #F3BC17;
+        width: 317px;
+        height: 85px;
+        left: 24px;
+        top: 211.5px;
     }
 
     /*section3 (Eng dip)*/
     .EE3{
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 378px;
-        border: 2px solid #F3BC17;
+        width: 317px;
+        height: 85px;
+        right: 24px;
+        top: 305px;
     }
 
     /*section4 (A/L)*/
     .EE4{
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        left: 288px;
-        top: 490.5px;
-        border: 2px solid #F3BC17;
+        width: 317px;
+        height: 85px;
+        left: 24px;
+        top: 399.5px;
     }
 
     /*section5 (O/L)*/
     .EE5{
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 603px;
-        border: 2px solid #F3BC17;
+        width: 317px;
+        height: 85px;
+        right: 24px;
+        top: 492px;
     }
 
     /*circle1*/
     .cir1{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 197px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        right: 357px;
+        top: 158px;
     }
 
     /*circle2*/
     .cir2{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 737px;
-        top: 305.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        left: 357px;
+        top: 252.5px;
     }
 
     /*circle3*/
     .cir3{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 423px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        right: 357px;
+        top: 346px;
     }
 
     /*circle4*/
     .cir4{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 737px;
-        top: 535.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        left: 357px;
+        top: 440.5px;
     }
 
     /*circle5*/
     .cir5{
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 649.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 8px;
+        height: 8px;
+        right: 357px;
+        top: 532.5px;
     }
 
     .adjustEdu{
