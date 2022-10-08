@@ -121,10 +121,17 @@ header {
 header > nav > ul > li {
     display: inline-block;
     padding: 20px;
-    color: white;
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
+}
+
+header > nav > ul > li> a{
+    color: white;
+}
+
+header > nav > ul > li>a, u {
+    text-decoration: none;
 }
 
 /*Customized navigatins*/
@@ -135,7 +142,7 @@ header > nav {
 }
 
 /*Added mouse point for list in headder*/
-header > nav > ul > li:hover {
+header > nav > ul > li > a:hover {
     color: #F3BC17;
     cursor: pointer;
 }
@@ -186,7 +193,7 @@ header > nav > ul > li:hover {
 }
 
 /*Web Developer*/
-.intro2 {
+.intro2 , .intro4, .intro6, .intro8{
     font-size: 64px;
     color: white;
     margin: auto;
@@ -196,12 +203,13 @@ header > nav > ul > li:hover {
 }
 
 /*Developer*/
-.intro3 {
+.intro3, .intro5, .intro7, .intro9{
     font-size: 64px;
     color: #F3BC17;
     margin: auto;
     text-align: center;
 }
+
 
 /*Follow me on*/
 .followMe {
