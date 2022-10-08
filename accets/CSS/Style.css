@@ -6435,35 +6435,16 @@ html {
 
     /*Github link box paragraph*/
     .githubP {
-        font-size: 24px;
-        color: rgba(255, 255, 255, 0.5);
-        margin: auto;
-        position: absolute;
+        font-size: 16px;
         top: 17px;
-        left: 0;
-        right: 0;
-        text-align: center;
     }
 
     /*Button Github*/
     .github{
-        background: #F3BC17;
-        width: 150px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
-        text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: -64px;
-        margin: auto;
-        border: none;
+        width: 148px;
+        height: 36px;
+        font-size: 16px;
+        bottom: -53px;
     }
 
     /*=======================================================================================================*/
