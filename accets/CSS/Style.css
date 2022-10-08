@@ -984,7 +984,7 @@ header > nav > ul > li > a:hover {
 
 /*Description Education evels*/
 .E1, .E2, .E3, .E4, .E5{
-    color: white;
+    color: #ffffff;
     position: absolute;
     margin: auto;
     left: 0;
@@ -1079,7 +1079,11 @@ header > nav > ul > li > a:hover {
     right: 288px;
     top: 153px;
     border: 2px solid #F3BC17;
-   /* background-image: linear-gradient(red, yellow);*/
+    cursor: pointer;
+}
+
+.EE1:hover, .EE2:hover, .EE3:hover, .EE4:hover, .EE5:hover{
+    background-image: linear-gradient(#b7950e, #b7950e);
 }
 
 /*section2 (IT dip)*/
@@ -1091,6 +1095,7 @@ header > nav > ul > li > a:hover {
     left: 288px;
     top: 265.5px;
     border: 2px solid #F3BC17;
+    cursor: pointer;
 }
 
 /*section3 (Eng dip)*/
@@ -1102,6 +1107,7 @@ header > nav > ul > li > a:hover {
     right: 288px;
     top: 378px;
     border: 2px solid #F3BC17;
+    cursor: pointer;
 }
 
 /*section4 (A/L)*/
@@ -1113,6 +1119,7 @@ header > nav > ul > li > a:hover {
     left: 288px;
     top: 490.5px;
     border: 2px solid #F3BC17;
+    cursor: pointer;
 }
 
 /*section5 (O/L)*/
@@ -1124,6 +1131,7 @@ header > nav > ul > li > a:hover {
     right: 288px;
     top: 603px;
     border: 2px solid #F3BC17;
+    cursor: pointer;
 }
 
 /*circle1*/
