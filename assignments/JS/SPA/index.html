@@ -156,20 +156,20 @@
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput1" class="form-label">Customer ID:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput1" placeholder="Ex: C001">
+                                <label for="txtCustomerID" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" id="txtCustomerID" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Customer Name:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ex: Hasindi Mudithya">
+                                <label for="txtCustomerName" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" id="txtCustomerName" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput3" class="form-label">Address:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Ex: Galle">
+                                <label for="txtCustomerAddress" class="form-label">Address:</label>
+                                <input type="text" class="form-control" id="txtCustomerAddress" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput4" class="form-label">Salary:</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Ex: Rs.50 000">
+                                <label for="txtCustomerSalary" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" id="txtCustomerSalary" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -195,20 +195,20 @@
                         </div>
                         <div class="modal-body">
                             <div class="mb-3">
-                                <label for="formGroupExampleInput5" class="form-label">Customer ID:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput5" placeholder="Ex: C001">
+                                <label for="txtCustomerID" class="form-label">Customer ID:</label>
+                                <input type="text" class="form-control" disabled id="txtCustomerID" placeholder="Ex: C001">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput6" class="form-label">Customer Name:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput6" placeholder="Ex: Hasindi Mudithya">
+                                <label for="txtCustomerName" class="form-label">Customer Name:</label>
+                                <input type="text" class="form-control" disabled id="txtCustomerName" placeholder="Ex: Hasindi Mudithya">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput7" class="form-label">Address:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput7" placeholder="Ex: Galle">
+                                <label for="txtCustomerAddress" class="form-label">Address:</label>
+                                <input type="text" class="form-control" disabled id="txtCustomerAddress" placeholder="Ex: Galle">
                             </div>
                             <div class="mb-3">
-                                <label for="formGroupExampleInput8" class="form-label">Salary:</label>
-                                <input type="text" class="form-control" disabled id="formGroupExampleInput8" placeholder="Ex: Rs.50 000">
+                                <label for="txtCustomerSalary" class="form-label">Salary:</label>
+                                <input type="text" class="form-control" disabled id="txtCustomerSalary" placeholder="Ex: Rs.50 000">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -866,7 +866,18 @@
 
 <script>
     $("#btnCustomer").click(function (){
-        alert("Customer Saved Succussfully...!")
+/*
+        alert("Customer Saved Succussfully...!");
+*/
+
+        $("#txtCustomerID").val();
+        $("#txtCustomerName").val();
+        $("#txtCustomerAddress").val();
+        $("#txtCustomerSalary").val();
+
+        alert($("#txtCustomerID").val());
+
+
     });
 </script>
 
