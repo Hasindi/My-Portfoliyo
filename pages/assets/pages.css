@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*main page*/
+#Basics {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #242424;
+}
+
+/*title*/
+.title {
+    position: relative;
+    font-size: 64px;
+    font-family: normal;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    padding-top: 48px;
+    padding-bottom: 12px;
+    color: #F3BC17;
+}
+
+/*discription*/
+.discrip {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(136 136 136) !important;
+    text-align: center;
+    padding-top: 26px;
+    margin: 0;
+}
+
+/*divs*/
+.cases {
+    position: relative;
+    width: 320px;
+    height: 305px;
+    background: #242424;
+    box-shadow: -23px -23px 45px #151515, 28px 28px 50px rgb(17, 17, 17);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#Basics > section:nth-child(2) {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 69px;
+    transition: all 2s;
+}
+
+#Basics > section:nth-child(2) > section {
+    width: 1095px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 66px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: all 2s;
+}
+
+
+.cases > h4 {
+    position: absolute;
+    top: 194px;
+    left: 0;
+    right: 0;
+    font-family: 'ubuntu';
+    font-size: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cases:hover {
+    transition: all 0.8s ease;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+    box-shadow: 1px 1px 54px 1px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+
+.cases > img {
+    width: 281px;
+    height: 157px;
+    margin-top: 13px;
+    padding: 9px;
+    border-radius: 30px;
+    align-items: center;
+}

@@ -134,11 +134,11 @@ header > nav > ul > li {
     font-weight: 600;
 }
 
-header > nav > ul > li> a{
+header > nav > ul > li > a {
     color: white;
 }
 
-header > nav > ul > li>a, u {
+header > nav > ul > li > a, u {
     text-decoration: none;
 }
 
@@ -223,7 +223,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*line*/
-.follDiv{
+.follDiv {
     border: 1px solid #F3BC17;
     background-color: #F3BC17;
     width: 80px;
@@ -254,21 +254,21 @@ header > nav > ul > li > a:hover {
     border: none;
 }
 
-.hireme> a{
+.hireme > a {
     color: #010101;
 }
 
-.hireme>a, u {
+.hireme > a, u {
     text-decoration: none;
 }
 
-.hireme:hover{
+.hireme:hover {
     height: 45px;
     transform: translateY(3px);
 }
 
 /*image*/
-.imgp1{
+.imgp1 {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -278,11 +278,10 @@ header > nav > ul > li > a:hover {
 }
 
 /*social media image*/
-.imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+.imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
     width: 24px;
     height: 24px;
 }
-
 
 
 /*=======================================================================================================*/
@@ -296,7 +295,7 @@ header > nav > ul > li > a:hover {
     right: 644px;
     top: 173px;
     margin: auto;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -312,7 +311,7 @@ header > nav > ul > li > a:hover {
     right: 370px;
     top: 203px;
     margin: auto;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -322,7 +321,7 @@ header > nav > ul > li > a:hover {
 
 /*Span Name*/
 .SName {
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -357,7 +356,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Button downlod CV*/
-.dwnlod{
+.dwnlod {
     background: #F3BC17;
     width: 200px;
     height: 43px;
@@ -378,7 +377,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*about list*/
-.list1{
+.list1 {
     position: absolute;
     right: 661px;
     bottom: 99px;
@@ -391,7 +390,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*details list*/
-.list2{
+.list2 {
     position: absolute;
     right: 453px;
     bottom: 99px;
@@ -404,7 +403,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*my image*/
-.imgmy{
+.imgmy {
     position: absolute;
     width: 304px;
     height: 428px;
@@ -414,7 +413,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*image frame*/
-.myIMGFrame{
+.myIMGFrame {
     position: absolute;
     border: 8px solid #F3BC17;
     left: 202px;
@@ -422,6 +421,7 @@ header > nav > ul > li > a:hover {
     width: 341px;
     height: 463px;
 }
+
 /*=======================================================================================================*/
 /*SERVICE SECTION*/
 /*=======================================================================================================*/
@@ -453,9 +453,9 @@ header > nav > ul > li > a:hover {
     transition: all .5s;
 }
 
-.webDesign:hover{
+.webDesign:hover {
     z-index: 10;
-    transition: all .5s!important;
+    transition: all .5s !important;
     transform: translateY(-10px);
 }
 
@@ -474,9 +474,9 @@ header > nav > ul > li > a:hover {
     transition: all .5s;
 }
 
-.customiz:hover{
+.customiz:hover {
     z-index: 10;
-    transition: all .5s!important;
+    transition: all .5s !important;
     transform: translateY(-10px);
 }
 
@@ -495,9 +495,9 @@ header > nav > ul > li > a:hover {
     transition: all .5s;
 }
 
-.webDevelopment:hover{
+.webDevelopment:hover {
     z-index: 10;
-    transition: all .5s!important;
+    transition: all .5s !important;
     transform: translateY(-10px);
 }
 
@@ -516,9 +516,9 @@ header > nav > ul > li > a:hover {
     transition: all .5s;
 }
 
-.UIUX:hover{
+.UIUX:hover {
     z-index: 10;
-    transition: all .5s!important;
+    transition: all .5s !important;
     transform: translateY(-10px);
 }
 
@@ -537,9 +537,9 @@ header > nav > ul > li > a:hover {
     border-bottom-right-radius: 35px;
 }
 
-.mobileApp:hover{
+.mobileApp:hover {
     z-index: 10;
-    transition: all .5s!important;
+    transition: all .5s !important;
     transform: translateY(-10px);
 }
 
@@ -550,7 +550,7 @@ header > nav > ul > li > a:hover {
     position: absolute;
     top: 47px;
     left: 42px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -566,7 +566,7 @@ header > nav > ul > li > a:hover {
     position: absolute;
     top: 47px;
     left: 42px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -582,7 +582,7 @@ header > nav > ul > li > a:hover {
     position: absolute;
     top: 47px;
     left: 42px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -598,7 +598,7 @@ header > nav > ul > li > a:hover {
     position: absolute;
     top: 47px;
     left: 42px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -614,7 +614,7 @@ header > nav > ul > li > a:hover {
     position: absolute;
     top: 47px;
     left: 42px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -624,7 +624,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*icon images*/
-.img1, .img2, .img3, .img4, .img5{
+.img1, .img2, .img3, .img4, .img5 {
     position: absolute;
     left: 257px;
     top: 7px;
@@ -633,7 +633,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*style line for web designing*/
-.syl1{
+.syl1 {
     position: absolute;
     width: 389px;
     height: 0px;
@@ -644,7 +644,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*style line for Customization*/
-.syl2{
+.syl2 {
     position: absolute;
     width: 389px;
     height: 0px;
@@ -655,7 +655,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*style line for web development*/
-.syl3{
+.syl3 {
     position: absolute;
     width: 389px;
     height: 0px;
@@ -666,7 +666,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*style line for UI/UX design*/
-.syl4{
+.syl4 {
     position: absolute;
     width: 389px;
     height: 0px;
@@ -677,7 +677,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*style line for mobile app development*/
-.syl5{
+.syl5 {
     position: absolute;
     width: 389px;
     height: 0px;
@@ -714,7 +714,7 @@ header > nav > ul > li > a:hover {
     margin: auto;
     left: 103px;
     top: 526px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -736,7 +736,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img1*/
-.lang1img{
+.lang1img {
     position: absolute;
     width: 74px;
     height: 71px;
@@ -746,7 +746,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img2*/
-.lang2img{
+.lang2img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -755,7 +755,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img3*/
-.lang3img{
+.lang3img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -764,7 +764,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img4*/
-.lang4img{
+.lang4img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -773,7 +773,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img5*/
-.lang5img{
+.lang5img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -782,7 +782,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img6*/
-.lang6img{
+.lang6img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -791,7 +791,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img7*/
-.lang7img{
+.lang7img {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -800,7 +800,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*language img8*/
-.lang8img{
+.lang8img {
     position: absolute;
     width: 180px;
     height: 90px;
@@ -809,7 +809,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*div for adjust image line 1*/
-.langdiv1{
+.langdiv1 {
     position: absolute;
     left: -50px;
     top: 1px;
@@ -817,14 +817,14 @@ header > nav > ul > li > a:hover {
 
 
 /*div for adjust image line 2*/
-.langdiv2{
+.langdiv2 {
     position: absolute;
     left: -50px;
     top: -98px;
 }
 
 /*tool img1*/
-.tool1img{
+.tool1img {
     position: absolute;
     left: 167px;
     top: 124px;
@@ -833,7 +833,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*tool img2*/
-.tool2img{
+.tool2img {
     position: absolute;
     left: 277px;
     top: 124px;
@@ -842,7 +842,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*tool img3*/
-.tool3img{
+.tool3img {
     position: absolute;
     left: 387px;
     top: 124px;
@@ -851,7 +851,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*tool img4*/
-.tool4img{
+.tool4img {
     position: absolute;
     left: 497px;
     top: 124px;
@@ -860,7 +860,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*tool img5*/
-.tool5img{
+.tool5img {
     position: absolute;
     left: 607px;
     top: 124px;
@@ -869,7 +869,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*tool img6*/
-.tool6img{
+.tool6img {
     position: absolute;
     left: 717px;
     top: 124px;
@@ -878,14 +878,14 @@ header > nav > ul > li > a:hover {
 }
 
 /*div for adjust image line 3*/
-.tooldiv{
+.tooldiv {
     position: absolute;
     left: -50px;
     top: 485px;
 }
 
 /*line break*/
-.linebreak{
+.linebreak {
     position: absolute;
     width: 532.01px;
     height: 0;
@@ -897,7 +897,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*side div 1*/
-.d1{
+.d1 {
     position: absolute;
     width: 190px;
     height: 150px;
@@ -907,13 +907,13 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.d1:hover{
+.d1:hover {
     transform: translateY(-10px);
-    transition: all .5s!important;
+    transition: all .5s !important;
 }
 
 /*side div 2*/
-.d2{
+.d2 {
     position: absolute;
     width: 190px;
     height: 150px;
@@ -923,13 +923,13 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.d2:hover{
+.d2:hover {
     transform: translateY(-10px);
-    transition: all .5s!important;
+    transition: all .5s !important;
 }
 
 /*side div 3*/
-.d3{
+.d3 {
     position: absolute;
     width: 190px;
     height: 150px;
@@ -939,13 +939,13 @@ header > nav > ul > li > a:hover {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.d3:hover{
+.d3:hover {
     transform: translateY(-10px);
-    transition: all .5s!important;
+    transition: all .5s !important;
 }
 
 /*numbers in box*/
-.n1, .n2, .n3{
+.n1, .n2, .n3 {
     position: absolute;
     width: 51px;
     height: 50px;
@@ -994,7 +994,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*set style lines*/
-.line1, .line2, .line3{
+.line1, .line2, .line3 {
     position: absolute;
     width: 35px;
     height: 0px;
@@ -1005,7 +1005,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*title line(Language and framework)*/
-.titleLine1{
+.titleLine1 {
     position: absolute;
     width: 303.01px;
     height: 0px;
@@ -1016,7 +1016,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*title line(tools)*/
-.titleLine2{
+.titleLine2 {
     position: absolute;
     width: 70px;
     height: 0px;
@@ -1025,19 +1025,20 @@ header > nav > ul > li > a:hover {
     background-color: #FFFFFF;
     border: 2px solid #F3BC17;
 }
+
 /*=======================================================================================================*/
 /*EDUCATION SECTION*/
 /*=======================================================================================================*/
 
 /*Description Education evels*/
-.E1, .E2, .E3, .E4, .E5{
+.E1, .E2, .E3, .E4, .E5 {
     color: #ffffff;
     position: absolute;
     margin: auto;
     left: 0;
     right: 0;
     top: 13px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1106,7 +1107,7 @@ header > nav > ul > li > a:hover {
     text-align: center;
 }
 
-.edutree{
+.edutree {
     position: absolute;
     width: 511px;
     height: 0px;
@@ -1118,7 +1119,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*section1 (Digree)*/
-.EE1{
+.EE1 {
     box-sizing: border-box;
     position: absolute;
     width: 428px;
@@ -1129,12 +1130,12 @@ header > nav > ul > li > a:hover {
     cursor: pointer;
 }
 
-.EE1:hover, .EE2:hover, .EE3:hover, .EE4:hover, .EE5:hover{
+.EE1:hover, .EE2:hover, .EE3:hover, .EE4:hover, .EE5:hover {
     background-image: linear-gradient(#b7950e, #b7950e);
 }
 
 /*section2 (IT dip)*/
-.EE2{
+.EE2 {
     box-sizing: border-box;
     position: absolute;
     width: 428px;
@@ -1146,7 +1147,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*section3 (Eng dip)*/
-.EE3{
+.EE3 {
     box-sizing: border-box;
     position: absolute;
     width: 428px;
@@ -1158,7 +1159,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*section4 (A/L)*/
-.EE4{
+.EE4 {
     box-sizing: border-box;
     position: absolute;
     width: 428px;
@@ -1170,7 +1171,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*section5 (O/L)*/
-.EE5{
+.EE5 {
     box-sizing: border-box;
     position: absolute;
     width: 428px;
@@ -1182,7 +1183,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*circle1*/
-.cir1{
+.cir1 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1193,7 +1194,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*circle2*/
-.cir2{
+.cir2 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1204,7 +1205,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*circle3*/
-.cir3{
+.cir3 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1215,7 +1216,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*circle4*/
-.cir4{
+.cir4 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1226,7 +1227,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*circle5*/
-.cir5{
+.cir5 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -1236,17 +1237,18 @@ header > nav > ul > li > a:hover {
     border-radius: 100%;
 }
 
-.adjustEdu{
+.adjustEdu {
     position: absolute;
     left: 0;
     right: 0;
     top: -19px;
 }
+
 /*=======================================================================================================*/
 /*PROJECTS SECTION*/
 /*=======================================================================================================*/
 /*Image Jewellery shop management*/
-.imgPro1{
+.imgPro1 {
     position: absolute;
     width: 389px;
     height: 257px;
@@ -1256,7 +1258,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Image Hotel management*/
-.imgPro2{
+.imgPro2 {
     position: absolute;
     width: 389px;
     height: 257px;
@@ -1267,7 +1269,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Image Hostel management*/
-.imgPro3{
+.imgPro3 {
     position: absolute;
     width: 389px;
     height: 257px;
@@ -1277,7 +1279,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Image SuperMarket management*/
-.imgPro4{
+.imgPro4 {
     position: absolute;
     width: 389px;
     height: 257px;
@@ -1287,7 +1289,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Image CarParking management*/
-.imgPro5{
+.imgPro5 {
     position: absolute;
     width: 389px;
     height: 257px;
@@ -1300,7 +1302,11 @@ header > nav > ul > li > a:hover {
 /*Assignment SECTION*/
 /*=======================================================================================================*/
 
-.asign1{
+.asign1 {
+    background-image: url("../img/jewelleryshp.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
     position: absolute;
     width: 366px;
     height: 247px;
@@ -1309,7 +1315,10 @@ header > nav > ul > li > a:hover {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
-.asign2{
+.asign2 {
+    background-image: url("../img/hotel.png");
+    background-size: cover;
+    background-position: center;
     position: absolute;
     width: 366px;
     height: 247px;
@@ -1319,7 +1328,7 @@ header > nav > ul > li > a:hover {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
-.asign3{
+.asign3 {
     position: absolute;
     width: 366px;
     height: 247px;
@@ -1328,7 +1337,7 @@ header > nav > ul > li > a:hover {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
-.asign4{
+.asign4 {
     position: absolute;
     width: 366px;
     height: 247px;
@@ -1337,49 +1346,50 @@ header > nav > ul > li > a:hover {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
-.asignBasic{
+.asignBasic {
     position: absolute;
     font-size: 20px;
     left: 232px;
     top: 354px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: white;
 }
 
-.asignAnim{
+.asignAnim {
     position: absolute;
     font-size: 20px;
     left: 673px;
     top: 354px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: white;
 }
 
-.asignTransi{
+.asignTransi {
     position: absolute;
     font-size: 20px;
     left: 1151px;
     top: 354px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: white;
 }
 
-.asignFram{
+.asignFram {
     position: absolute;
     font-size: 20px;
     left: 672px;
     top: 645px;
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: white;
 }
+
 /*=======================================================================================================*/
 /*GITHUB LINK*/
 
@@ -1396,7 +1406,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Button Github*/
-.github{
+.github {
     background: #F3BC17;
     width: 150px;
     height: 43px;
@@ -1415,7 +1425,7 @@ header > nav > ul > li > a:hover {
     border: none;
 }
 
-.github > a{
+.github > a {
     color: #010101;
 }
 
@@ -1423,10 +1433,11 @@ header > nav > ul > li > a:hover {
     text-decoration: none;
 }
 
-.github:hover{
+.github:hover {
     height: 45px;
     transform: translateY(3px);
 }
+
 /*=======================================================================================================*/
 /*CONTACT ME SECTION*/
 /*=======================================================================================================*/
@@ -1453,7 +1464,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*adjust paragraph*/
-.contactD1{
+.contactD1 {
     position: absolute;
     text-align: center;
     left: 95px;
@@ -1510,7 +1521,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*contact details image1*/
-.imgC1{
+.imgC1 {
     position: absolute;
     top: 346px;
     left: 170px;
@@ -1519,7 +1530,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*contact details image*/
-.imgC2{
+.imgC2 {
     position: absolute;
     top: 446px;
     left: 170px;
@@ -1528,7 +1539,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*contact details image*/
-.imgC3{
+.imgC3 {
     position: absolute;
     top: 546px;
     left: 170px;
@@ -1537,7 +1548,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Button send Massages*/
-.send{
+.send {
     position: absolute;
     background: #F3BC17;
     width: 211px;
@@ -1556,14 +1567,14 @@ header > nav > ul > li > a:hover {
 }
 
 /*form content*/
-.input1, .input2, .input3, .input4{
+.input1, .input2, .input3, .input4 {
     position: absolute;
     background: rgba(217, 217, 217, 0.21);
     border-radius: 34px;
     border: 2px solid rgba(217, 217, 217, 0.21);
 
     /*text*/
-    font-family: 'Encode Sans Semi Expanded',sans-serif;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -1572,7 +1583,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*name*/
-.input1{
+.input1 {
     width: 354px;
     height: 34px;
     padding: 10px 25px 10px 25px;
@@ -1581,7 +1592,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Email*/
-.input2{
+.input2 {
     width: 354px;
     height: 34px;
     left: 958px;
@@ -1590,7 +1601,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Subject*/
-.input3{
+.input3 {
     width: 594px;
     height: 34px;
     left: 527px;
@@ -1599,7 +1610,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*Massage*/
-.input4{
+.input4 {
     width: 594px;
     height: 223px;
     left: 527px;
@@ -1608,7 +1619,7 @@ header > nav > ul > li > a:hover {
 }
 
 /*adjust form*/
-.adjustForm{
+.adjustForm {
     left: 42px;
     top: -49px;
     position: absolute;
@@ -1639,13 +1650,13 @@ html {
 }
 
 /*footer img*/
-.fImg1, .fImg2, .fImg3, .fImg4{
+.fImg1, .fImg2, .fImg3, .fImg4 {
     width: 60px;
     height: 60px;
 }
 
 /*footer text*/
-.footertext{
+.footertext {
     position: absolute;
     bottom: -25px;
     font-style: normal;
@@ -1657,7 +1668,7 @@ html {
 }
 
 /*adjust footer image*/
-.footerIMG{
+.footerIMG {
     top: 9px;
     position: absolute;
 }
@@ -1665,7 +1676,7 @@ html {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /* 1025 - 1440 */
-@media all and (min-width: 1025px) and (max-width: 1440px){
+@media all and (min-width: 1025px) and (max-width: 1440px) {
 
     /*Customized headding*/
     header {
@@ -1689,7 +1700,6 @@ html {
     }
 
     /*//////////////////////////////////////////////////////////*/
-
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
         line-height: 68px;
@@ -1722,7 +1732,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         margin-right: 7px;
         margin-bottom: -72px;
         width: 68px;
@@ -1736,19 +1746,19 @@ html {
 
     }
 
-    .hireme:hover{
+    .hireme:hover {
         height: 43px;
         transform: translateY(3px);
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         margin-bottom: -28px;
         margin-right: 1px;
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 20px;
         height: 20px;
     }
@@ -1757,7 +1767,6 @@ html {
     /*
     ABOUT ME
     */
-
     /*Hello*/
     .hello {
         top: 108px;
@@ -1780,24 +1789,24 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         height: 40px;
         right: -178px;
         bottom: -511px;
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         bottom: 55px;
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         bottom: 55px;
     }
 
     /*my image*/
-    .imgmy{
+    .imgmy {
         width: 296px;
         height: 414px;
         left: 9px;
@@ -1806,7 +1815,7 @@ html {
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         left: 164px;
         top: 110px;
         width: 313px;
@@ -1816,7 +1825,6 @@ html {
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*web design box*/
     .webDesign {
         left: 83px;
@@ -1850,7 +1858,6 @@ html {
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         top: 116px;
@@ -1862,117 +1869,117 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         top: -49px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         top: -197px;
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         top: 334px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         width: 412.01px;
         left: 573px;
         top: 334px;
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         top: 153px;
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         top: 153px;
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         top: 375px;
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         top: 150px;
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         top: 429px;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
-    .edutree{
+    .edutree {
         width: 427px;
         left: 505px;
         top: 346px;
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         right: 234px;
         top: 124px;
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         left: 234px;
         top: 216.5px;
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         right: 234px;
         top: 307px;
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         left: 234px;
         top: 398.5px;
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         right: 234px;
         top: 488px;
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         right: 683px;
         top: 165px;
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         left: 683px;
         top: 256.5px;
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         right: 683px;
         top: 345px;
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         left: 683px;
         top: 440.5px;
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         right: 683px;
         top: 528px;
     }
@@ -1981,7 +1988,7 @@ html {
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         left: 97px;
         top: 96px;
         width: 376px;
@@ -1989,7 +1996,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         left: 528px;
         top: 96px;
         width: 376px;
@@ -1997,7 +2004,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         right: 97px;
         top: 96px;
         width: 376px;
@@ -2005,7 +2012,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         left: 315px;
         top: 337px;
         width: 376px;
@@ -2013,7 +2020,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         right: 315px;
         top: 337px;
         width: 376px;
@@ -2023,8 +2030,7 @@ html {
     /*=======================================================================================================*/
     /*Assignment SECTION*/
     /*=======================================================================================================*/
-
-    .asign1{
+    .asign1 {
         position: absolute;
         width: 366px;
         height: 247px;
@@ -2033,7 +2039,7 @@ html {
         filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
     }
 
-    .asign2{
+    .asign2 {
         position: absolute;
         width: 366px;
         height: 247px;
@@ -2043,7 +2049,7 @@ html {
         filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
     }
 
-    .asign3{
+    .asign3 {
         position: absolute;
         width: 366px;
         height: 247px;
@@ -2052,7 +2058,7 @@ html {
         filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
     }
 
-    .asign4{
+    .asign4 {
         position: absolute;
         width: 366px;
         height: 247px;
@@ -2061,59 +2067,59 @@ html {
         filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
     }
 
-    .asignBasic{
+    .asignBasic {
         position: absolute;
         font-size: 20px;
         left: 232px;
         top: 354px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         color: white;
     }
 
-    .asignAnim{
+    .asignAnim {
         position: absolute;
         font-size: 20px;
         left: 673px;
         top: 354px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         color: white;
     }
 
-    .asignTransi{
+    .asignTransi {
         position: absolute;
         font-size: 20px;
         left: 1151px;
         top: 354px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         color: white;
     }
 
-    .asignFram{
+    .asignFram {
         position: absolute;
         font-size: 20px;
         left: 672px;
         top: 645px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         color: white;
     }
+
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         top: 7px;
     }
 
     /*Button Github*/
-    .github{
+    .github {
         height: 37px;
         bottom: -60px;
     }
@@ -2121,36 +2127,36 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         left: 74px;
         top: 114px;
     }
 
-    .contactD2{
+    .contactD2 {
         position: relative;
         margin-left: -42px;
         margin-top: -214px;
     }
 
-    .sec1{
+    .sec1 {
         left: 74px;
         top: 114px;
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         margin-bottom: -14px;
-        margin-left: -53px;    }
+        margin-left: -53px;
+    }
 
     /*Massage*/
-    .input4{
+    .input4 {
         height: 193px;
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         margin-top: -74px;
         margin-left: -53px;
     }
@@ -2158,20 +2164,20 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*footer text*/
-    .footertext{
+    .footertext {
         line-height: 25px;
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 6px;
     }
 
 }
+
 /* 769 - 1024 */
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 769px) and (max-width: 1024px) {
 
     /*Customized headding*/
     header {
@@ -2195,7 +2201,6 @@ html {
     }
 
     /*//////////////////////////////////////////////////////////*/
-
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
         line-height: 61px;
@@ -2209,7 +2214,6 @@ html {
     }
 
     /*////////////////////////////////////////////////////////////////////////////////////////*/
-
     /*hii, I am....*/
     .intro1 {
         margin-top: -34px;
@@ -2227,7 +2231,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         margin-right: 7px;
         margin-bottom: -72px;
         width: 68px;
@@ -2241,19 +2245,19 @@ html {
 
     }
 
-    .hireme:hover{
+    .hireme:hover {
         height: 43px;
         transform: translateY(3px);
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         margin-bottom: -28px;
         margin-right: 1px;
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 20px;
         height: 20px;
     }
@@ -2262,7 +2266,6 @@ html {
     /*
     ABOUT ME
     */
-
     /*Hello*/
     .hello {
         margin-right: -222px;
@@ -2288,32 +2291,32 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         margin-right: 589px;
         margin-top: 526px;
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         margin-right: -220px;
         top: 301px;
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         margin-right: -220px;
         top: 301px;
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         margin-left: -112px;
         margin-top: -58px;
         width: 314px;
         height: 431px;
     }
 
-    .imgmy{
+    .imgmy {
         width: 286px;
         height: 407px;
         left: 14px;
@@ -2323,7 +2326,6 @@ html {
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*web design box*/
     .webDesign {
         margin-left: -126px;
@@ -2360,7 +2362,6 @@ html {
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         margin-left: -52px;
@@ -2373,149 +2374,149 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         margin-top: -23px;
         margin-left: -72px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         margin-top: -60px;
         margin-left: -72px;
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         margin-left: -72px;
         margin-top: -117px;
     }
 
     /*tool img2*/
-    .tool2img{
+    .tool2img {
         left: 250px;
     }
 
     /*tool img3*/
-    .tool3img{
+    .tool3img {
         left: 348px;
     }
 
     /*tool img4*/
-    .tool4img{
+    .tool4img {
         left: 445px;
     }
 
     /*tool img5*/
-    .tool5img{
+    .tool5img {
         left: 540px;
     }
 
     /*tool img6*/
-    .tool6img{
+    .tool6img {
         left: 646px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         width: 437.01px;
         left: 380px;
         top: 335px;
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         right: 216px;
         margin-top: -92px;
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         right: 11px;
         margin-top: 54px;
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         right: 216px;
         margin-top: -24px;
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         margin-left: -52px;
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         margin-left: -52px;
         margin-top: -94px;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
-    .edutree{
+    .edutree {
         margin-left: -221px;
         margin-top: -76px;
         width: 441px;
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         margin-right: -241px;
         margin-top: -35px;
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         margin-left: -241px;
         margin-top: -54px;
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         margin-right: -241px;
         margin-top: -76px;
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         margin-left: -241px;
         margin-top: -96px;
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         margin-right: -241px;
         margin-top: -117px;
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         margin-right: -247px;
         margin-top: -37px;
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         margin-left: -248px;
         margin-top: -53px;
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         margin-right: -248px;
         margin-top: -81px;
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         margin-left: -248px;
         margin-top: -98px;
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         margin-right: -248px;
         margin-top: -124px;
     }
@@ -2524,7 +2525,7 @@ html {
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         left: 26px;
         top: 97px;
         width: 304px;
@@ -2532,7 +2533,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         left: 359px;
         width: 304px;
         height: 219px;
@@ -2540,7 +2541,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         right: 26px;
         width: 304px;
         height: 219px;
@@ -2548,7 +2549,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         left: 190px;
         top: 352px;
         width: 304px;
@@ -2556,7 +2557,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         right: 190px;
         top: 352px;
         width: 304px;
@@ -2566,14 +2567,13 @@ html {
 
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         top: 7px;
     }
 
     /*Button Github*/
-    .github{
+    .github {
         height: 37px;
         bottom: -60px;
     }
@@ -2582,43 +2582,42 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         left: 35px;
         top: 114px;
     }
 
-    .contactD2{
+    .contactD2 {
         position: relative;
         margin-left: -85px;
         margin-top: -228px;
     }
 
-    .sec1{
+    .sec1 {
         left: 74px;
         top: 114px;
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         margin-bottom: -8px;
         margin-left: -174px;
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         height: 193px;
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         margin-top: -65px;
         margin-left: -171px;
     }
 
     /*name*/
-    .input1{
+    .input1 {
         width: 233px;
         height: 20px;
         left: 527px;
@@ -2626,7 +2625,7 @@ html {
     }
 
     /*Email*/
-    .input2{
+    .input2 {
         width: 233px;
         height: 20px;
         left: 828px;
@@ -2634,7 +2633,7 @@ html {
     }
 
     /*Subject*/
-    .input3{
+    .input3 {
         width: 536px;
         height: 20px;
         left: 527px;
@@ -2642,7 +2641,7 @@ html {
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         width: 536px;
         height: 205px;
         left: 527px;
@@ -2662,20 +2661,20 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*footer text*/
-    .footertext{
+    .footertext {
         line-height: 25px;
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 6px;
     }
 
 }
+
 /* 426 - 768 */
-@media all and (min-width: 426px) and (max-width: 768px) {
+@media all and (min-width: 424px) and (max-width: 768px) {
     /*Customized headding*/
     header {
         height: 70px;
@@ -2706,7 +2705,6 @@ html {
     }
 
     /*//////////////////////////////////////////////////////////*/
-
     /*first page*/
     .mainpage {
         width: 100%;
@@ -2730,7 +2728,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         margin-right: 7px;
         margin-bottom: -72px;
         width: 68px;
@@ -2744,29 +2742,27 @@ html {
 
     }
 
-    .hireme:hover{
+    .hireme:hover {
         height: 43px;
         transform: translateY(3px);
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         margin-bottom: -28px;
         margin-right: 1px;
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 20px;
         height: 20px;
     }
 
 
-
     /*=======================================================================================================*/
     /*TITLES*/
     /*=======================================================================================================*/
-
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
         font-size: 58px;
@@ -2790,7 +2786,6 @@ html {
     /*=======================================================================================================*/
     /*ABOUT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Hello*/
     .hello {
         right: 303px;
@@ -2825,7 +2820,7 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         width: 174px;
         height: 36px;
         font-size: 16px;
@@ -2834,7 +2829,7 @@ html {
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         right: 315px;
         bottom: 63px;
         font-size: 14px;
@@ -2842,7 +2837,7 @@ html {
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         right: 132px;
         bottom: 63px;
         font-size: 14px;
@@ -2850,7 +2845,7 @@ html {
     }
 
     /*my image*/
-    .imgmy{
+    .imgmy {
         width: 259px;
         height: 365px;
         left: 14px;
@@ -2858,16 +2853,16 @@ html {
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         left: 43px;
         top: 139px;
         width: 286px;
         height: 392px;
     }
+
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
         font-size: 14px;
@@ -2958,7 +2953,7 @@ html {
     }
 
     /*icon images*/
-    .img1, .img2, .img3, .img4, .img5{
+    .img1, .img2, .img3, .img4, .img5 {
         left: 213px;
         top: 14px;
         width: 80px;
@@ -2966,34 +2961,33 @@ html {
     }
 
     /*style line for web designing*/
-    .syl1{
+    .syl1 {
         width: 324px;
     }
 
     /*style line for Customization*/
-    .syl2{
+    .syl2 {
         width: 324px;
     }
 
     /*style line for web development*/
-    .syl3{
+    .syl3 {
         width: 324px;
     }
 
     /*style line for UI/UX design*/
-    .syl4{
+    .syl4 {
         width: 324px;
     }
 
     /*style line for mobile app development*/
-    .syl5{
+    .syl5 {
         width: 324px;
     }
 
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         font-size: 19px;
@@ -3019,7 +3013,7 @@ html {
     }
 
     /*language img1*/
-    .lang1img{
+    .lang1img {
         width: 68px;
         height: 65px;
         left: 161px;
@@ -3028,7 +3022,7 @@ html {
     }
 
     /*language img2*/
-    .lang2img{
+    .lang2img {
         width: 46px;
         height: 46px;
         left: 257px;
@@ -3036,7 +3030,7 @@ html {
     }
 
     /*language img3*/
-    .lang3img{
+    .lang3img {
         width: 46px;
         height: 46px;
         left: 342px;
@@ -3044,7 +3038,7 @@ html {
     }
 
     /*language img4*/
-    .lang4img{
+    .lang4img {
         width: 46px;
         height: 46px;
         left: 428px;
@@ -3052,7 +3046,7 @@ html {
     }
 
     /*language img5*/
-    .lang5img{
+    .lang5img {
         width: 46px;
         height: 46px;
         left: 507px;
@@ -3060,7 +3054,7 @@ html {
     }
 
     /*language img6*/
-    .lang6img{
+    .lang6img {
         width: 46px;
         height: 46px;
         left: 167px;
@@ -3068,7 +3062,7 @@ html {
     }
 
     /*language img7*/
-    .lang7img{
+    .lang7img {
         width: 46px;
         height: 46px;
         left: 252px;
@@ -3076,7 +3070,7 @@ html {
     }
 
     /*language img8*/
-    .lang8img{
+    .lang8img {
         width: 160px;
         height: 76px;
         left: 327px;
@@ -3084,19 +3078,19 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         left: -128px;
         top: -44px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         left: -121px;
         top: -175px;
     }
 
     /*tool img1*/
-    .tool1img{
+    .tool1img {
         left: 167px;
         top: 124px;
         width: 46px;
@@ -3104,7 +3098,7 @@ html {
     }
 
     /*tool img2*/
-    .tool2img{
+    .tool2img {
         left: 236px;
         top: 124px;
         width: 46px;
@@ -3112,7 +3106,7 @@ html {
     }
 
     /*tool img3*/
-    .tool3img{
+    .tool3img {
         left: 316px;
         top: 124px;
         width: 46px;
@@ -3120,7 +3114,7 @@ html {
     }
 
     /*tool img4*/
-    .tool4img{
+    .tool4img {
         left: 393px;
         top: 124px;
         width: 46px;
@@ -3128,7 +3122,7 @@ html {
     }
 
     /*tool img5*/
-    .tool5img{
+    .tool5img {
         left: 467px;
         top: 124px;
         width: 42px;
@@ -3136,7 +3130,7 @@ html {
     }
 
     /*tool img6*/
-    .tool6img{
+    .tool6img {
         left: 544px;
         top: 124px;
         width: 42px;
@@ -3144,20 +3138,20 @@ html {
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         left: -132px;
         top: 371px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         width: 443.01px;
         left: 251px;
         top: 330px;
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         width: 166px;
         height: 138px;
         right: 99px;
@@ -3165,7 +3159,7 @@ html {
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         width: 166px;
         height: 138px;
         right: 23px;
@@ -3173,7 +3167,7 @@ html {
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         width: 166px;
         height: 138px;
         right: 99px;
@@ -3181,7 +3175,7 @@ html {
     }
 
     /*numbers in box*/
-    .n1, .n2, .n3{
+    .n1, .n2, .n3 {
         width: 51px;
         height: 50px;
         left: 19px;
@@ -3208,7 +3202,7 @@ html {
     }
 
     /*set style lines*/
-    .line1, .line2, .line3{
+    .line1, .line2, .line3 {
         width: 25px;
         height: 0px;
         left: 25px;
@@ -3216,14 +3210,14 @@ html {
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         width: 238.01px;
         left: 44px;
         top: 142px;
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         width: 58px;
         left: 44px;
         top: 455px;
@@ -3232,16 +3226,15 @@ html {
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
     /*Description Education evels*/
-    .E1, .E2, .E3, .E4, .E5{
+    .E1, .E2, .E3, .E4, .E5 {
         color: white;
         position: absolute;
         margin: auto;
         left: 0;
         right: 0;
         top: 13px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -3310,7 +3303,7 @@ html {
         text-align: center;
     }
 
-    .edutree{
+    .edutree {
         width: 430px;
         height: 0px;
         left: 166px;
@@ -3318,7 +3311,7 @@ html {
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         width: 317px;
         height: 85px;
         right: 24px;
@@ -3326,7 +3319,7 @@ html {
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         width: 317px;
         height: 85px;
         left: 24px;
@@ -3334,7 +3327,7 @@ html {
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         width: 317px;
         height: 85px;
         right: 24px;
@@ -3342,7 +3335,7 @@ html {
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         width: 317px;
         height: 85px;
         left: 24px;
@@ -3350,7 +3343,7 @@ html {
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         width: 317px;
         height: 85px;
         right: 24px;
@@ -3358,7 +3351,7 @@ html {
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         width: 8px;
         height: 8px;
         right: 357px;
@@ -3366,7 +3359,7 @@ html {
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         width: 8px;
         height: 8px;
         left: 357px;
@@ -3374,7 +3367,7 @@ html {
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         width: 8px;
         height: 8px;
         right: 357px;
@@ -3382,7 +3375,7 @@ html {
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         width: 8px;
         height: 8px;
         left: 357px;
@@ -3390,24 +3383,25 @@ html {
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         width: 8px;
         height: 8px;
         right: 357px;
         top: 532.5px;
     }
 
-    .adjustEdu{
+    .adjustEdu {
         position: absolute;
         left: 0;
         right: 0;
         top: -19px;
     }
+
     /*=======================================================================================================*/
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         width: 309px;
         height: 203px;
         left: 21px;
@@ -3415,7 +3409,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         width: 309px;
         height: 203px;
         left: 211px;
@@ -3423,7 +3417,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         width: 309px;
         height: 203px;
         right: 21px;
@@ -3431,7 +3425,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         width: 309px;
         height: 203px;
         left: 63px;
@@ -3439,7 +3433,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         width: 309px;
         height: 203px;
         right: 63px;
@@ -3448,7 +3442,6 @@ html {
 
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         font-size: 16px;
@@ -3456,7 +3449,7 @@ html {
     }
 
     /*Button Github*/
-    .github{
+    .github {
         width: 148px;
         height: 36px;
         font-size: 16px;
@@ -3466,7 +3459,6 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Have a Project......*/
     .contactP1 {
         font-size: 16px;
@@ -3479,13 +3471,13 @@ html {
     }
 
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         left: 39px;
         top: 130px;
         width: 245px;
     }
 
-    .contactD2{
+    .contactD2 {
         position: absolute;
         top: -76px;
         left: -89px;
@@ -3514,7 +3506,7 @@ html {
     }
 
     /*contact details image1*/
-    .imgC1{
+    .imgC1 {
         top: 346px;
         left: 170px;
         width: 20px;
@@ -3522,7 +3514,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC2{
+    .imgC2 {
         top: 447px;
         left: 170px;
         width: 20px;
@@ -3530,27 +3522,27 @@ html {
     }
 
     /*contact details image*/
-    .imgC3{
+    .imgC3 {
         top: 548px;
         left: 170px;
         width: 20px;
         height: 20px;
     }
 
-    .sec2{
+    .sec2 {
         top: -30px;
         position: absolute;
         width: 312px;
     }
 
-    .sec3{
+    .sec3 {
         top: -50px;
         position: absolute;
         width: 312px;
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         width: 174px;
         height: 36px;
         font-size: 16px;
@@ -3559,12 +3551,12 @@ html {
     }
 
     /*form content*/
-    .input1, .input2, .input3, .input4{
+    .input1, .input2, .input3, .input4 {
         font-size: 14px;
     }
 
     /*name*/
-    .input1{
+    .input1 {
         width: 324px;
         height: 12px;
         left: 310px;
@@ -3572,7 +3564,7 @@ html {
     }
 
     /*Email*/
-    .input2{
+    .input2 {
         width: 324px;
         height: 12px;
         left: 310px;
@@ -3580,7 +3572,7 @@ html {
     }
 
     /*Subject*/
-    .input3{
+    .input3 {
         width: 324px;
         height: 12px;
         left: 310px;
@@ -3588,7 +3580,7 @@ html {
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         width: 324px;
         height: 166px;
         left: 310px;
@@ -3596,7 +3588,7 @@ html {
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         left: 42px;
         top: -35px;
         position: absolute;
@@ -3605,36 +3597,39 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*Customized footer*/
     footer {
         height: 80px;
     }
 
     /*footer img*/
-    .fImg1, .fImg2, .fImg3, .fImg4{
+    .fImg1, .fImg2, .fImg3, .fImg4 {
         width: 46px;
         height: 46px;
     }
 
     /*footer text*/
-    .footertext{
+    .footertext {
         bottom: -24px;
         font-size: 16px;
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 9px;
     }
 
 }
+
 /* 376 - 425 */
-@media all and (max-width: 425px) {
+@media (max-width: 425px) {
 
     /*=======================================================================================================*/
     /*TITLES*/
     /*=======================================================================================================*/
+    .TT1 {
+        color: #1C691E;
+    }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
@@ -3673,7 +3668,6 @@ html {
     /*=======================================================================================================*/
     /*HEADER*/
     /*=======================================================================================================*/
-
     /*set list inline*/
     header > nav > ul > li {
         padding: 3px;
@@ -3698,7 +3692,6 @@ html {
     /*=======================================================================================================*/
     /*PAGE 1*/
     /*=======================================================================================================*/
-
     /*hii, I am....*/
     .intro1 {
         font-size: 22px;
@@ -3718,7 +3711,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         width: 73px;
         margin-right: -1px;
         margin-bottom: -78px;
@@ -3732,13 +3725,13 @@ html {
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         margin-right: -3px;
         margin-bottom: -9px;
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 16px;
         height: 16px;
     }
@@ -3747,7 +3740,6 @@ html {
     /*=======================================================================================================*/
     /*ABOUT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Hello*/
     .hello {
         color: white;
@@ -3755,7 +3747,7 @@ html {
         right: 644px;
         top: 173px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -3771,7 +3763,7 @@ html {
         right: 370px;
         top: 203px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -3781,7 +3773,7 @@ html {
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -3816,7 +3808,7 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         background: #F3BC17;
         width: 200px;
         height: 43px;
@@ -3837,7 +3829,7 @@ html {
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         position: absolute;
         right: 661px;
         bottom: 99px;
@@ -3850,7 +3842,7 @@ html {
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         position: absolute;
         right: 453px;
         bottom: 99px;
@@ -3863,7 +3855,7 @@ html {
     }
 
     /*my image*/
-    .imgmy{
+    .imgmy {
         position: absolute;
         width: 304px;
         height: 428px;
@@ -3873,7 +3865,7 @@ html {
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         position: absolute;
         border: 8px solid #F3BC17;
         left: 202px;
@@ -3881,10 +3873,10 @@ html {
         width: 341px;
         height: 463px;
     }
+
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
         font-size: 16px;
@@ -3965,7 +3957,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -3981,7 +3973,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -3997,7 +3989,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -4013,7 +4005,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -4029,7 +4021,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -4039,7 +4031,7 @@ html {
     }
 
     /*icon images*/
-    .img1, .img2, .img3, .img4, .img5{
+    .img1, .img2, .img3, .img4, .img5 {
         position: absolute;
         left: 257px;
         top: 7px;
@@ -4048,7 +4040,7 @@ html {
     }
 
     /*style line for web designing*/
-    .syl1{
+    .syl1 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -4059,7 +4051,7 @@ html {
     }
 
     /*style line for Customization*/
-    .syl2{
+    .syl2 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -4070,7 +4062,7 @@ html {
     }
 
     /*style line for web development*/
-    .syl3{
+    .syl3 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -4081,7 +4073,7 @@ html {
     }
 
     /*style line for UI/UX design*/
-    .syl4{
+    .syl4 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -4092,7 +4084,7 @@ html {
     }
 
     /*style line for mobile app development*/
-    .syl5{
+    .syl5 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -4105,7 +4097,6 @@ html {
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         font-size: 24px;
@@ -4129,7 +4120,7 @@ html {
         margin: auto;
         left: 103px;
         top: 526px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -4151,7 +4142,7 @@ html {
     }
 
     /*language img1*/
-    .lang1img{
+    .lang1img {
         position: absolute;
         width: 74px;
         height: 71px;
@@ -4161,7 +4152,7 @@ html {
     }
 
     /*language img2*/
-    .lang2img{
+    .lang2img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4170,7 +4161,7 @@ html {
     }
 
     /*language img3*/
-    .lang3img{
+    .lang3img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4179,7 +4170,7 @@ html {
     }
 
     /*language img4*/
-    .lang4img{
+    .lang4img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4188,7 +4179,7 @@ html {
     }
 
     /*language img5*/
-    .lang5img{
+    .lang5img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4197,7 +4188,7 @@ html {
     }
 
     /*language img6*/
-    .lang6img{
+    .lang6img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4206,7 +4197,7 @@ html {
     }
 
     /*language img7*/
-    .lang7img{
+    .lang7img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -4215,7 +4206,7 @@ html {
     }
 
     /*language img8*/
-    .lang8img{
+    .lang8img {
         position: absolute;
         width: 180px;
         height: 90px;
@@ -4224,21 +4215,21 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         position: absolute;
         left: -50px;
         top: 1px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         position: absolute;
         left: -50px;
         top: -98px;
     }
 
     /*tool img1*/
-    .tool1img{
+    .tool1img {
         position: absolute;
         left: 167px;
         top: 124px;
@@ -4247,7 +4238,7 @@ html {
     }
 
     /*tool img2*/
-    .tool2img{
+    .tool2img {
         position: absolute;
         left: 277px;
         top: 124px;
@@ -4256,7 +4247,7 @@ html {
     }
 
     /*tool img3*/
-    .tool3img{
+    .tool3img {
         position: absolute;
         left: 387px;
         top: 124px;
@@ -4265,7 +4256,7 @@ html {
     }
 
     /*tool img4*/
-    .tool4img{
+    .tool4img {
         position: absolute;
         left: 497px;
         top: 124px;
@@ -4274,7 +4265,7 @@ html {
     }
 
     /*tool img5*/
-    .tool5img{
+    .tool5img {
         position: absolute;
         left: 607px;
         top: 124px;
@@ -4283,7 +4274,7 @@ html {
     }
 
     /*tool img6*/
-    .tool6img{
+    .tool6img {
         position: absolute;
         left: 717px;
         top: 124px;
@@ -4292,14 +4283,14 @@ html {
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         position: absolute;
         left: -50px;
         top: 485px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         position: absolute;
         width: 532.01px;
         height: 0;
@@ -4311,7 +4302,7 @@ html {
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -4322,7 +4313,7 @@ html {
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -4333,7 +4324,7 @@ html {
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -4344,7 +4335,7 @@ html {
     }
 
     /*numbers in box*/
-    .n1, .n2, .n3{
+    .n1, .n2, .n3 {
         position: absolute;
         width: 51px;
         height: 50px;
@@ -4393,7 +4384,7 @@ html {
     }
 
     /*set style lines*/
-    .line1, .line2, .line3{
+    .line1, .line2, .line3 {
         position: absolute;
         width: 35px;
         height: 0px;
@@ -4404,7 +4395,7 @@ html {
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         position: absolute;
         width: 303.01px;
         height: 0px;
@@ -4415,7 +4406,7 @@ html {
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         position: absolute;
         width: 70px;
         height: 0px;
@@ -4424,19 +4415,19 @@ html {
         background-color: #FFFFFF;
         border: 2px solid #F3BC17;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
     /*Description Education evels*/
-    .E1, .E2, .E3, .E4, .E5{
+    .E1, .E2, .E3, .E4, .E5 {
         color: white;
         position: absolute;
         margin: auto;
         left: 0;
         right: 0;
         top: 13px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -4505,7 +4496,7 @@ html {
         text-align: center;
     }
 
-    .edutree{
+    .edutree {
         position: absolute;
         width: 511px;
         height: 0px;
@@ -4517,7 +4508,7 @@ html {
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -4528,7 +4519,7 @@ html {
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -4539,7 +4530,7 @@ html {
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -4550,7 +4541,7 @@ html {
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -4561,7 +4552,7 @@ html {
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -4572,7 +4563,7 @@ html {
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -4583,7 +4574,7 @@ html {
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -4594,7 +4585,7 @@ html {
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -4605,7 +4596,7 @@ html {
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -4616,7 +4607,7 @@ html {
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -4626,17 +4617,18 @@ html {
         border-radius: 100%;
     }
 
-    .adjustEdu{
+    .adjustEdu {
         position: absolute;
         left: 0;
         right: 0;
         top: -19px;
     }
+
     /*=======================================================================================================*/
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -4646,7 +4638,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -4657,7 +4649,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -4667,7 +4659,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -4677,7 +4669,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -4688,7 +4680,6 @@ html {
 
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         font-size: 24px;
@@ -4702,7 +4693,7 @@ html {
     }
 
     /*Button Github*/
-    .github{
+    .github {
         background: #F3BC17;
         width: 150px;
         height: 43px;
@@ -4725,7 +4716,6 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Have a Project......*/
     .contactP1 {
         font-size: 22px;
@@ -4748,7 +4738,7 @@ html {
     }
 
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         position: absolute;
         text-align: center;
         left: 95px;
@@ -4805,7 +4795,7 @@ html {
     }
 
     /*contact details image1*/
-    .imgC1{
+    .imgC1 {
         position: absolute;
         top: 346px;
         left: 170px;
@@ -4814,7 +4804,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC2{
+    .imgC2 {
         position: absolute;
         top: 446px;
         left: 170px;
@@ -4823,7 +4813,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC3{
+    .imgC3 {
         position: absolute;
         top: 546px;
         left: 170px;
@@ -4832,7 +4822,7 @@ html {
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         position: absolute;
         background: #F3BC17;
         width: 211px;
@@ -4851,14 +4841,14 @@ html {
     }
 
     /*form content*/
-    .input1, .input2, .input3, .input4{
+    .input1, .input2, .input3, .input4 {
         position: absolute;
         background: rgba(217, 217, 217, 0.21);
         border-radius: 34px;
         border: 2px solid rgba(217, 217, 217, 0.21);
 
         /*text*/
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -4867,7 +4857,7 @@ html {
     }
 
     /*name*/
-    .input1{
+    .input1 {
         width: 354px;
         height: 34px;
         padding: 10px 25px 10px 25px;
@@ -4876,7 +4866,7 @@ html {
     }
 
     /*Email*/
-    .input2{
+    .input2 {
         width: 354px;
         height: 34px;
         left: 958px;
@@ -4885,7 +4875,7 @@ html {
     }
 
     /*Subject*/
-    .input3{
+    .input3 {
         width: 594px;
         height: 34px;
         left: 527px;
@@ -4894,7 +4884,7 @@ html {
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         width: 594px;
         height: 223px;
         left: 527px;
@@ -4903,7 +4893,7 @@ html {
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         left: 42px;
         top: -49px;
         position: absolute;
@@ -4912,7 +4902,6 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*Customized footer*/
     footer {
         position: absolute;
@@ -4934,13 +4923,13 @@ html {
     }
 
     /*footer img*/
-    .fImg1, .fImg2, .fImg3, .fImg4{
+    .fImg1, .fImg2, .fImg3, .fImg4 {
         width: 60px;
         height: 60px;
     }
 
     /*footer text*/
-    .footertext{
+    .footertext {
         position: absolute;
         bottom: -25px;
         font-style: normal;
@@ -4952,19 +4941,19 @@ html {
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 9px;
         position: absolute;
     }
 
 }
+
 /* 321 - 375 */
-@media all and (max-width: 375px) {
+@media (max-width: 376px) {
 
     /*=======================================================================================================*/
     /*TITLES*/
     /*=======================================================================================================*/
-
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
         position: relative;
@@ -4979,7 +4968,11 @@ html {
 
     }
 
-    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .TT1 {
+        color: #1C691E;
+    }
+
+    /*!*titles: About me, Service, Skills, Education, Projects, Contact me*!
     .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
         position: relative;
         font-size: 46px;
@@ -4989,8 +4982,7 @@ html {
         text-align: center;
         top: -34px;
 
-    }
-
+    }*/
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .ST1, .ST2, .ST3, .ST4, .ST5, .ST6 {
         font-size: 46px;
@@ -5003,8 +4995,6 @@ html {
     /*=======================================================================================================*/
     /*HEADER*/
     /*=======================================================================================================*/
-
-
     /*set list inline*/
     header > nav > ul > li {
         display: inline-block;
@@ -5041,7 +5031,6 @@ html {
     /*=======================================================================================================*/
     /*PAGE 1*/
     /*=======================================================================================================*/
-
     /*first page*/
     .mainpage {
         width: 100vw;
@@ -5097,7 +5086,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         border: 1px solid #F3BC17;
         background-color: #F3BC17;
         width: 80px;
@@ -5129,13 +5118,13 @@ html {
         border: none;
     }
 
-    .hireme:hover{
+    .hireme:hover {
         height: 45px;
         transform: translateY(3px);
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -5145,7 +5134,7 @@ html {
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 24px;
         height: 24px;
     }
@@ -5154,7 +5143,6 @@ html {
     /*=======================================================================================================*/
     /*ABOUT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Hello*/
     .hello {
         color: white;
@@ -5162,7 +5150,7 @@ html {
         right: 644px;
         top: 173px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -5178,7 +5166,7 @@ html {
         right: 370px;
         top: 203px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -5188,7 +5176,7 @@ html {
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -5223,7 +5211,7 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         background: #F3BC17;
         width: 200px;
         height: 43px;
@@ -5244,7 +5232,7 @@ html {
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         position: absolute;
         right: 661px;
         bottom: 99px;
@@ -5257,7 +5245,7 @@ html {
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         position: absolute;
         right: 453px;
         bottom: 99px;
@@ -5270,7 +5258,7 @@ html {
     }
 
     /*my image*/
-    .imgmy{
+    .imgmy {
         position: absolute;
         width: 304px;
         height: 428px;
@@ -5280,7 +5268,7 @@ html {
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         position: absolute;
         border: 8px solid #F3BC17;
         left: 202px;
@@ -5288,10 +5276,10 @@ html {
         width: 341px;
         height: 463px;
     }
+
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
         font-size: 16px;
@@ -5372,7 +5360,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -5388,7 +5376,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -5404,7 +5392,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -5420,7 +5408,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -5436,7 +5424,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -5446,7 +5434,7 @@ html {
     }
 
     /*icon images*/
-    .img1, .img2, .img3, .img4, .img5{
+    .img1, .img2, .img3, .img4, .img5 {
         position: absolute;
         left: 257px;
         top: 7px;
@@ -5455,7 +5443,7 @@ html {
     }
 
     /*style line for web designing*/
-    .syl1{
+    .syl1 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -5466,7 +5454,7 @@ html {
     }
 
     /*style line for Customization*/
-    .syl2{
+    .syl2 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -5477,7 +5465,7 @@ html {
     }
 
     /*style line for web development*/
-    .syl3{
+    .syl3 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -5488,7 +5476,7 @@ html {
     }
 
     /*style line for UI/UX design*/
-    .syl4{
+    .syl4 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -5499,7 +5487,7 @@ html {
     }
 
     /*style line for mobile app development*/
-    .syl5{
+    .syl5 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -5512,7 +5500,6 @@ html {
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         font-size: 24px;
@@ -5536,7 +5523,7 @@ html {
         margin: auto;
         left: 103px;
         top: 526px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -5558,7 +5545,7 @@ html {
     }
 
     /*language img1*/
-    .lang1img{
+    .lang1img {
         position: absolute;
         width: 74px;
         height: 71px;
@@ -5568,7 +5555,7 @@ html {
     }
 
     /*language img2*/
-    .lang2img{
+    .lang2img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5577,7 +5564,7 @@ html {
     }
 
     /*language img3*/
-    .lang3img{
+    .lang3img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5586,7 +5573,7 @@ html {
     }
 
     /*language img4*/
-    .lang4img{
+    .lang4img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5595,7 +5582,7 @@ html {
     }
 
     /*language img5*/
-    .lang5img{
+    .lang5img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5604,7 +5591,7 @@ html {
     }
 
     /*language img6*/
-    .lang6img{
+    .lang6img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5613,7 +5600,7 @@ html {
     }
 
     /*language img7*/
-    .lang7img{
+    .lang7img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -5622,7 +5609,7 @@ html {
     }
 
     /*language img8*/
-    .lang8img{
+    .lang8img {
         position: absolute;
         width: 180px;
         height: 90px;
@@ -5631,21 +5618,21 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         position: absolute;
         left: -50px;
         top: 1px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         position: absolute;
         left: -50px;
         top: -98px;
     }
 
     /*tool img1*/
-    .tool1img{
+    .tool1img {
         position: absolute;
         left: 167px;
         top: 124px;
@@ -5654,7 +5641,7 @@ html {
     }
 
     /*tool img2*/
-    .tool2img{
+    .tool2img {
         position: absolute;
         left: 277px;
         top: 124px;
@@ -5663,7 +5650,7 @@ html {
     }
 
     /*tool img3*/
-    .tool3img{
+    .tool3img {
         position: absolute;
         left: 387px;
         top: 124px;
@@ -5672,7 +5659,7 @@ html {
     }
 
     /*tool img4*/
-    .tool4img{
+    .tool4img {
         position: absolute;
         left: 497px;
         top: 124px;
@@ -5681,7 +5668,7 @@ html {
     }
 
     /*tool img5*/
-    .tool5img{
+    .tool5img {
         position: absolute;
         left: 607px;
         top: 124px;
@@ -5690,7 +5677,7 @@ html {
     }
 
     /*tool img6*/
-    .tool6img{
+    .tool6img {
         position: absolute;
         left: 717px;
         top: 124px;
@@ -5699,14 +5686,14 @@ html {
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         position: absolute;
         left: -50px;
         top: 485px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         position: absolute;
         width: 532.01px;
         height: 0;
@@ -5718,7 +5705,7 @@ html {
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -5729,7 +5716,7 @@ html {
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -5740,7 +5727,7 @@ html {
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -5751,7 +5738,7 @@ html {
     }
 
     /*numbers in box*/
-    .n1, .n2, .n3{
+    .n1, .n2, .n3 {
         position: absolute;
         width: 51px;
         height: 50px;
@@ -5800,7 +5787,7 @@ html {
     }
 
     /*set style lines*/
-    .line1, .line2, .line3{
+    .line1, .line2, .line3 {
         position: absolute;
         width: 35px;
         height: 0px;
@@ -5811,7 +5798,7 @@ html {
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         position: absolute;
         width: 303.01px;
         height: 0px;
@@ -5822,7 +5809,7 @@ html {
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         position: absolute;
         width: 70px;
         height: 0px;
@@ -5831,19 +5818,19 @@ html {
         background-color: #FFFFFF;
         border: 2px solid #F3BC17;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
     /*Description Education evels*/
-    .E1, .E2, .E3, .E4, .E5{
+    .E1, .E2, .E3, .E4, .E5 {
         color: white;
         position: absolute;
         margin: auto;
         left: 0;
         right: 0;
         top: 13px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -5912,7 +5899,7 @@ html {
         text-align: center;
     }
 
-    .edutree{
+    .edutree {
         position: absolute;
         width: 511px;
         height: 0px;
@@ -5924,7 +5911,7 @@ html {
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -5935,7 +5922,7 @@ html {
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -5946,7 +5933,7 @@ html {
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -5957,7 +5944,7 @@ html {
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -5968,7 +5955,7 @@ html {
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -5979,7 +5966,7 @@ html {
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -5990,7 +5977,7 @@ html {
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -6001,7 +5988,7 @@ html {
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -6012,7 +5999,7 @@ html {
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -6023,7 +6010,7 @@ html {
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -6033,17 +6020,18 @@ html {
         border-radius: 100%;
     }
 
-    .adjustEdu{
+    .adjustEdu {
         position: absolute;
         left: 0;
         right: 0;
         top: -19px;
     }
+
     /*=======================================================================================================*/
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -6053,7 +6041,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -6064,7 +6052,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -6074,7 +6062,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -6084,7 +6072,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -6095,7 +6083,6 @@ html {
 
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         font-size: 24px;
@@ -6109,7 +6096,7 @@ html {
     }
 
     /*Button Github*/
-    .github{
+    .github {
         background: #F3BC17;
         width: 150px;
         height: 43px;
@@ -6132,7 +6119,6 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Have a Project......*/
     .contactP1 {
         font-size: 22px;
@@ -6155,7 +6141,7 @@ html {
     }
 
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         position: absolute;
         text-align: center;
         left: 95px;
@@ -6212,7 +6198,7 @@ html {
     }
 
     /*contact details image1*/
-    .imgC1{
+    .imgC1 {
         position: absolute;
         top: 346px;
         left: 170px;
@@ -6221,7 +6207,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC2{
+    .imgC2 {
         position: absolute;
         top: 446px;
         left: 170px;
@@ -6230,7 +6216,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC3{
+    .imgC3 {
         position: absolute;
         top: 546px;
         left: 170px;
@@ -6239,7 +6225,7 @@ html {
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         position: absolute;
         background: #F3BC17;
         width: 211px;
@@ -6258,14 +6244,14 @@ html {
     }
 
     /*form content*/
-    .input1, .input2, .input3, .input4{
+    .input1, .input2, .input3, .input4 {
         position: absolute;
         background: rgba(217, 217, 217, 0.21);
         border-radius: 34px;
         border: 2px solid rgba(217, 217, 217, 0.21);
 
         /*text*/
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -6274,7 +6260,7 @@ html {
     }
 
     /*name*/
-    .input1{
+    .input1 {
         width: 354px;
         height: 34px;
         padding: 10px 25px 10px 25px;
@@ -6283,7 +6269,7 @@ html {
     }
 
     /*Email*/
-    .input2{
+    .input2 {
         width: 354px;
         height: 34px;
         left: 958px;
@@ -6292,7 +6278,7 @@ html {
     }
 
     /*Subject*/
-    .input3{
+    .input3 {
         width: 594px;
         height: 34px;
         left: 527px;
@@ -6301,7 +6287,7 @@ html {
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         width: 594px;
         height: 223px;
         left: 527px;
@@ -6310,7 +6296,7 @@ html {
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         left: 42px;
         top: -49px;
         position: absolute;
@@ -6319,7 +6305,6 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*Customized footer*/
     footer {
         position: absolute;
@@ -6341,13 +6326,13 @@ html {
     }
 
     /*footer img*/
-    .fImg1, .fImg2, .fImg3, .fImg4{
+    .fImg1, .fImg2, .fImg3, .fImg4 {
         width: 60px;
         height: 60px;
     }
 
     /*footer text*/
-    .footertext{
+    .footertext {
         position: absolute;
         bottom: -25px;
         font-style: normal;
@@ -6359,19 +6344,19 @@ html {
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 9px;
         position: absolute;
     }
 
 }
+
 /* 210 - 320 */
 @media all and (min-width: 210px) and (max-width: 320px) {
 
     /*=======================================================================================================*/
     /*TITLES*/
     /*=======================================================================================================*/
-
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
     .T1, .T2, .T3, .T4, .T5, .T6 {
         position: relative;
@@ -6414,12 +6399,9 @@ html {
     }
 
     /*=======================================================================================================*/
-
-
     /*=======================================================================================================*/
     /*HEADER*/
     /*=======================================================================================================*/
-
     /*Customized headding*/
     header {
         background: transparent;
@@ -6470,7 +6452,6 @@ html {
     /*=======================================================================================================*/
     /*PAGE 1*/
     /*=======================================================================================================*/
-
     /*first page*/
     .mainpage {
         width: 100vw;
@@ -6526,7 +6507,7 @@ html {
     }
 
     /*line*/
-    .follDiv{
+    .follDiv {
         border: 1px solid #F3BC17;
         background-color: #F3BC17;
         width: 80px;
@@ -6558,13 +6539,13 @@ html {
         border: none;
     }
 
-    .hireme:hover{
+    .hireme:hover {
         height: 45px;
         transform: translateY(3px);
     }
 
     /*image*/
-    .imgp1{
+    .imgp1 {
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -6574,7 +6555,7 @@ html {
     }
 
     /*social media image*/
-    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7{
+    .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
         width: 24px;
         height: 24px;
     }
@@ -6583,7 +6564,6 @@ html {
     /*=======================================================================================================*/
     /*ABOUT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Hello*/
     .hello {
         color: white;
@@ -6591,7 +6571,7 @@ html {
         right: 644px;
         top: 173px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -6607,7 +6587,7 @@ html {
         right: 370px;
         top: 203px;
         margin: auto;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -6617,7 +6597,7 @@ html {
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -6652,7 +6632,7 @@ html {
     }
 
     /*Button downlod CV*/
-    .dwnlod{
+    .dwnlod {
         background: #F3BC17;
         width: 200px;
         height: 43px;
@@ -6673,7 +6653,7 @@ html {
     }
 
     /*about list*/
-    .list1{
+    .list1 {
         position: absolute;
         right: 661px;
         bottom: 99px;
@@ -6686,7 +6666,7 @@ html {
     }
 
     /*details list*/
-    .list2{
+    .list2 {
         position: absolute;
         right: 453px;
         bottom: 99px;
@@ -6699,7 +6679,7 @@ html {
     }
 
     /*my image*/
-    .imgmy{
+    .imgmy {
         position: absolute;
         width: 304px;
         height: 428px;
@@ -6709,7 +6689,7 @@ html {
     }
 
     /*image frame*/
-    .myIMGFrame{
+    .myIMGFrame {
         position: absolute;
         border: 8px solid #F3BC17;
         left: 202px;
@@ -6717,10 +6697,10 @@ html {
         width: 341px;
         height: 463px;
     }
+
     /*=======================================================================================================*/
     /*SERVICE SECTION*/
     /*=======================================================================================================*/
-
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
         font-size: 16px;
@@ -6801,7 +6781,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -6817,7 +6797,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -6833,7 +6813,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -6849,7 +6829,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -6865,7 +6845,7 @@ html {
         position: absolute;
         top: 47px;
         left: 42px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 16px;
@@ -6875,7 +6855,7 @@ html {
     }
 
     /*icon images*/
-    .img1, .img2, .img3, .img4, .img5{
+    .img1, .img2, .img3, .img4, .img5 {
         position: absolute;
         left: 257px;
         top: 7px;
@@ -6884,7 +6864,7 @@ html {
     }
 
     /*style line for web designing*/
-    .syl1{
+    .syl1 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -6895,7 +6875,7 @@ html {
     }
 
     /*style line for Customization*/
-    .syl2{
+    .syl2 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -6906,7 +6886,7 @@ html {
     }
 
     /*style line for web development*/
-    .syl3{
+    .syl3 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -6917,7 +6897,7 @@ html {
     }
 
     /*style line for UI/UX design*/
-    .syl4{
+    .syl4 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -6928,7 +6908,7 @@ html {
     }
 
     /*style line for mobile app development*/
-    .syl5{
+    .syl5 {
         position: absolute;
         width: 389px;
         height: 0px;
@@ -6941,7 +6921,6 @@ html {
     /*=======================================================================================================*/
     /*SKILLS SECTION*/
     /*=======================================================================================================*/
-
     /*TiTle for Languages*/
     .Lang {
         font-size: 24px;
@@ -6965,7 +6944,7 @@ html {
         margin: auto;
         left: 103px;
         top: 526px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
@@ -6987,7 +6966,7 @@ html {
     }
 
     /*language img1*/
-    .lang1img{
+    .lang1img {
         position: absolute;
         width: 74px;
         height: 71px;
@@ -6997,7 +6976,7 @@ html {
     }
 
     /*language img2*/
-    .lang2img{
+    .lang2img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7006,7 +6985,7 @@ html {
     }
 
     /*language img3*/
-    .lang3img{
+    .lang3img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7015,7 +6994,7 @@ html {
     }
 
     /*language img4*/
-    .lang4img{
+    .lang4img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7024,7 +7003,7 @@ html {
     }
 
     /*language img5*/
-    .lang5img{
+    .lang5img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7033,7 +7012,7 @@ html {
     }
 
     /*language img6*/
-    .lang6img{
+    .lang6img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7042,7 +7021,7 @@ html {
     }
 
     /*language img7*/
-    .lang7img{
+    .lang7img {
         position: absolute;
         width: 60px;
         height: 60px;
@@ -7051,7 +7030,7 @@ html {
     }
 
     /*language img8*/
-    .lang8img{
+    .lang8img {
         position: absolute;
         width: 180px;
         height: 90px;
@@ -7060,21 +7039,21 @@ html {
     }
 
     /*div for adjust image line 1*/
-    .langdiv1{
+    .langdiv1 {
         position: absolute;
         left: -50px;
         top: 1px;
     }
 
     /*div for adjust image line 2*/
-    .langdiv2{
+    .langdiv2 {
         position: absolute;
         left: -50px;
         top: -98px;
     }
 
     /*tool img1*/
-    .tool1img{
+    .tool1img {
         position: absolute;
         left: 167px;
         top: 124px;
@@ -7083,7 +7062,7 @@ html {
     }
 
     /*tool img2*/
-    .tool2img{
+    .tool2img {
         position: absolute;
         left: 277px;
         top: 124px;
@@ -7092,7 +7071,7 @@ html {
     }
 
     /*tool img3*/
-    .tool3img{
+    .tool3img {
         position: absolute;
         left: 387px;
         top: 124px;
@@ -7101,7 +7080,7 @@ html {
     }
 
     /*tool img4*/
-    .tool4img{
+    .tool4img {
         position: absolute;
         left: 497px;
         top: 124px;
@@ -7110,7 +7089,7 @@ html {
     }
 
     /*tool img5*/
-    .tool5img{
+    .tool5img {
         position: absolute;
         left: 607px;
         top: 124px;
@@ -7119,7 +7098,7 @@ html {
     }
 
     /*tool img6*/
-    .tool6img{
+    .tool6img {
         position: absolute;
         left: 717px;
         top: 124px;
@@ -7128,14 +7107,14 @@ html {
     }
 
     /*div for adjust image line 3*/
-    .tooldiv{
+    .tooldiv {
         position: absolute;
         left: -50px;
         top: 485px;
     }
 
     /*line break*/
-    .linebreak{
+    .linebreak {
         position: absolute;
         width: 532.01px;
         height: 0;
@@ -7147,7 +7126,7 @@ html {
     }
 
     /*side div 1*/
-    .d1{
+    .d1 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -7158,7 +7137,7 @@ html {
     }
 
     /*side div 2*/
-    .d2{
+    .d2 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -7169,7 +7148,7 @@ html {
     }
 
     /*side div 3*/
-    .d3{
+    .d3 {
         position: absolute;
         width: 190px;
         height: 150px;
@@ -7180,7 +7159,7 @@ html {
     }
 
     /*numbers in box*/
-    .n1, .n2, .n3{
+    .n1, .n2, .n3 {
         position: absolute;
         width: 51px;
         height: 50px;
@@ -7229,7 +7208,7 @@ html {
     }
 
     /*set style lines*/
-    .line1, .line2, .line3{
+    .line1, .line2, .line3 {
         position: absolute;
         width: 35px;
         height: 0px;
@@ -7240,7 +7219,7 @@ html {
     }
 
     /*title line(Language and framework)*/
-    .titleLine1{
+    .titleLine1 {
         position: absolute;
         width: 303.01px;
         height: 0px;
@@ -7251,7 +7230,7 @@ html {
     }
 
     /*title line(tools)*/
-    .titleLine2{
+    .titleLine2 {
         position: absolute;
         width: 70px;
         height: 0px;
@@ -7260,19 +7239,19 @@ html {
         background-color: #FFFFFF;
         border: 2px solid #F3BC17;
     }
+
     /*=======================================================================================================*/
     /*EDUCATION SECTION*/
     /*=======================================================================================================*/
-
     /*Description Education evels*/
-    .E1, .E2, .E3, .E4, .E5{
+    .E1, .E2, .E3, .E4, .E5 {
         color: white;
         position: absolute;
         margin: auto;
         left: 0;
         right: 0;
         top: 13px;
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -7341,7 +7320,7 @@ html {
         text-align: center;
     }
 
-    .edutree{
+    .edutree {
         position: absolute;
         width: 511px;
         height: 0px;
@@ -7353,7 +7332,7 @@ html {
     }
 
     /*section1 (Digree)*/
-    .EE1{
+    .EE1 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -7364,7 +7343,7 @@ html {
     }
 
     /*section2 (IT dip)*/
-    .EE2{
+    .EE2 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -7375,7 +7354,7 @@ html {
     }
 
     /*section3 (Eng dip)*/
-    .EE3{
+    .EE3 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -7386,7 +7365,7 @@ html {
     }
 
     /*section4 (A/L)*/
-    .EE4{
+    .EE4 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -7397,7 +7376,7 @@ html {
     }
 
     /*section5 (O/L)*/
-    .EE5{
+    .EE5 {
         box-sizing: border-box;
         position: absolute;
         width: 428px;
@@ -7408,7 +7387,7 @@ html {
     }
 
     /*circle1*/
-    .cir1{
+    .cir1 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -7419,7 +7398,7 @@ html {
     }
 
     /*circle2*/
-    .cir2{
+    .cir2 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -7430,7 +7409,7 @@ html {
     }
 
     /*circle3*/
-    .cir3{
+    .cir3 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -7441,7 +7420,7 @@ html {
     }
 
     /*circle4*/
-    .cir4{
+    .cir4 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -7452,7 +7431,7 @@ html {
     }
 
     /*circle5*/
-    .cir5{
+    .cir5 {
         position: absolute;
         width: 10px;
         height: 10px;
@@ -7462,17 +7441,18 @@ html {
         border-radius: 100%;
     }
 
-    .adjustEdu{
+    .adjustEdu {
         position: absolute;
         left: 0;
         right: 0;
         top: -19px;
     }
+
     /*=======================================================================================================*/
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
-    .imgPro1{
+    .imgPro1 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -7482,7 +7462,7 @@ html {
     }
 
     /*Image Hotel management*/
-    .imgPro2{
+    .imgPro2 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -7493,7 +7473,7 @@ html {
     }
 
     /*Image Hostel management*/
-    .imgPro3{
+    .imgPro3 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -7503,7 +7483,7 @@ html {
     }
 
     /*Image SuperMarket management*/
-    .imgPro4{
+    .imgPro4 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -7513,7 +7493,7 @@ html {
     }
 
     /*Image CarParking management*/
-    .imgPro5{
+    .imgPro5 {
         position: absolute;
         width: 389px;
         height: 257px;
@@ -7524,7 +7504,6 @@ html {
 
     /*=======================================================================================================*/
     /*GITHUB LINK*/
-
     /*Github link box paragraph*/
     .githubP {
         font-size: 24px;
@@ -7538,7 +7517,7 @@ html {
     }
 
     /*Button Github*/
-    .github{
+    .github {
         background: #F3BC17;
         width: 150px;
         height: 43px;
@@ -7561,7 +7540,6 @@ html {
     /*=======================================================================================================*/
     /*CONTACT ME SECTION*/
     /*=======================================================================================================*/
-
     /*Have a Project......*/
     .contactP1 {
         font-size: 22px;
@@ -7584,7 +7562,7 @@ html {
     }
 
     /*adjust paragraph*/
-    .contactD1{
+    .contactD1 {
         position: absolute;
         text-align: center;
         left: 95px;
@@ -7641,7 +7619,7 @@ html {
     }
 
     /*contact details image1*/
-    .imgC1{
+    .imgC1 {
         position: absolute;
         top: 346px;
         left: 170px;
@@ -7650,7 +7628,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC2{
+    .imgC2 {
         position: absolute;
         top: 446px;
         left: 170px;
@@ -7659,7 +7637,7 @@ html {
     }
 
     /*contact details image*/
-    .imgC3{
+    .imgC3 {
         position: absolute;
         top: 546px;
         left: 170px;
@@ -7668,7 +7646,7 @@ html {
     }
 
     /*Button send Massages*/
-    .send{
+    .send {
         position: absolute;
         background: #F3BC17;
         width: 211px;
@@ -7687,14 +7665,14 @@ html {
     }
 
     /*form content*/
-    .input1, .input2, .input3, .input4{
+    .input1, .input2, .input3, .input4 {
         position: absolute;
         background: rgba(217, 217, 217, 0.21);
         border-radius: 34px;
         border: 2px solid rgba(217, 217, 217, 0.21);
 
         /*text*/
-        font-family: 'Encode Sans Semi Expanded',sans-serif;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -7703,7 +7681,7 @@ html {
     }
 
     /*name*/
-    .input1{
+    .input1 {
         width: 354px;
         height: 34px;
         padding: 10px 25px 10px 25px;
@@ -7712,7 +7690,7 @@ html {
     }
 
     /*Email*/
-    .input2{
+    .input2 {
         width: 354px;
         height: 34px;
         left: 958px;
@@ -7721,7 +7699,7 @@ html {
     }
 
     /*Subject*/
-    .input3{
+    .input3 {
         width: 594px;
         height: 34px;
         left: 527px;
@@ -7730,7 +7708,7 @@ html {
     }
 
     /*Massage*/
-    .input4{
+    .input4 {
         width: 594px;
         height: 223px;
         left: 527px;
@@ -7739,7 +7717,7 @@ html {
     }
 
     /*adjust form*/
-    .adjustForm{
+    .adjustForm {
         left: 42px;
         top: -49px;
         position: absolute;
@@ -7748,7 +7726,6 @@ html {
     /*=======================================================================================================*/
     /*FOOTER*/
     /*=======================================================================================================*/
-
     /*Customized footer*/
     footer {
         position: absolute;
@@ -7770,13 +7747,13 @@ html {
     }
 
     /*footer img*/
-    .fImg1, .fImg2, .fImg3, .fImg4{
+    .fImg1, .fImg2, .fImg3, .fImg4 {
         width: 60px;
         height: 60px;
     }
 
     /*footer text*/
-    .footertext{
+    .footertext {
         position: absolute;
         bottom: -25px;
         font-style: normal;
@@ -7788,7 +7765,7 @@ html {
     }
 
     /*adjust footer image*/
-    .footerIMG{
+    .footerIMG {
         top: 9px;
         position: absolute;
     }
