@@ -920,18 +920,12 @@
 
 <script>
     $("#btnCustomer").click(function () {
-        /*
-                alert("Customer Saved Succussfully...!");
-        */
 
         let customerID = $("#txtCustomerID").val();
         let customerName = $("#txtCustomerName").val();
         let customerAddress = $("#txtCustomerAddress").val();
         let customerSalary = $("#txtCustomerSalary").val();
 
-/*
-        alert(customerID + " " + customerName + " " + customerAddress + " " + customerSalary);
-*/
 
         var Customer = {
             id: customerID,
@@ -940,7 +934,10 @@
             salary: customerSalary
         }
 
-        console.log(Customer);
+        var Customers = [];
+
+        Customers.push(Customer);
+        console.log(Customers);
 
     });
 </script>
