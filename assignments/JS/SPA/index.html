@@ -275,6 +275,10 @@
                 </div>
             </div>
 
+            <!-- Button trigger modal -->
+            <button id="getAll" type="button" class="btn btn-info" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal5">Get All Customer
+            </button>
         </div>
     </section>
 
@@ -290,38 +294,7 @@
                 <th scope="col">Salary</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th>C001</th>
-                <td>Gunasekara</td>
-                <td>Galle</td>
-                <td>50 000</td>
-            </tr>
-            <tr>
-                <th>C002</th>
-                <td>Punsara</td>
-                <td>Ahangama</td>
-                <td>100 000</td>
-            </tr>
-            <tr>
-                <th>C003</th>
-                <td>Shehan</td>
-                <td>Matara</td>
-                <td>50 000</td>
-            </tr>
-            <tr>
-                <th>C004</th>
-                <td>Thisara</td>
-                <td>Galle</td>
-                <td>30 000</td>
-            </tr>
-            <tr>
-                <th>C005</th>
-                <td>Senanayake</td>
-                <td>Kaluthara</td>
-                <td>90 000</td>
-            </tr>
-            </tbody>
+            <tbody id="tblCustomer"></tbody>
         </table>
     </section>
 
@@ -919,6 +892,8 @@
 </script>
 
 <script>
+    var Customers = [];
+
     $("#btnCustomer").click(function () {
 
         let customerID = $("#txtCustomerID").val();
@@ -926,20 +901,37 @@
         let customerAddress = $("#txtCustomerAddress").val();
         let customerSalary = $("#txtCustomerSalary").val();
 
-
-        var Customer = {
+        var CustomerObject = {
             id: customerID,
             name: customerName,
             address: customerAddress,
             salary: customerSalary
         }
 
-        var Customers = [];
-
-        Customers.push(Customer);
+        Customers.push(CustomerObject);
         console.log(Customers);
 
+        loadAllCustomers();
+
     });
+
+    $("#getAll").click(function () {
+        loadAllCustomers();
+
+    });
+
+    function loadAllCustomers(){
+        $("#tblCustomer").empty();
+
+        for (var customer of Customers){
+           /* console.log(Customer);*/
+
+            var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
+
+            $("#tblCustomer").append(row);
+        }
+    }
+
 </script>
 
 </body>
