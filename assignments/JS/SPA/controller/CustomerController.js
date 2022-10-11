@@ -17,7 +17,22 @@ $("#btnSaveCustomer").click(function () {
 
     loadAllCustomers();
     bindRowClickEvents();
+    /*loadAllCustomersForOption();*/
 
+});
+
+$("#btnDeleteCustomer").click(function () {
+    let deleteID = $("#txtCustomerID").val();
+
+    let option = confirm("Do you really want to delete customer id :" + deleteID);
+    if (option){
+        if (deleteCustomer(deleteID)) {
+            alert("Customer Successfully Deleted..");
+            setTextfieldValues("", "", "", "");
+        } else {
+            alert("No such customer to delete. please check the id");
+        }
+    }
 });
 
 /*loard all*/
@@ -47,7 +62,9 @@ function bindRowClickEvents() {
         let address = $(this).children(":eq(2)").text();
         let salary = $(this).children(":eq(3)").text();
 
+/*
         console.log(id, name, address, salary);
+*/
 
         /*set table details to text field*/
         $('#txtCustomerID').val(id);
@@ -55,7 +72,49 @@ function bindRowClickEvents() {
         $('#txtCustomerAddress').val(address);
         $('#txtCustomerSalary').val(salary);
     });
+}
 
+$("#txtCustomerID").on('keyup', function (event) {
+    if (event.code == "Enter") {
+        let typedId = $("#txtCustomerID").val();
+        let customer = searchCustomer(typedId);
+        if (customer != null) {
+            setTextfieldValues(customer.id, customer.name, customer.address, customer.salary);
+        } else {
+            alert("There is no cusotmer available for that " + typedId);
+            setTextfieldValues("", "", "", "");
+        }
+    }
+});
+
+function setTextfieldValues(id, name, address, salary) {
+    $("#txtCustomerID").val(id);
+    $("#txtCustomerName").val(name);
+    $("#txtCustomerAddress").val(address);
+    $("#txtCustomerSalary").val(salary);
+}
+
+function searchCustomer(cusID) {
+    for (let Customer of Customers) {
+        if (Customer.id == cusID) {
+            return Customer;
+        }
+    }
+    return null;
+}
+
+function deleteCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        let indexNumber = customers.indexOf(customer);
+        customers.splice(indexNumber, 1);
+        loadAllCustomers();
+        return true;
+    } else {
+        return false;
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////
     /*validation*/
 
     $("#txtCustomerID").focus();
@@ -197,4 +256,6 @@ function bindRowClickEvents() {
         $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerSalary").val("");
         checkValidity();
     }
-}
+
+
+
