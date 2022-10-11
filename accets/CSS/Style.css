@@ -6789,53 +6789,32 @@ html {
     /*=======================================================================================================*/
     /*TiTle for Languages*/
     .Lang {
-        font-size: 24px;
-        color: #F3BC17;
-        position: absolute;
-        margin: auto;
-        left: 103px;
-        top: 138px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 10px;
+        left: 25px;
+        top: 80px;
     }
 
     /*TiTle for tools*/
     .tools {
-        font-size: 24px;
-        color: #F3BC17;
-        position: absolute;
-        margin: auto;
-        left: 103px;
-        top: 526px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 10px;
+        left: 25px;
+        top: 281px;
     }
 
     /*Span Language*/
     .Lang2 {
-        font-size: 24px;
-        color: white;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*Span tools*/
     .tools2 {
-        font-size: 24px;
-        color: white;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*language img1*/
     .lang1img {
-        position: absolute;
-        width: 74px;
-        height: 71px;
+        width: 43px;
+        height: 40px;
         left: 161px;
         top: 231px;
 
@@ -6843,267 +6822,204 @@ html {
 
     /*language img2*/
     .lang2img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 277px;
+        width: 30px;
+        height: 30px;
+        left: 226px;
         top: 236px;
     }
 
     /*language img3*/
     .lang3img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 394px;
+        width: 30px;
+        height: 30px;
+        left: 286px;
         top: 236px;
     }
 
     /*language img4*/
     .lang4img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 507px;
+        width: 30px;
+        height: 30px;
+        left: 344px;
         top: 236px;
     }
 
     /*language img5*/
     .lang5img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 620px;
+        width: 30px;
+        height: 30px;
+        left: 401px;
         top: 236px;
     }
 
     /*language img6*/
     .lang6img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         left: 167px;
         top: 484px;
     }
 
     /*language img7*/
     .lang7img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 277px;
+        width: 30px;
+        height: 30px;
+        left: 227px;
         top: 484px;
     }
 
     /*language img8*/
     .lang8img {
-        position: absolute;
-        width: 180px;
-        height: 90px;
-        left: 387px;
+        width: 120px;
+        height: 60px;
+        left: 282px;
         top: 467px;
     }
 
     /*div for adjust image line 1*/
     .langdiv1 {
-        position: absolute;
-        left: -50px;
-        top: 1px;
+        left: -139px;
+        top: -92px;
     }
 
     /*div for adjust image line 2*/
     .langdiv2 {
-        position: absolute;
-        left: -50px;
-        top: -98px;
+        left: -138px;
+        top: -278px;
     }
 
     /*tool img1*/
     .tool1img {
-        position: absolute;
         left: 167px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img2*/
     .tool2img {
-        position: absolute;
-        left: 277px;
+        left: 210px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img3*/
     .tool3img {
-        position: absolute;
-        left: 387px;
+        left: 258px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img4*/
     .tool4img {
-        position: absolute;
-        left: 497px;
+        left: 306px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img5*/
     .tool5img {
-        position: absolute;
-        left: 607px;
+        left: 354px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img6*/
     .tool6img {
-        position: absolute;
-        left: 717px;
+        left: 405px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*div for adjust image line 3*/
     .tooldiv {
-        position: absolute;
-        left: -50px;
-        top: 485px;
+        left: -138px;
+        top: 209px;
     }
 
     /*line break*/
     .linebreak {
-        position: absolute;
-        width: 532.01px;
+        width: 279.01px;
         height: 0;
-        left: 585px;
-        top: 410px;
-        border: 3px solid #242424;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-        transform: rotate(-90deg);
+        left: 17px;
+        top: 392px;
+        border: 2px solid #242424;
+        transform: rotate(-360deg);
     }
 
     /*side div 1*/
     .d1 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 382px;
-        top: 215px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 214px;
+        top: 421px;
     }
 
     /*side div 2*/
     .d2 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 89px;
-        top: 215px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 114px;
+        top: 488px;
     }
 
     /*side div 3*/
     .d3 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 382px;
-        top: 435px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 15px;
+        top: 421px;
     }
 
     /*numbers in box*/
     .n1, .n2, .n3 {
-        position: absolute;
-        width: 51px;
-        height: 50px;
-        left: 28px;
-        top: -4px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 50px;
-        color: #F3BC17;
+        left: 12px;
+        top: -12px;
+        font-size: 20px;
     }
 
     /*+ in box*/
     .plus1, .plus2, .plus3 {
-        position: absolute;
-        width: 22px;
-        height: 16px;
-        left: 73px;
+        left: 35px;
         top: -14px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 45px;
-        display: flex;
-        align-items: center;
-        color: #F3BC17;
+        font-size: 24px;
     }
 
     /*instructions for boxes*/
     .completePro, .yearEx, .happyCus {
-        position: absolute;
-        width: 104px;
-        height: 28px;
-        left: 70px;
-        top: 83px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 10px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+        left: 28px;
+        top: 37px;
+        font-size: 9px;
+        line-height: 6px;
     }
 
     /*set style lines*/
     .line1, .line2, .line3 {
-        position: absolute;
-        width: 35px;
-        height: 0px;
-        left: 25px;
-        top: 97px;
-        background-color: #FFFFFF;
-        border: 1.5px solid #FFFFFF;
+        width: 12px;
+        left: 11px;
+        top: 51px;
+        border: 1px solid #FFFFFF;
     }
 
     /*title line(Language and framework)*/
     .titleLine1 {
-        position: absolute;
-        width: 303.01px;
-        height: 0px;
-        left: 105px;
-        top: 173px;
-        background-color: #ffffff;
-        border: 2px solid #F3BC17;
+        width: 136.01px;
+        left: 25px;
+        top: 102px;
+        border: 1px solid #F3BC17;
     }
 
     /*title line(tools)*/
     .titleLine2 {
-        position: absolute;
-        width: 70px;
-        height: 0px;
-        left: 102px;
-        top: 555px;
-        background-color: #FFFFFF;
-        border: 2px solid #F3BC17;
+        width: 28px;
+        left: 26px;
+        top: 304px;
+        border: 1px solid #F3BC17;
     }
 
     /*=======================================================================================================*/
