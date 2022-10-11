@@ -5382,22 +5382,20 @@ html {
 
     /*my image*/
     .imgmy {
-        position: absolute;
-        width: 304px;
-        height: 428px;
-        left: 19px;
-        top: 18px;
+        width: 105px;
+        height: 149px;
+        left: 5px;
+        top: 4px;
 
     }
 
     /*image frame*/
     .myIMGFrame {
-        position: absolute;
-        border: 8px solid #F3BC17;
-        left: 202px;
-        top: 176px;
-        width: 341px;
-        height: 463px;
+        border: 4px solid #F3BC17;
+        left: 20px;
+        top: 72px;
+        width: 115px;
+        height: 157px;
     }
 
     /*=======================================================================================================*/
@@ -6481,37 +6479,22 @@ html {
     /*TITLES*/
     /*=======================================================================================================*/
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .T1, .T2, .T3, .T4, .T5, .T6 {
-        position: relative;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 800;
-        color: rgba(102, 102, 102, 0.13);
-        line-height: 80px;
-        margin: auto;
-        text-align: center;
-        top: 33px;
+    .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
+        font-size: 44px;
+        top: -9px;
+    }
+
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6, .TT7 {
+        font-size: 24px;
+        top: -64px;
+        color: #ffffff;
 
     }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
-        position: relative;
-        font-size: 46px;
-        font-style: normal;
-        color: #FFFFFFFF;
-        margin: auto;
-        text-align: center;
-        top: -34px;
-
-    }
-
-    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .ST1, .ST2, .ST3, .ST4, .ST5, .ST6 {
-        font-size: 46px;
-        color: #F3BC17;
-        margin: auto;
-        text-align: center;
+    .ST1, .ST2, .ST3, .ST4, .ST5, .ST6, .ST7 {
+        font-size: 24px;
     }
 
     /*=======================================================================================================*/
@@ -6604,136 +6587,81 @@ html {
     /*=======================================================================================================*/
     /*Hello*/
     .hello {
-        color: white;
-        position: absolute;
-        right: 644px;
-        top: 173px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
+        right: 131px;
+        top: 216px;
+        font-size: 10px;
 
     }
 
     /*I AM.....*/
     .name {
-        color: white;
-        position: absolute;
-        right: 370px;
-        top: 203px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
+        right: 25px;
+        top: 228px;
+        font-size: 10px;
     }
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
-        color: #F3BC17;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*About me Paragraph*/
     .AboutP {
-        font-size: 16px;
-        position: absolute;
-        color: #ACACAC;
-        margin: auto;
-        top: 252px;
-        right: 348px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
+        font-size: 6.8px;
+        top: 257px;
+        right: 7px;
     }
 
     /*About me Signature*/
     .Signature {
-        font-size: 48px;
-        color: #F3BC17;
-        margin: auto;
-        position: absolute;
-        right: 137px;
-        top: 330px;
-        font-family: 'Arizonia', cursive;
-        font-weight: normal;
+        font-size: 17px;
+        right: 10px;
+        top: 292px;
     }
 
     /*Button downlod CV*/
     .dwnlod {
-        background: #F3BC17;
-        width: 200px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
-        text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
+        width: 169px;
+        height: 33px;
+        font-size: 14px;
         left: 0;
-        right: -287px;
+        right: 0;
         top: 0;
-        bottom: -591px;
-        margin: auto;
-        border: none;
+        bottom: -465px;
     }
 
     /*about list*/
     .list1 {
-        position: absolute;
-        right: 661px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 550;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 199px;
+        bottom: 104px;
+        font-size: 10px;
+        line-height: 24px;
     }
 
     /*details list*/
     .list2 {
-        position: absolute;
-        right: 453px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 66px;
+        bottom: 104px;
+        font-size: 10px;
+        line-height: 24px;
     }
 
     /*my image*/
     .imgmy {
-        position: absolute;
-        width: 304px;
-        height: 428px;
-        left: 19px;
-        top: 18px;
+        width: 105px;
+        height: 149px;
+        left: 5px;
+        top: 4px;
 
     }
 
     /*image frame*/
     .myIMGFrame {
-        position: absolute;
-        border: 8px solid #F3BC17;
-        left: 202px;
-        top: 176px;
-        width: 341px;
-        height: 463px;
+        border: 4px solid #F3BC17;
+        left: 20px;
+        top: 72px;
+        width: 115px;
+        height: 157px;
     }
 
     /*=======================================================================================================*/
