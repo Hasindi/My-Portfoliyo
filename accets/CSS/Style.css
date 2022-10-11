@@ -7257,35 +7257,20 @@ html {
     /*GITHUB LINK*/
     /*Github link box paragraph*/
     .githubP {
-        font-size: 24px;
-        color: rgba(255, 255, 255, 0.5);
-        margin: auto;
-        position: absolute;
-        top: 17px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
+        top: 16px;
     }
 
     /*Button Github*/
     .github {
-        background: #F3BC17;
-        width: 150px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
+        width: 114px;
+        height: 29px;
         text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
+        font-size: 14px;
         left: 0;
         right: 0;
         top: 0;
-        bottom: -64px;
-        margin: auto;
-        border: none;
+        bottom: -58px;
     }
 
     /*=======================================================================================================*/
