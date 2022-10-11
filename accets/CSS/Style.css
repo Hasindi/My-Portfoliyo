@@ -7200,6 +7200,60 @@ html {
     }
 
     /*=======================================================================================================*/
+    /*Asignment SECTION*/
+    /*=======================================================================================================*/
+    .asign1 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 89px;
+    }
+
+    .asign2 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 214px;
+    }
+
+    .asign3 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 338px;
+    }
+
+    .asign4 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 464px;
+    }
+
+    .asignBasic {
+        font-size: 10px;
+        left: 138px;
+        top: 159px;
+    }
+
+    .asignAnim {
+        font-size: 10px;
+        left: 123px;
+        top: 283px;
+    }
+
+    .asignTransi {
+        font-size: 10px;
+        left: 120px;
+        top: 409px;
+    }
+
+    .asignFram {
+        font-size: 10px;
+        left: 120px;
+        top: 532px;
+    }
+    /*=======================================================================================================*/
     /*GITHUB LINK*/
     /*Github link box paragraph*/
     .githubP {
