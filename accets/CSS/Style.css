@@ -6024,7 +6024,7 @@ html {
     /*Customized footer*/
     footer {
         position: absolute;
-        height: 80px;
+        height: 60px;
         width: 100%;
     }
 
@@ -6037,7 +6037,7 @@ html {
 
     /*footer text*/
     .footertext {
-        bottom: -16px;
+        bottom: -15px;
         font-size: 12px;
     }
 
