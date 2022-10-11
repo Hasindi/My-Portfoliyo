@@ -3745,7 +3745,7 @@ html {
 }
 
 /* 425 */
-@media (max-width: 425px) {
+@media (max-width: 426px) {
 
     /*=======================================================================================================*/
     /*TITLES*/
@@ -4756,19 +4756,20 @@ html {
 
     /*set list inline*/
     header > nav > ul > li {
-        padding: 7px;
-        font-size: 8px;
+        padding: 3px;
+        font-size: 9px;
     }
 
     /*Customized navigatins*/
     header > nav {
-        left: -22px;
+        left: -11px;
         top: 33px;
+        margin-right: -14px;
     }
 
     /*name logo*/
     .logo {
-        left: 116px;
+        left: 146px;
         margin-top: -5px;
         font-size: 27px;
     }
@@ -4792,16 +4793,15 @@ html {
 
     /*Follow me on*/
     .followMe {
-        font-size: 10px;
-        right: -44px;
-        top: 198px;
+        right: -23px;
+        top: 196px;
     }
 
     /*line*/
     .follDiv {
         width: 31px;
-        right: 0px;
-        bottom: 408px;
+        right: 3px;
+        bottom: 313px;
     }
 
     /*Button Hire me*/
@@ -4820,7 +4820,7 @@ html {
     .imgp1 {
         gap: 5px;
         right: 14px;
-        bottom: 205px;
+        bottom: 177px;
     }
 
     /*social media image*/
