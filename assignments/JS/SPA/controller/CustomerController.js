@@ -1,5 +1,7 @@
 /*Save*/
-$("#btnCustomer").click(function () {
+$("#btnSaveCustomer").click(function () {
+
+    confirm("Do you want to add this Customer..?");
 
     let customerID = $("#txtCustomerID").val();
     let customerName = $("#txtCustomerName").val();
@@ -48,5 +50,45 @@ function bindRowClickEvents(){
         let salary = $(this).children(":eq(3)").text();
 
         console.log(id, name, address, salary);
+
+        /*set table details to text field*/
+        $('#txtCustomerID').val(id);
+        $('#txtCustomerName').val(name);
+        $('#txtCustomerAddress').val(address);
+        $('#txtCustomerSalary').val(salary);
     });
+
+    $("#txtCustomerID, #txtCustomerName, #txtCustomerAddress,#txtCustomerSalary").on('keydown', function (event){
+
+        if (event.key == "Tab"){
+             event.preventDefault();
+        }
+    });
+
+    $("#txtCustomerID").on('keydown', function (event){
+        if (event.key == "Enter"){
+            $("#txtCustomerName").focus();
+
+        }
+    });
+
+    $("#txtCustomerName").on('keydown', function (event){
+        if (event.key == "Enter"){
+            $("#txtCustomerAddress").focus();
+        }
+    });
+
+    $("#txtCustomerAddress").on('keydown', function (event){
+        if (event.key == "Enter"){
+            $("#txtCustomerSalary").focus();
+        }
+    });
+
+    $("#txtCustomerSalary").on('keydown', function (event){
+        if (event.key == "Enter"){
+           confirm("Do you want to add this Customer..?");
+        }
+    });
+
+
 }
