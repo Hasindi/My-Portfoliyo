@@ -5078,188 +5078,105 @@ html {
     /*TITLES*/
     /*=======================================================================================================*/
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .T1, .T2, .T3, .T4, .T5, .T6 {
-        position: relative;
-        font-size: 72px;
-        font-style: normal;
-        font-weight: 800;
-        color: rgba(102, 102, 102, 0.13);
-        line-height: 80px;
-        margin: auto;
-        text-align: center;
-        top: 33px;
-
+    .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
+        font-size: 38px;
+        top: -9px;
     }
 
-    .TT1 {
-        color: #1C691E;
-    }
-
-    /*!*titles: About me, Service, Skills, Education, Projects, Contact me*!
-    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6 {
-        position: relative;
-        font-size: 46px;
-        font-style: normal;
-        color: #FFFFFFFF;
-        margin: auto;
-        text-align: center;
-        top: -34px;
-
-    }*/
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
-    .ST1, .ST2, .ST3, .ST4, .ST5, .ST6 {
-        font-size: 46px;
-        color: #F3BC17;
-        margin: auto;
-        text-align: center;
+    .TT1, .TT2, .TT3, .TT4, .TT5, .TT6, .TT7 {
+        font-size: 24px;
+        top: -64px;
+        color: #ffffff;
+
     }
 
+    /*titles: About me, Service, Skills, Education, Projects, Contact me*/
+    .ST1, .ST2, .ST3, .ST4, .ST5, .ST6, .ST7 {
+        font-size: 24px;
+    }
 
     /*=======================================================================================================*/
     /*HEADER*/
     /*=======================================================================================================*/
+    /*Customized headding*/
+    header {
+        height: 30px;
+    }
+
     /*set list inline*/
     header > nav > ul > li {
-        display: inline-block;
-        padding: 20px;
-        color: white;
-        font-size: 16px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
+        padding: 7px;
+        font-size: 8px;
     }
 
     /*Customized navigatins*/
     header > nav {
-        position: absolute;
-        right: 40px;
-        top: 0;
+        left: -22px;
+        top: 33px;
     }
 
     /*name logo*/
     .logo {
-        position: absolute;
-        left: 131px;
-        margin-top: 12px;
-        font-family: 'Arizonia', cursive;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 60px;
-        display: flex;
-        align-items: center;
-        color: #F3BC17;
+        left: 116px;
+        margin-top: -5px;
+        font-size: 27px;
     }
 
 
     /*=======================================================================================================*/
     /*PAGE 1*/
     /*=======================================================================================================*/
-    /*first page*/
-    .mainpage {
-        width: 100vw;
-        height: 100vh;
-        background-size: cover;
-        background-image: url("/accets/img/maini.jpg");
-        background-position: center center;
-        background-color: #242424;
-        position: relative;
-    }
-
     /*hii, I am....*/
     .intro1 {
-        font-size: 24px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color: white;
-        margin: auto;
-        text-align: center;
-        position: relative;
-        top: 351px;
+        font-size: 16px;
+        top: 411px;
     }
 
     /*Web Developer*/
     .intro2 {
-        font-size: 64px;
-        color: white;
-        margin: auto;
-        text-align: center;
-        position: relative;
-        top: 366px;
-    }
-
-    /*Developer*/
-    .intro3 {
-        font-size: 64px;
+        font-size: 35px;
+        top: 414px;
         color: #F3BC17;
-        margin: auto;
-        text-align: center;
     }
 
     /*Follow me on*/
     .followMe {
-        font-size: 17px;
-        color: #F3BC17;
-        margin: auto;
-        position: absolute;
-        right: -46px;
-        transform: rotate(90deg);
-        top: 212px;
+        font-size: 10px;
+        right: -44px;
+        top: 198px;
     }
 
     /*line*/
     .follDiv {
-        border: 1px solid #F3BC17;
-        background-color: #F3BC17;
-        width: 80px;
-        transform: rotate(90deg);
-        position: absolute;
-        right: -14px;
-        bottom: 363px;
+        width: 31px;
+        right: 0px;
+        bottom: 408px;
     }
 
     /*Button Hire me*/
     .hireme {
-        background: #F3BC17;
-        width: 171px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 30px;
-        padding-right: 30px;
-        text-align: center;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
-        left: -15px;
+        width: 132px;
+        height: 34px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+        left: 0;
         right: 0;
-        top: 552px;
-        bottom: 0;
-        margin: auto;
-        border: none;
-    }
-
-    .hireme:hover {
-        height: 45px;
-        transform: translateY(3px);
+        top: 481px;
     }
 
     /*image*/
     .imgp1 {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        right: 18px;
-        bottom: 106px;
+        gap: 5px;
+        right: 14px;
+        bottom: 205px;
     }
 
     /*social media image*/
     .imgMedia1, .imgMedia2, .imgMedia3, .imgMedia4, .imgMedia5, .imgMedia6, .imgMedia7 {
-        width: 24px;
-        height: 24px;
+        width: 12px;
+        height: 12px;
     }
 
 
@@ -5268,116 +5185,63 @@ html {
     /*=======================================================================================================*/
     /*Hello*/
     .hello {
-        color: white;
-        position: absolute;
-        right: 644px;
-        top: 173px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
+        right: 131px;
+        top: 216px;
+        font-size: 10px;
 
     }
 
     /*I AM.....*/
     .name {
-        color: white;
-        position: absolute;
-        right: 370px;
-        top: 203px;
-        margin: auto;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
+        right: 25px;
+        top: 228px;
+        font-size: 10px;
     }
 
     /*Span Name*/
     .SName {
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        align-items: center;
-        color: #F3BC17;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*About me Paragraph*/
     .AboutP {
-        font-size: 16px;
-        position: absolute;
-        color: #ACACAC;
-        margin: auto;
-        top: 252px;
-        right: 348px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: bold;
+        font-size: 6.8px;
+        top: 257px;
+        right: 7px;
     }
 
     /*About me Signature*/
     .Signature {
-        font-size: 48px;
-        color: #F3BC17;
-        margin: auto;
-        position: absolute;
-        right: 137px;
-        top: 330px;
-        font-family: 'Arizonia', cursive;
-        font-weight: normal;
+        font-size: 17px;
+        right: 10px;
+        top: 292px;
     }
 
     /*Button downlod CV*/
     .dwnlod {
-        background: #F3BC17;
-        width: 200px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
-        text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
+        width: 169px;
+        height: 33px;
+        font-size: 14px;
         left: 0;
-        right: -287px;
+        right: 0;
         top: 0;
-        bottom: -591px;
-        margin: auto;
-        border: none;
+        bottom: -465px;
     }
 
     /*about list*/
     .list1 {
-        position: absolute;
-        right: 661px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 550;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 199px;
+        bottom: 104px;
+        font-size: 10px;
+        line-height: 24px;
     }
 
     /*details list*/
     .list2 {
-        position: absolute;
-        right: 453px;
-        bottom: 99px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 35px;
-        color: #FFFFFF;
+        right: 66px;
+        bottom: 104px;
+        font-size: 10px;
+        line-height: 24px;
     }
 
     /*my image*/
@@ -5403,219 +5267,119 @@ html {
     /*=======================================================================================================*/
     /*paragraph*/
     .serp1, .serp2, .serp3, .serp4, .serp5 {
-        font-size: 16px;
-        position: absolute;
-        color: #ACACAC;
-        margin: auto;
-        top: 117px;
-        left: -43px;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 600;
-        line-height: 20px;
+        font-size: 6px;
+        top: 74px;
+        left: -11px;
+        line-height: 9px;
     }
 
     /*web design box*/
     .webDesign {
-        position: absolute;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        left: 150px;
-        top: 106px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 190px;
+        height: 149px;
+        left: 19px;
+        top: 63px;
     }
 
     /*Customization box*/
     .customiz {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        top: 106px;
-        right: 150px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 190px;
+        height: 149px;
+        top: 124px;
+        right: 19px;
     }
 
     /*WebDevelopment box*/
     .webDevelopment {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        top: 286px;
-        left: 294px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 190px;
+        height: 149px;
+        top: 238px;
+        left: 19px;
     }
 
     /*UI/UX Deesign box*/
     .UIUX {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 317px;
-        background: #242424;
-        top: 286px;
-        right: 294px;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 190px;
+        height: 149px;
+        top: 300px;
+        right: 19px;
     }
 
     /*Mobile App Development box*/
     .mobileApp {
-        position: absolute;
-        margin: auto;
-        width: 389px;
-        height: 202px;
-        background: #242424;
-        top: 500px;
-        left: 0;
-        right: 0;
-        box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+        width: 190px;
+        height: 149px;
+        top: 417px;
+        left: -80px;
     }
 
     /*Web Design title*/
     .t1webDesign {
-        color: #E4EE89;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        top: 22px;
+        left: 25px;
+        font-size: 9px;
     }
 
     /*Customization title*/
     .t2customization {
-        color: #FFA500;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        top: 22px;
+        left: 25px;
+        font-size: 9px;
     }
 
     /*Web development title*/
     .t3webdevelopment {
-        color: #FD2155;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        top: 22px;
+        left: 25px;
+        font-size: 9px;
     }
 
     /*UI/UX design title*/
     .t4UIUX {
-        color: #7ED4F2;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        top: 22px;
+        left: 25px;
+        font-size: 9px;
     }
 
     /*mobile app development title*/
     .t5mobileApp {
-        color: #0AF0CD;
-        margin: auto;
-        position: absolute;
-        top: 47px;
-        left: 42px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 16px;
-        line-height: 10px;
-        display: flex;
-        align-items: center;
+        top: 22px;
+        left: 25px;
+        font-size: 9px;
+        line-height: 5px;
     }
 
     /*icon images*/
     .img1, .img2, .img3, .img4, .img5 {
-        position: absolute;
-        left: 257px;
-        top: 7px;
-        width: 100px;
-        height: 100px;
+        left: 138px;
+        top: 13px;
+        width: 35px;
+        height: 35px;
     }
 
     /*style line for web designing*/
     .syl1 {
-        position: absolute;
-        width: 389px;
-        height: 0px;
-        left: 0px;
-        top: 1px;
-        border: 1px solid #E4EE89;;
-        background-color: #E4EE89;;
+        width: 190px;
     }
 
     /*style line for Customization*/
     .syl2 {
-        position: absolute;
-        width: 389px;
-        height: 0px;
-        left: 0px;
-        top: 1px;
-        border: 1px solid #FFA500;
-        background-color: #FFA500;
+        width: 190px;
     }
 
     /*style line for web development*/
     .syl3 {
-        position: absolute;
-        width: 389px;
-        height: 0px;
-        left: 0px;
-        top: 1px;
-        border: 1px solid #FD2155;
-        background-color: #FD2155;
+        width: 190px;
     }
 
     /*style line for UI/UX design*/
     .syl4 {
-        position: absolute;
-        width: 389px;
-        height: 0px;
-        left: 0px;
-        top: 1px;
-        border: 1px solid #7ED4F2;
-        background-color: #7ED4F2;
+        width: 190px;
     }
 
     /*style line for mobile app development*/
     .syl5 {
-        position: absolute;
-        width: 389px;
-        height: 0px;
-        left: 0px;
-        top: 1px;
-        border: 1px solid #0AF0CD;
-        background-color: #0AF0CD;
+        width: 190px;
     }
 
     /*=======================================================================================================*/
@@ -5623,53 +5387,32 @@ html {
     /*=======================================================================================================*/
     /*TiTle for Languages*/
     .Lang {
-        font-size: 24px;
-        color: #F3BC17;
-        position: absolute;
-        margin: auto;
-        left: 103px;
-        top: 138px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 10px;
+        left: 25px;
+        top: 80px;
     }
 
     /*TiTle for tools*/
     .tools {
-        font-size: 24px;
-        color: #F3BC17;
-        position: absolute;
-        margin: auto;
-        left: 103px;
-        top: 526px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 10px;
+        left: 25px;
+        top: 281px;
     }
 
     /*Span Language*/
     .Lang2 {
-        font-size: 24px;
-        color: white;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*Span tools*/
     .tools2 {
-        font-size: 24px;
-        color: white;
-        margin: auto;
+        font-size: 10px;
     }
 
     /*language img1*/
     .lang1img {
-        position: absolute;
-        width: 74px;
-        height: 71px;
+        width: 43px;
+        height: 40px;
         left: 161px;
         top: 231px;
 
@@ -5677,267 +5420,204 @@ html {
 
     /*language img2*/
     .lang2img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 277px;
+        width: 30px;
+        height: 30px;
+        left: 226px;
         top: 236px;
     }
 
     /*language img3*/
     .lang3img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 394px;
+        width: 30px;
+        height: 30px;
+        left: 286px;
         top: 236px;
     }
 
     /*language img4*/
     .lang4img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 507px;
+        width: 30px;
+        height: 30px;
+        left: 344px;
         top: 236px;
     }
 
     /*language img5*/
     .lang5img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 620px;
+        width: 30px;
+        height: 30px;
+        left: 401px;
         top: 236px;
     }
 
     /*language img6*/
     .lang6img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
         left: 167px;
         top: 484px;
     }
 
     /*language img7*/
     .lang7img {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 277px;
+        width: 30px;
+        height: 30px;
+        left: 227px;
         top: 484px;
     }
 
     /*language img8*/
     .lang8img {
-        position: absolute;
-        width: 180px;
-        height: 90px;
-        left: 387px;
+        width: 120px;
+        height: 60px;
+        left: 282px;
         top: 467px;
     }
 
     /*div for adjust image line 1*/
     .langdiv1 {
-        position: absolute;
-        left: -50px;
-        top: 1px;
+        left: -139px;
+        top: -92px;
     }
 
     /*div for adjust image line 2*/
     .langdiv2 {
-        position: absolute;
-        left: -50px;
-        top: -98px;
+        left: -138px;
+        top: -278px;
     }
 
     /*tool img1*/
     .tool1img {
-        position: absolute;
         left: 167px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img2*/
     .tool2img {
-        position: absolute;
-        left: 277px;
+        left: 210px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img3*/
     .tool3img {
-        position: absolute;
-        left: 387px;
+        left: 258px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img4*/
     .tool4img {
-        position: absolute;
-        left: 497px;
+        left: 306px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img5*/
     .tool5img {
-        position: absolute;
-        left: 607px;
+        left: 354px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*tool img6*/
     .tool6img {
-        position: absolute;
-        left: 717px;
+        left: 405px;
         top: 124px;
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*div for adjust image line 3*/
     .tooldiv {
-        position: absolute;
-        left: -50px;
-        top: 485px;
+        left: -138px;
+        top: 209px;
     }
 
     /*line break*/
     .linebreak {
-        position: absolute;
-        width: 532.01px;
+        width: 279.01px;
         height: 0;
-        left: 585px;
-        top: 410px;
-        border: 3px solid #242424;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
-        transform: rotate(-90deg);
+        left: 17px;
+        top: 392px;
+        border: 2px solid #242424;
+        transform: rotate(-360deg);
     }
 
     /*side div 1*/
     .d1 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 382px;
-        top: 215px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 214px;
+        top: 421px;
     }
 
     /*side div 2*/
     .d2 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 89px;
-        top: 215px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 114px;
+        top: 488px;
     }
 
     /*side div 3*/
     .d3 {
-        position: absolute;
-        width: 190px;
-        height: 150px;
-        right: 382px;
-        top: 435px;
-        background: #242424;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 92px;
+        height: 78px;
+        right: 15px;
+        top: 421px;
     }
 
     /*numbers in box*/
     .n1, .n2, .n3 {
-        position: absolute;
-        width: 51px;
-        height: 50px;
-        left: 28px;
-        top: -4px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 50px;
-        color: #F3BC17;
+        left: 12px;
+        top: -12px;
+        font-size: 20px;
     }
 
     /*+ in box*/
     .plus1, .plus2, .plus3 {
-        position: absolute;
-        width: 22px;
-        height: 16px;
-        left: 73px;
+        left: 35px;
         top: -14px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 45px;
-        display: flex;
-        align-items: center;
-        color: #F3BC17;
+        font-size: 24px;
     }
 
     /*instructions for boxes*/
     .completePro, .yearEx, .happyCus {
-        position: absolute;
-        width: 104px;
-        height: 28px;
-        left: 70px;
-        top: 83px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 10px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
+        left: 28px;
+        top: 37px;
+        font-size: 9px;
+        line-height: 6px;
     }
 
     /*set style lines*/
     .line1, .line2, .line3 {
-        position: absolute;
-        width: 35px;
-        height: 0px;
-        left: 25px;
-        top: 97px;
-        background-color: #FFFFFF;
-        border: 1.5px solid #FFFFFF;
+        width: 12px;
+        left: 11px;
+        top: 51px;
+        border: 1px solid #FFFFFF;
     }
 
     /*title line(Language and framework)*/
     .titleLine1 {
-        position: absolute;
-        width: 303.01px;
-        height: 0px;
-        left: 105px;
-        top: 173px;
-        background-color: #ffffff;
-        border: 2px solid #F3BC17;
+        width: 136.01px;
+        left: 25px;
+        top: 102px;
+        border: 1px solid #F3BC17;
     }
 
     /*title line(tools)*/
     .titleLine2 {
-        position: absolute;
-        width: 70px;
-        height: 0px;
-        left: 102px;
-        top: 555px;
-        background-color: #FFFFFF;
-        border: 2px solid #F3BC17;
+        width: 28px;
+        left: 26px;
+        top: 304px;
+        border: 1px solid #F3BC17;
     }
 
     /*=======================================================================================================*/
@@ -5945,296 +5625,240 @@ html {
     /*=======================================================================================================*/
     /*Description Education evels*/
     .E1, .E2, .E3, .E4, .E5 {
-        color: white;
-        position: absolute;
-        margin: auto;
-        left: 0;
-        right: 0;
-        top: 13px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-
+        top: 9px;
+        font-size: 9px;
+        line-height: 9px;
     }
 
     /*Year for E1*/
     .EY1 {
-        font-size: 20px;
-        color: #E4EE89;
-        position: absolute;
-        margin: auto;
-        bottom: 8px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
     }
 
     /*Year for E2*/
     .EY2 {
-        font-size: 20px;
-        color: #23C54B;
-        position: absolute;
-        margin: auto;
-        bottom: 8px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
     }
 
     /*Year for E3*/
     .EY3 {
-        font-size: 20px;
-        color: #FD2155;
-        position: absolute;
-        margin: auto;
-        bottom: 8px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
     }
 
     /*Year for E4*/
     .EY4 {
-        font-size: 20px;
-        color: #0AF0CD;
-        position: absolute;
-        margin: auto;
-        bottom: 8px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
     }
 
     /*Year for E5*/
     .EY5 {
-        font-size: 20px;
-        color: #7ED4F2;
-        position: absolute;
-        margin: auto;
-        bottom: 8px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
     }
 
     .edutree {
-        position: absolute;
-        width: 511px;
-        height: 0px;
-        left: 510px;
-        top: 422px;
-        background-color: #F3BC17;
-        border: 2px solid #F3BC17;
-        transform: rotate(-90deg);
+        width: 460px;
+        left: -214px;
+        top: 334px;
+        border: 1px solid #F3BC17;
     }
 
     /*section1 (Digree)*/
     .EE1 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 153px;
-        border: 2px solid #F3BC17;
+        width: 260px;
+        height: 57px;
+        right: 17px;
+        top: 114px;
     }
 
     /*section2 (IT dip)*/
     .EE2 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        left: 288px;
-        top: 265.5px;
-        border: 2px solid #F3BC17;
+        width: 260px;
+        height: 57px;
+        left: 43px;
+        top: 211.5px;
     }
 
     /*section3 (Eng dip)*/
     .EE3 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 378px;
-        border: 2px solid #F3BC17;
+        width: 260px;
+        height: 57px;
+        right: 17px;
+        top: 308px;
     }
 
     /*section4 (A/L)*/
     .EE4 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        left: 288px;
-        top: 490.5px;
-        border: 2px solid #F3BC17;
+        width: 260px;
+        height: 57px;
+        left: 43px;
+        top: 407.5px;
     }
 
     /*section5 (O/L)*/
     .EE5 {
-        box-sizing: border-box;
-        position: absolute;
-        width: 428px;
-        height: 95px;
-        right: 288px;
-        top: 603px;
-        border: 2px solid #F3BC17;
+        width: 260px;
+        height: 57px;
+        right: 17px;
+        top: 505px;
     }
 
     /*circle1*/
     .cir1 {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 197px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        right: 286px;
+        top: 139px;
     }
 
     /*circle2*/
     .cir2 {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 737px;
-        top: 305.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        left: 29px;
+        top: 237px;
     }
 
     /*circle3*/
     .cir3 {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 423px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        right: 286px;
+        top: 334px;
     }
 
     /*circle4*/
     .cir4 {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        left: 737px;
-        top: 535.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        left: 29px;
+        top: 434px;
     }
 
     /*circle5*/
     .cir5 {
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        right: 737px;
-        top: 649.5px;
-        background: #F3BC17;
-        border-radius: 100%;
+        width: 5px;
+        height: 5px;
+        right: 286px;
+        top: 532px;
     }
 
-    .adjustEdu {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: -19px;
-    }
 
     /*=======================================================================================================*/
     /*PROJECTS SECTION*/
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
     .imgPro1 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 115px;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 79px;
     }
 
     /*Image Hotel management*/
     .imgPro2 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 573px;
+        width: 147px;
+        height: 95px;
+        left: 88px;
         right: 0;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        top: 179px;
     }
 
     /*Image Hostel management*/
     .imgPro3 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        right: 115px;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        right: 84px;
+        top: 279px;
     }
 
     /*Image SuperMarket management*/
     .imgPro4 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 350px;
-        top: 442px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 376px;
     }
 
     /*Image CarParking management*/
     .imgPro5 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        right: 350px;
-        top: 442px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        right: 84px;
+        top: 475px;
     }
 
+    /*=======================================================================================================*/
+    /*Asignment SECTION*/
+    /*=======================================================================================================*/
+    .asign1 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 89px;
+    }
+
+    .asign2 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 214px;
+    }
+
+    .asign3 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 338px;
+    }
+
+    .asign4 {
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 464px;
+    }
+
+    .asignBasic {
+        font-size: 10px;
+        left: 138px;
+        top: 159px;
+    }
+
+    .asignAnim {
+        font-size: 10px;
+        left: 123px;
+        top: 283px;
+    }
+
+    .asignTransi {
+        font-size: 10px;
+        left: 120px;
+        top: 409px;
+    }
+
+    .asignFram {
+        font-size: 10px;
+        left: 120px;
+        top: 532px;
+    }
     /*=======================================================================================================*/
     /*GITHUB LINK*/
     /*Github link box paragraph*/
     .githubP {
-        font-size: 24px;
-        color: rgba(255, 255, 255, 0.5);
-        margin: auto;
-        position: absolute;
-        top: 17px;
-        left: 0;
-        right: 0;
-        text-align: center;
+        font-size: 12px;
+        top: 16px;
     }
 
     /*Button Github*/
     .github {
-        background: #F3BC17;
-        width: 150px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 20px;
+        width: 114px;
+        height: 29px;
         text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        position: absolute;
+        font-size: 14px;
         left: 0;
         right: 0;
         top: 0;
-        bottom: -64px;
-        margin: auto;
-        border: none;
+        bottom: -58px;
     }
 
     /*=======================================================================================================*/
@@ -6242,23 +5866,16 @@ html {
     /*=======================================================================================================*/
     /*Have a Project......*/
     .contactP1 {
-        font-size: 22px;
-        color: #F3BC17;
-        position: absolute;
-        margin: auto;
-        left: 0;
-        right: 0;
+        font-size: 12px;
+        left: -220px;
+        top: -101px;
     }
 
     /*Let's make......*/
     .contactP2 {
-        font-size: 20px;
-        color: rgba(255, 255, 255, 0.5);
-        position: absolute;
-        margin: auto;
-        top: 32px;
-        left: 0;
-        right: 0;
+        font-size: 10px;
+        top: -88px;
+        left: -220px;
     }
 
     /*adjust paragraph*/
@@ -6270,150 +5887,115 @@ html {
         width: 348px;
     }
 
+    /*adjust paragraph*/
+    .contactD2 {
+        position: absolute;
+        left: -85px;
+        top: 27px;
+        width: 219px;
+    }
+
     /*Email*/
     .email1 {
-        color: rgb(255, 255, 255);
-        position: absolute;
-        margin: auto;
-        top: 340px;
-        left: 229px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        top: 335px;
+        left: 221px;
+        font-size: 10px;
     }
 
     /*Address*/
     .address1 {
-        color: rgb(255, 255, 255);
-        position: absolute;
-        margin: auto;
         top: 440px;
-        left: 229px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        left: 221px;
+        font-size: 10px;
     }
 
     /*Contact*/
     .contact1 {
-        color: rgb(255, 255, 255);
-        position: absolute;
-        margin: auto;
         top: 540px;
-        left: 229px;
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
+        left: 221px;
+        font-size: 10px;
     }
 
     /*contact details image1*/
     .imgC1 {
-        position: absolute;
-        top: 346px;
-        left: 170px;
-        width: 24px;
-        height: 24px;
+        top: 342px;
+        left: 173px;
+        width: 15px;
+        height: 15px;
     }
 
     /*contact details image*/
     .imgC2 {
-        position: absolute;
-        top: 446px;
-        left: 170px;
-        width: 24px;
-        height: 24px;
+        top: 445px;
+        left: 175px;
+        width: 15px;
+        height: 16px;
     }
 
     /*contact details image*/
     .imgC3 {
+        top: 548px;
+        left: 182px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .sec2 {
+        top: -30px;
         position: absolute;
-        top: 546px;
-        left: 170px;
-        width: 24px;
-        height: 24px;
+        width: 312px;
+    }
+
+    .sec3 {
+        top: -50px;
+        position: absolute;
+        width: 312px;
     }
 
     /*Button send Massages*/
     .send {
-        position: absolute;
-        background: #F3BC17;
-        width: 211px;
-        height: 43px;
-        border-radius: 34px;
-        font-weight: 700;
-        padding-left: 25px;
-        text-align: left;
-        font-size: 20px;
-        color: #010101;
-        cursor: pointer;
-        left: 576px;
-        bottom: 32px;
-        margin: auto;
-        border: none;
+        width: 154px;
+        height: 31px;
+        font-size: 13px;
+        left: 83px;
+        bottom: 256px;
     }
 
     /*form content*/
     .input1, .input2, .input3, .input4 {
-        position: absolute;
-        background: rgba(217, 217, 217, 0.21);
-        border-radius: 34px;
-        border: 2px solid rgba(217, 217, 217, 0.21);
-
-        /*text*/
-        font-family: 'Encode Sans Semi Expanded', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        align-items: center;
-        color: rgba(255, 255, 255, 0.5);
+        font-size: 9px;
     }
 
     /*name*/
     .input1 {
-        width: 354px;
-        height: 34px;
-        padding: 10px 25px 10px 25px;
-        left: 527px;
-        top: 230px;
+        width: 175px;
+        height: 3px;
+        left: 0px;
+        top: 183px;
     }
 
     /*Email*/
     .input2 {
-        width: 354px;
-        height: 34px;
-        left: 958px;
-        top: 230px;
-        padding: 10px 25px 10px 25px;
+        width: 175px;
+        height: 3px;
+        left: 0px;
+        top: 216px;
     }
 
     /*Subject*/
     .input3 {
-        width: 594px;
-        height: 34px;
-        left: 527px;
-        top: 313px;
-        padding: 10px 25px 10px 25px;
+        width: 175px;
+        height: 3px;
+        left: 0px;
+        top: 249px;
     }
 
     /*Massage*/
     .input4 {
-        width: 594px;
-        height: 223px;
-        left: 527px;
-        top: 398px;
-        padding: 25px 25px 10px 25px;
+        width: 175px;
+        height: 3px;
+        left: 0px;
+        top: 283px;
     }
 
     /*adjust form*/
@@ -6429,45 +6011,26 @@ html {
     /*Customized footer*/
     footer {
         position: absolute;
-        height: 100px;
+        height: 80px;
         width: 100%;
-        background-color: #242424;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #666666;
-        border-top: 1px solid rgba(102, 102, 102, 0.29);
-        border-bottom: 1px solid rgba(102, 102, 102, 0.29);
     }
 
-    /*Customize footer for bottom*/
-    html {
-        position: relative;
-        min-height: 100%;
-    }
 
     /*footer img*/
     .fImg1, .fImg2, .fImg3, .fImg4 {
-        width: 60px;
-        height: 60px;
+        width: 30px;
+        height: 30px;
     }
 
     /*footer text*/
     .footertext {
-        position: absolute;
-        bottom: -25px;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 25px;
-        display: flex;
-        text-align: center;
+        bottom: -16px;
+        font-size: 12px;
     }
 
     /*adjust footer image*/
     .footerIMG {
         top: 9px;
-        position: absolute;
     }
 
 }
