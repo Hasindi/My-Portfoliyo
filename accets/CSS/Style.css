@@ -7150,53 +7150,43 @@ html {
     /*=======================================================================================================*/
     /*Image Jewellery shop management*/
     .imgPro1 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 115px;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 79px;
     }
 
     /*Image Hotel management*/
     .imgPro2 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 573px;
+        width: 147px;
+        height: 95px;
+        left: 88px;
         right: 0;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        top: 179px;
     }
 
     /*Image Hostel management*/
     .imgPro3 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        right: 115px;
-        top: 154px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        right: 84px;
+        top: 279px;
     }
 
     /*Image SuperMarket management*/
     .imgPro4 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        left: 350px;
-        top: 442px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        left: 88px;
+        top: 376px;
     }
 
     /*Image CarParking management*/
     .imgPro5 {
-        position: absolute;
-        width: 389px;
-        height: 257px;
-        right: 350px;
-        top: 442px;
-        filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
+        width: 147px;
+        height: 95px;
+        right: 84px;
+        top: 475px;
     }
 
     /*=======================================================================================================*/
