@@ -14,9 +14,9 @@ $("#btnCustomer").click(function () {
     }
 
     Customers.push(CustomerObject);
-    console.log(Customers);
 
     loadAllCustomers();
+    bindRowClickEvents();
 
 });
 
@@ -30,10 +30,23 @@ function loadAllCustomers(){
     $("#tblCustomer").empty();
 
     for (var customer of Customers){
-        /* console.log(Customer);*/
 
         var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.salary}</td></tr>`;
 
         $("#tblCustomer").append(row);
     }
+}
+
+
+/*select data in table*/
+function bindRowClickEvents(){
+
+    $("#tblCustomer>tr").click(function (){
+        let id = $(this).children(":eq(0)").text();
+        let name = $(this).children(":eq(1)").text();
+        let address = $(this).children(":eq(2)").text();
+        let salary = $(this).children(":eq(3)").text();
+
+        console.log(id, name, address, salary);
+    });
 }
