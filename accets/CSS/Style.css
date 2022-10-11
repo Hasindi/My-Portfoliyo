@@ -5163,7 +5163,7 @@ html {
         font-size: 16px;
         left: 0;
         right: 0;
-        top: 481px;
+        bottom: 8px;
     }
 
     /*image*/
@@ -5228,18 +5228,27 @@ html {
         bottom: -465px;
     }
 
+    .aboutdiv1{
+        position: absolute;
+        left: 151px;
+        top: -14px;
+        with: 100px;
+        height: 54px;
+        width: 194px;
+    }
+
     /*about list*/
     .list1 {
-        right: 199px;
-        bottom: 104px;
+        right: 194px;
+        bottom: -441px;
         font-size: 10px;
         line-height: 24px;
     }
 
     /*details list*/
     .list2 {
-        right: 66px;
-        bottom: 104px;
+        right: 58px;
+        bottom: -441px;
         font-size: 10px;
         line-height: 24px;
     }
