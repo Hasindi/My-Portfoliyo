@@ -5854,7 +5854,7 @@ html {
     /*GITHUB LINK*/
     /*Github link box paragraph*/
     .githubP {
-        font-size: 12px;
+        font-size: 11px;
         top: 16px;
     }
 
@@ -5867,7 +5867,11 @@ html {
         left: 0;
         right: 0;
         top: 0;
-        bottom: -58px;
+        bottom: -31px;
+    }
+
+    .goGithub {
+        height: 16vh;
     }
 
     /*=======================================================================================================*/
