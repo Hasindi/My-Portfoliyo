@@ -4757,7 +4757,7 @@ html {
 
     /*set list inline*/
     header > nav > ul > li {
-        padding: 3px;
+        padding: 5px;
         font-size: 9px;
     }
 
@@ -4782,13 +4782,13 @@ html {
     /*hii, I am....*/
     .intro1 {
         font-size: 16px;
-        top: 411px;
+        top: 390px;
     }
 
     /*Web Developer*/
     .intro2 {
         font-size: 35px;
-        top: 414px;
+        top: 392px;
         color: #F3BC17;
     }
 
@@ -4814,7 +4814,7 @@ html {
         font-size: 16px;
         left: 0;
         right: 0;
-        bottom: 8px;
+        top: 510px;
     }
 
     /*image*/
@@ -5734,15 +5734,15 @@ html {
 
     /*set list inline*/
     header > nav > ul > li {
-        padding: 2px;
-        font-size: 7px;
+        padding: 3px;
+        font-size: 8px;
     }
 
     /*Customized navigatins*/
     header > nav {
-        right: 0;
-        left: 0;
+        left: -8px;
         top: 33px;
+        margin-right: -5px;
     }
 
     /*name logo*/
