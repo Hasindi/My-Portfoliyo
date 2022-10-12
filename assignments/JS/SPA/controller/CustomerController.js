@@ -21,6 +21,20 @@ $("#btnSaveCustomer").click(function () {
 
 });
 
+/*Update*/
+$("#btnUpdateCustomer").click(function () {
+    let customerID = $("#txtCustomerID").val();
+    let response = updateCustomer(customerID);
+    if (response) {
+        alert("Customer Updated Successfully");
+        setTextfieldValues("", "", "", "");
+    } else {
+        alert("Update Failed..!");
+
+    }
+});
+
+/*delete*/
 $("#btnDeleteCustomer").click(function () {
     let deleteID = $("#txtCustomerID").val();
 
@@ -103,17 +117,33 @@ function searchCustomer(cusID) {
     return null;
 }
 
+function updateCustomer(customerID) {
+    let customer = searchCustomer(customerID);
+    if (customer != null) {
+        customer.id = $("#txtCustomerID").val();
+        customer.name = $("#txtCustomerName").val();
+        customer.address = $("#txtCustomerAddress").val();
+        customer.salary = $("#txtCustomerSalary").val();
+        loadAllCustomers();
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
 function deleteCustomer(customerID) {
     let customer = searchCustomer(customerID);
     if (customer != null) {
-        let indexNumber = customers.indexOf(customer);
-        customers.splice(indexNumber, 1);
+        let indexNumber = Customers.indexOf(customer);
+        Customers.splice(indexNumber, 1);
         loadAllCustomers();
         return true;
     } else {
         return false;
     }
 }
+
 //////////////////////////////////////////////////////////////////////////////////////
     /*validation*/
 
