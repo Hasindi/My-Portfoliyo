@@ -17,8 +17,6 @@ $("#btnSaveCustomer").click(function () {
 
     loadAllCustomers();
     bindRowClickEvents();
-    /*loadAllCustomersForOption();*/
-
 });
 
 /*Update*/
@@ -47,12 +45,7 @@ $("#btnDeleteCustomer").click(function () {
             alert("No such customer to delete. please check the id");
         }
     }
-});
-
-/*loard all*/
-$("#getAll").click(function () {
     loadAllCustomers();
-
 });
 
 function loadAllCustomers(){

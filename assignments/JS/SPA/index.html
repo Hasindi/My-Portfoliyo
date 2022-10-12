@@ -179,8 +179,6 @@
             <button id="btnDeleteCustomer" type="button" class="btn btn-danger" >Delete
                 Customer
             </button>
-
-
         </div>
     </section>
 
@@ -235,7 +233,6 @@
             <label for="txtUnitPrice" class="form-label">Unit Price :</label>
             <input type="text" class="form-control" id="txtUnitPrice" placeholder="Ex: RS. 10 000">
         </div>
-
     </form>
 
     <br>
@@ -271,39 +268,7 @@
                 <th scope="col">Unit Price</th>
             </tr>
             </thead>
-            <tbody>
-            <tr>
-                <th>T001</th>
-                <td>Rice</td>
-                <td>100kg</td>
-                <td>RS. 210</td>
-            </tr>
-            <tr>
-                <th>T002</th>
-                <td>Sugar</td>
-                <td>100kg</td>
-                <td>RS. 340</td>
-            </tr>
-            <tr>
-                <th>T003</th>
-                <td>Noodles</td>
-                <td>50 pack</td>
-                <td>RS. 170</td>
-            </tr>
-            <tr>
-                <th>T004</th>
-                <td>Manchee Biscuites</td>
-                <td>50 pack</td>
-                <td>RS. 300</td>
-            </tr>
-            <tr>
-                <th>T005</th>
-                <td>Soap</td>
-                <td>100 pack</td>
-                <td>RS. 270</td>
-            </tr>
-
-            </tbody>
+            <tbody id="tblItems"></tbody>
         </table>
     </section>
 
@@ -698,6 +663,7 @@
 
 <script src="db/db.js"></script>
 <script src="controller/CustomerController.js"></script>
+<script src="controller/ItemController.js"></script>
 
 </body>
 </html>
