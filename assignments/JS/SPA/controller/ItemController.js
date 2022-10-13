@@ -16,6 +16,7 @@ $("#btnSaveItem").click(function () {
     Items.push(ItemObject);
 
     loadAllItems();
+    clearAllItemTexts();
     bindRowClickEvents();
 });
 
@@ -142,7 +143,7 @@ $("#txtItemCode").focus();
 // item reguler expressions
 const itemCodeRegEx = /^(I00-)[0-9]{1,3}$/;
 const itemNameRegEx = /^[A-z ]{4,20}$/;
-const qtyRegEx = /^[0-9/A-z. ,]{2,}$/;
+const qtyRegEx = /^[1-9/A-z. ,]{2,}$/;
 const unitPriceRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
 let itemValidations = [];
@@ -176,11 +177,11 @@ $("#txtItemCode,#txtItemName,#txtQTY,#txtUnitPrice").on('keydown', function (eve
 
 
 $("#txtItemCode,#txtItemName,#txtQTY,#txtUnitPrice").on('keyup', function (event) {
-    checkValidity();
+    checkValidityofItems();
 });
 
 $("#txtItemCode,#txtItemName,#txtQTY,#txtUnitPrice").on('blur', function (event) {
-    checkValidity();
+    checkValidityofItems();
 });
 
 
@@ -188,21 +189,21 @@ $("#txtItemCode").on('keydown', function (event) {
     if (event.key == "Enter" && check(itemCodeRegEx, $("#txtItemCode"))) {
         $("#txtItemName").focus();
     } else {
-        focusText($("#txtItemCode"));
+        focusItemText($("#txtItemCode"));
     }
 });
 
 
 $("#txtItemName").on('keydown', function (event) {
     if (event.key == "Enter" && check(itemNameRegEx, $("#txtItemName"))) {
-        focusText($("#txtQTY"));
+        focusItemText($("#txtQTY"));
     }
 });
 
 
 $("#txtQTY").on('keydown', function (event) {
     if (event.key == "Enter" && check(qtyRegEx, $("#txtQTY"))) {
-        focusText($("#txtUnitPrice"));
+        focusItemText($("#txtUnitPrice"));
     }
 });
 
@@ -211,57 +212,57 @@ $("#txtUnitPrice").on('keydown', function (event) {
     if (event.key == "Enter" && check(unitPriceRegEx, $("#txtUnitPrice"))) {
         let res = confirm("Do you want to add this Item..?");
         if (res) {
-            clearAllTexts();
+            clearAllItemTexts();
         }
     }
 });
 
-function checkValidity() {
+function checkValidityofItems() {
     let errorCount = 0;
     for (let validation of itemValidations) {
-        if (check(validation.reg, validation.field)) {
-            textSuccess(validation.field, "");
+        if (checkItems(validation.reg, validation.field)) {
+            textItemSuccess(validation.field, "");
         } else {
             errorCount = errorCount + 1;
-            setTextError(validation.field, validation.error);
+            setItemTextError(validation.field, validation.error);
         }
     }
-    setButtonState(errorCount);
+    setItemButtonState(errorCount);
 }
 
-function check(regex, txtField) {
+function checkItems(regex, txtField) {
     let inputValue = txtField.val();
     return regex.test(inputValue) ? true : false;
 }
 
-function setTextError(txtField, error) {
+function setItemTextError(txtField, error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
+        defaultItemText(txtField, "");
     } else {
         txtField.css('border', '2px solid red');
         txtField.parent().children('span').text(error);
     }
 }
 
-function textSuccess(txtField, error) {
+function textItemSuccess(txtField, error) {
     if (txtField.val().length <= 0) {
-        defaultText(txtField, "");
+        defaultItemText(txtField, "");
     } else {
         txtField.css('border', '2px solid green');
         txtField.parent().children('span').text(error);
     }
 }
 
-function defaultText(txtField, error) {
+function defaultItemText(txtField, error) {
     txtField.css("border", "1px solid #ced4da");
     txtField.parent().children('span').text(error);
 }
 
-function focusText(txtField) {
+function focusItemText(txtField) {
     txtField.focus();
 }
 
-function setButtonState(value) {
+function setItemButtonState(value) {
     if (value > 0) {
         $("#btnSaveItem").attr('disabled', true);
     } else {
@@ -269,10 +270,10 @@ function setButtonState(value) {
     }
 }
 
-function clearAllTexts() {
+function clearAllItemTexts() {
     $("#txtItemCode").focus();
     $("#txtItemCode,#txtItemName,#txtQTY,#txtUnitPrice").val("");
-    checkValidity();
+    checkValidityofItems();
 }
 
 
