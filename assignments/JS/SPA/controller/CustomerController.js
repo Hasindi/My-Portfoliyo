@@ -1,6 +1,9 @@
 /*Save*/
 $("#btnSaveCustomer").click(function () {
+    saveCustomer();
+});
 
+function saveCustomer(){
     let customerID = $("#txtCustomerID").val();
     let customerName = $("#txtCustomerName").val();
     let customerAddress = $("#txtCustomerAddress").val();
@@ -19,7 +22,7 @@ $("#btnSaveCustomer").click(function () {
     alert("Customer Saved Successfully...!");
     clearAllTexts();
     bindRowClickEvents();
-});
+}
 
 /*Update*/
 $("#btnUpdateCustomer").click(function () {
@@ -216,7 +219,7 @@ $("#txtCustomerSalary").on('keydown', function (event) {
     if (event.key == "Enter" && check(cusSalaryRegEx, $("#txtCustomerSalary"))) {
         let res = confirm("Do you want to add this Customer..?");
         if (res) {
-            clearAllTexts();
+            saveCustomer();
         }
     }
 });
