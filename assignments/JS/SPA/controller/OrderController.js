@@ -13,3 +13,15 @@ function loadAllItemsForOption() {
         $("#inputItemCode").append(`<option>${item.code}</option>`);
     }
 }
+
+/*fill other textfields of customer*/
+$("#inputCustomerID").change(function () {
+    let cusID = $("#inputCustomerID").val();
+    let customer = searchCustomer(cusID);
+    if (customer != null) {
+        $("#customerName").val(customer.name);
+        $("#customerAddress").val(customer.address);
+        $("#customerSalary").val(customer.salary);
+    }
+});
+
