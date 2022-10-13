@@ -46,6 +46,7 @@ $('#btnAddToCart').click(function () {
         } else {
             addToCart();
             loadAllCartDetails();
+            clearTextFields();
         }
     } else {
         alert("Plese enter your Order Quntity...!");
@@ -81,3 +82,9 @@ function loadAllCartDetails() {
         $("#orderTable").append(row);
     }
 }
+
+function clearTextFields() {
+    $("#inputCustomerID,#customerName,#customerAddress,#customerSalary").val("");
+    $("#inputItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty").val("");
+}
+
