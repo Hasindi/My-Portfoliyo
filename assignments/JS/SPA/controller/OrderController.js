@@ -105,6 +105,7 @@ function loadAllCartDetails() {
 
         $("#orderTable").append(row);
     }
+    CartItemRemove();
 }
 
 /*clear text fields*/
@@ -116,4 +117,12 @@ function clearTextFields() {
 /*clear item text fields*/
 function clearInputQuntity() {
     $("#buyQty").val("");
+}
+
+function CartItemRemove() {
+    $("#orderTable>tr").on('dblclick', function () {
+        $(this).remove();
+
+    });
+
 }
