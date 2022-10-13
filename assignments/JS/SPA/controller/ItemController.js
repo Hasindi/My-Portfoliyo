@@ -23,6 +23,7 @@ function saveItem(){
     alert("Item Saved Successfully...!");
     clearAllItemTexts();
     bindRowItemClickEvents();
+    loadAllItemsForOption();
 }
 
 /*Update*/
