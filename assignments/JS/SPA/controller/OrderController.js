@@ -1,4 +1,7 @@
-/*load customer ids to combobox*/
+/*disable button*/
+$("#btnAddToCart").attr('disabled', true);
+$("#btnPlaceOrder").attr('disabled', true);
+
 function loadAllCustomersForOption() {
     $("#inputCustomerID").empty();
     for (let cus of Customers) {
@@ -34,10 +37,12 @@ $("#inputItemCode").change(function () {
         $("#itemPrice").val(item.unitPrice);
         $("#qtyOnHand").val(item.qty);
     }
+    updateQty();
+    $("#btnAddToCart").attr("disabled", false);
 });
 
 /*add to cart*/
-$('#btnAddToCart').click(function () {
+$("#btnAddToCart").click(function () {
     let QTYOnHand = parseInt($('#qtyOnHand').val());
     let orderQTY = parseInt($('#buyQty').val());
     if ($("#buyQty").val() != "") {
@@ -52,6 +57,7 @@ $('#btnAddToCart').click(function () {
     } else {
         alert("Plese enter your Order Quntity...!");
     }
+    $("#btnPlaceOrder").attr('disabled', false);
 });
 
 //function add to cart
@@ -75,14 +81,14 @@ function addToCart() {
 
 /*update quntity*/
 function updateQty() {
-    let qtyOnHand = $('#qtyOnHand').val();
+    let qtyOnHand = $("#qtyOnHand").val();
     let orderqty = $('#buyQty').val();
     let newQTY = qtyOnHand - orderqty;
 
     for (let item of Items) {
         if ($("#inputItemCode").val() === item.code) {
             item.qty = newQTY;
-            $('#qtyOnHand').val(item.qty);
+            $("#qtyOnHand").val(item.qty);
 
             loadAllCartDetails();
         }
@@ -94,7 +100,8 @@ function loadAllCartDetails() {
     $("#orderTable").empty();
     for (let cartData of Cart) {
 
-        var row = `<tr><td>${cartData.iCode}</td><td>${cartData.iName}</td><td>${cartData.iPrice}</td><td>${cartData.buyqty}</td><td>${cartData.total}</td></tr>`;
+        var row = `<tr><td>${cartData.iCode}</td><td>${cartData.iName}</td><td>${cartData.iPrice}</td>
+                                  <td>${cartData.buyqty}</td><td>${cartData.total}</td></tr>`;
 
         $("#orderTable").append(row);
     }
@@ -106,12 +113,7 @@ function clearTextFields() {
     $("#inputItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty").val("");
 }
 
-
 /*clear item text fields*/
 function clearInputQuntity() {
     $("#buyQty").val("");
 }
-
-/*disable button*/
-$("#btnAddToCart").attr('disabled', true);
-$("#btnPlaceOrder").attr('disabled', true);
