@@ -1,5 +1,9 @@
 /*Save*/
 $("#btnSaveItem").click(function () {
+    saveItem();
+});
+
+function saveItem(){
 
     let itemCode = $("#txtItemCode").val();
     let itemName = $("#txtItemName").val();
@@ -16,9 +20,10 @@ $("#btnSaveItem").click(function () {
     Items.push(ItemObject);
 
     loadAllItems();
+    alert("Item Saved Successfully...!");
     clearAllItemTexts();
     bindRowClickEvents();
-});
+}
 
 /*Update*/
 $("#btnUpdateItem").click(function () {
@@ -212,7 +217,7 @@ $("#txtUnitPrice").on('keydown', function (event) {
     if (event.key == "Enter" && check(unitPriceRegEx, $("#txtUnitPrice"))) {
         let res = confirm("Do you want to add this Item..?");
         if (res) {
-            clearAllItemTexts();
+            saveItem();
         }
     }
 });
