@@ -208,7 +208,7 @@
     <section class="row">
         <div class=" d-flex flex-md-column flex-sm-row">
             <form class="d-flex flex-column flex-sm-row" role="search">
-                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <input id="txtInputItem" class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-info" type="submit">Search</button>
             </form>
         </div>
@@ -296,14 +296,9 @@
                 </div>
                 <div class="row mt-1">
                     <div class="col-12 col-md-6 col-lg-6">
-                        <label for="customerId" class="form-label">Customer ID:</label>
-                        <select aria-label="Default select example" class="form-select" id="customerId">
+                        <label for="inputCustomerID" class="form-label">Customer ID:</label>
+                        <select aria-label="Default select example" class="form-select" id="inputCustomerID">
                             <option selected>Select Customer</option>
-                            <option value="1">C001</option>
-                            <option value="2">C002</option>
-                            <option value="3">C003</option>
-                            <option value="4">C004</option>
-                            <option value="5">C005</option>
                         </select>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
@@ -664,6 +659,7 @@
 <script src="db/db.js"></script>
 <script src="controller/CustomerController.js"></script>
 <script src="controller/ItemController.js"></script>
+<script src="controller/OrderController.js"></script>
 
 </body>
 </html>

@@ -22,6 +22,7 @@ function saveCustomer(){
     alert("Customer Saved Successfully...!");
     clearAllTexts();
     bindRowClickEvents();
+    loadAllCustomersForOption();
 }
 
 /*Update*/
