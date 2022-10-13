@@ -25,3 +25,13 @@ $("#inputCustomerID").change(function () {
     }
 });
 
+/*fill other textfields of items*/
+$("#inputItemCode").change(function () {
+    let itemCode = $("#inputItemCode").val();
+    let item = searchItem(itemCode);
+    if (item != null) {
+        $("#itemName").val(item.name);
+        $("#itemPrice").val(item.unitPrice);
+        $("#qtyOnHand").val(item.qty);
+    }
+});
