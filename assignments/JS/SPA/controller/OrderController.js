@@ -35,3 +35,49 @@ $("#inputItemCode").change(function () {
         $("#qtyOnHand").val(item.qty);
     }
 });
+
+/*add to cart*/
+$('#btnAddToCart').click(function () {
+    let QTYOnHand = parseInt($('#qtyOnHand').val());
+    let orderQTY = parseInt($('#buyQty').val());
+    if ($("#buyQty").val() != "") {
+        if (QTYOnHand < orderQTY) {
+            alert("There is no item Avilable for this Quntity...!")
+        } else {
+            addToCart();
+            loadAllCartDetails();
+        }
+    } else {
+        alert("Plese enter your Order Quntity...!");
+    }
+});
+
+//function add to cart
+function addToCart() {
+    let iCode = $("#inputItemCode").val();
+    let iName = $("#itemName").val();
+    let iPrice = $("#itemPrice").val();
+    let buyqty = $('#buyQty').val();
+    let total = iPrice * buyqty;
+
+    var CartObject = {
+        iCode: iCode,
+        iName: iName,
+        iPrice: iPrice,
+        buyqty: buyqty,
+        total: total
+    }
+
+    Cart.push(CartObject);
+}
+
+/*load all*/
+function loadAllCartDetails() {
+    $("#orderTable").empty();
+    for (let cartData of Cart) {
+
+        var row = `<tr><td>${cartData.iCode}</td><td>${cartData.iName}</td><td>${cartData.iPrice}</td><td>${cartData.buyqty}</td><td>${cartData.total}</td></tr>`;
+
+        $("#orderTable").append(row);
+    }
+}
