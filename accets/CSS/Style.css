@@ -2120,6 +2120,31 @@ html {
         height: 239px;
     }
 
+    .pt1 {
+        top: 275px;
+        left: 110px;
+    }
+
+    .pt2 {
+        top: 275px;
+        right: 154px;
+    }
+
+    .pt3 {
+        top: 275px;
+        left: 590px;
+    }
+
+    .pt4 {
+        top: 518px;
+        left: 337px;
+    }
+
+    .pt5 {
+        top: 518px;
+        right: 387px;
+    }
+
     /*=======================================================================================================*/
     /*Assignment SECTION*/
     /*=======================================================================================================*/
@@ -2622,6 +2647,36 @@ html {
         top: 352px;
         width: 304px;
         height: 219px
+    }
+
+    .pt1 {
+        font-size: 16px;
+        top: 287px;
+        left: 39px;
+    }
+
+    .pt2 {
+        font-size: 16px;
+        top: 287px;
+        right: 71px;
+    }
+
+    .pt3 {
+        font-size: 16px;
+        top: 287px;
+        left: 407px;
+    }
+
+    .pt4 {
+        font-size: 16px;
+        top: 522px;
+        left: 209px;
+    }
+
+    .pt5 {
+        font-size: 16px;
+        top: 522px;
+        right: 253px;
     }
     /*=======================================================================================================*/
     /*Assignment SECTION*/
@@ -3554,6 +3609,36 @@ html {
         top: 364px;
     }
 
+    .pt1 {
+        font-size: 16px;
+        top: 173px;
+        left: 37px;
+    }
+
+    .pt2 {
+        font-size: 16px;
+        top: 173px;
+        right: 39px;
+    }
+
+    .pt3 {
+        font-size: 16px;
+        top: 231px;
+        left: 261px;
+    }
+
+    .pt4 {
+        font-size: 16px;
+        top: 435px;
+        left: 86px;
+    }
+
+    .pt5 {
+        font-size: 16px;
+        top: 444px;
+        right: 130px;
+    }
+
     /*=======================================================================================================*/
     /*Assignment SECTION*/
     /*=======================================================================================================*/
@@ -4481,7 +4566,7 @@ html {
     .imgPro1 {
         width: 147px;
         height: 95px;
-        left: 139px;
+        left: 54px;
         top: 79px;
     }
 
@@ -4489,7 +4574,7 @@ html {
     .imgPro2 {
         width: 147px;
         height: 95px;
-        left: 139px;
+        left: 54px;
         right: 0;
         top: 179px;
     }
@@ -4498,7 +4583,7 @@ html {
     .imgPro3 {
         width: 147px;
         height: 95px;
-        right: 139px;
+        left: 54px;
         top: 279px;
     }
 
@@ -4506,7 +4591,7 @@ html {
     .imgPro4 {
         width: 147px;
         height: 95px;
-        left: 139px;
+        left: 54px;
         top: 376px;
     }
 
@@ -4514,8 +4599,38 @@ html {
     .imgPro5 {
         width: 147px;
         height: 95px;
-        right: 139px;
+        left: 54px;
         top: 475px;
+    }
+
+    .pt1 {
+        font-size: 9px;
+        top: 114px;
+        left: 223px;
+    }
+
+    .pt2 {
+        font-size: 9px;
+        top: 314px;
+        right: 79px;
+    }
+
+    .pt3 {
+        font-size: 9px;
+        top: 211px;
+        left: 224px;
+    }
+
+    .pt4 {
+        font-size: 9px;
+        top: 411px;
+        left: 226px;
+    }
+
+    .pt5 {
+        font-size: 9px;
+        top: 513px;
+        right: 96px;
     }
 
     /*=======================================================================================================*/
@@ -5458,7 +5573,7 @@ html {
     .imgPro1 {
         width: 147px;
         height: 95px;
-        left: 116px;
+        left: 26px;
         top: 79px;
     }
 
@@ -5466,7 +5581,7 @@ html {
     .imgPro2 {
         width: 147px;
         height: 95px;
-        left: 116px;
+        left: 26px;
         right: 0;
         top: 179px;
     }
@@ -5475,7 +5590,7 @@ html {
     .imgPro3 {
         width: 147px;
         height: 95px;
-        right: 112px;
+        left: 26px;
         top: 279px;
     }
 
@@ -5483,7 +5598,7 @@ html {
     .imgPro4 {
         width: 147px;
         height: 95px;
-        left: 116px;
+        left: 26px;
         top: 376px;
     }
 
@@ -5491,8 +5606,38 @@ html {
     .imgPro5 {
         width: 147px;
         height: 95px;
-        right: 112px;
+        left: 26px;
         top: 475px;
+    }
+
+    .pt1 {
+        font-size: 9px;
+        top: 114px;
+        left: 198px;
+    }
+
+    .pt2 {
+        font-size: 9px;
+        top: 314px;
+        right: 54px;
+    }
+
+    .pt3 {
+        font-size: 9px;
+        top: 211px;
+        left: 200px;
+    }
+
+    .pt4 {
+        font-size: 9px;
+        top: 411px;
+        left: 200px;
+    }
+
+    .pt5 {
+        font-size: 9px;
+        top: 513px;
+        right: 72px;
     }
 
     /*=======================================================================================================*/
@@ -6436,7 +6581,7 @@ html {
     .imgPro1 {
         width: 147px;
         height: 95px;
-        left: 88px;
+        left: 6px;
         top: 79px;
     }
 
@@ -6444,7 +6589,7 @@ html {
     .imgPro2 {
         width: 147px;
         height: 95px;
-        left: 88px;
+        left: 6px;
         right: 0;
         top: 179px;
     }
@@ -6453,7 +6598,7 @@ html {
     .imgPro3 {
         width: 147px;
         height: 95px;
-        right: 84px;
+        left: 6px;
         top: 279px;
     }
 
@@ -6461,7 +6606,7 @@ html {
     .imgPro4 {
         width: 147px;
         height: 95px;
-        left: 88px;
+        left: 6px;
         top: 376px;
     }
 
@@ -6469,8 +6614,38 @@ html {
     .imgPro5 {
         width: 147px;
         height: 95px;
-        right: 84px;
+        left: 6px;
         top: 475px;
+    }
+
+    .pt1 {
+        font-size: 9px;
+        top: 114px;
+        left: 153px;
+    }
+
+    .pt2 {
+        font-size: 9px;
+        top: 314px;
+        right: 47px;
+    }
+
+    .pt3 {
+        font-size: 9px;
+        top: 211px;
+        left: 153px;
+    }
+
+    .pt4 {
+        font-size: 9px;
+        top: 411px;
+        left: 153px;
+    }
+
+    .pt5 {
+        font-size: 9px;
+        top: 513px;
+        right: 65px;
     }
 
     /*=======================================================================================================*/
