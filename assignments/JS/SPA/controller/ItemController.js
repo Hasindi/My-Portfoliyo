@@ -22,7 +22,7 @@ function saveItem(){
     loadAllItems();
     alert("Item Saved Successfully...!");
     clearAllItemTexts();
-    bindRowClickEvents();
+    bindRowItemClickEvents();
 }
 
 /*Update*/
@@ -31,7 +31,7 @@ $("#btnUpdateItem").click(function () {
     let response = updateItem(itemCode);
     if (response) {
         alert("Item Updated Successfully...!");
-        setTextfieldValues("", "", "", "");
+        clearAllItemTexts();
     } else {
         alert("Update Failed..!");
     }
@@ -39,13 +39,13 @@ $("#btnUpdateItem").click(function () {
 
 /*delete*/
 $("#btnDeleteIItem").click(function () {
-    let deleteID = $("#txtItemCode").val();
+    let deleteItemID = $("#txtItemCode").val();
 
-    let option = confirm("Do you really want to delete Item code :" + deleteID);
+    let option = confirm("Do you really want to delete Item code :" + deleteItemID);
     if (option) {
-        if (deleteItem(deleteID)) {
+        if (deleteItem(deleteItemID)) {
             alert("Item Successfully Deleted...!");
-            setTextfieldValues("", "", "", "");
+            clearAllItemTexts();
         } else {
             alert("There is no such item to delete. please check the id.");
         }
@@ -53,6 +53,7 @@ $("#btnDeleteIItem").click(function () {
     loadAllItems();
 });
 
+/*load All*/
 function loadAllItems() {
     $("#tblItems").empty();
 
@@ -65,7 +66,7 @@ function loadAllItems() {
 }
 
 /*select data in table*/
-function bindRowClickEvents() {
+function bindRowItemClickEvents() {
 
     $("#tblItems>tr").click(function () {
         let code = $(this).children(":eq(0)").text();
@@ -88,27 +89,30 @@ function bindRowClickEvents() {
 $("#txtItemCode").on('keyup', function (event) {
     if (event.code == "Enter") {
         let typedCode = $("#txtItemCode").val();
-        let Item = searchItem(typedCode);
-        if (Item != null) {
-            setTextfieldValues(Item.code, Item.name, Item.qty, Item.unitPrice);
+        let item = searchItem(typedCode);
+        if (item != null) {
+            setItemTextFieldValues(item.code, item.name, item.qty, item.unitPrice)
         } else {
             alert("There is no item available for that " + typedCode);
-            setTextfieldValues("", "", "", "");
+            $('#txtItemName').val("");
+            $('#txtQTY').val("");
+            $('#txtUnitPrice').val("");
         }
     }
 });
 
-function setTextfieldValues(code, name, qty, unitPrice) {
+function setItemTextFieldValues(code, name, qty, unitPrice){
     $("#txtItemCode").val(code);
     $("#txtItemName").val(name);
     $("#txtQTY").val(qty);
     $("#txtUnitPrice").val(unitPrice);
 }
 
-function searchItem(code) {
-    for (let Item of Items) {
-        if (Item.id == code) {
-            return Item;
+/*search*/
+function searchItem(itemCode) {
+    for (let item of Items) {
+        if (item.code == itemCode) {
+            return item;
         }
     }
     return null;
@@ -131,8 +135,8 @@ function updateItem(itemCode) {
 function deleteItem(itemCode) {
     let item = searchItem(itemCode);
     if (item != null) {
-        let indexNumber = Items.indexOf(item);
-        Items.splice(indexNumber, 1);
+        let itemIndexNumber = Items.indexOf(item);
+        Items.splice(itemIndexNumber, 1);
         loadAllItems();
         return true;
     } else {
@@ -225,7 +229,7 @@ $("#txtUnitPrice").on('keydown', function (event) {
 function checkValidityofItems() {
     let errorCount = 0;
     for (let validation of itemValidations) {
-        if (checkItems(validation.reg, validation.field)) {
+        if (validation.reg.test(validation.field.val())) {
             textItemSuccess(validation.field, "");
         } else {
             errorCount = errorCount + 1;
