@@ -122,59 +122,5 @@ function clearInputQuntity() {
 function CartItemRemove() {
     $("#orderTable>tr").on('dblclick', function () {
         $(this).remove();
-        /*let totAfterRemove = $("#txtTotal").text();
-        let newValue = totAfterRemove - parseFloat($($(this).children(this).get(5)).text());
-        $("#txtTotal").text(newValue).append('.00');
-
-        $("#txtCash").val("");
-        $("#txtDiscount").val("");
-        $("#txtBalance").val("");
-
-
-        if ($("#txtDiscount").val() === "") {
-            $("#subTotal").text(newValue);
-        }*/
     });
 }
-function calculateTotal() {
-    let Total = 0;
-    $("#orderTable>tr").each(function () {
-        Total = Total + parseFloat($($(this).children().get(5)).text());
-        $('#txtTotal').text(Total).append('.00');
-
-        if ($("#txtDiscount").val() === "") {
-            /*$('#subTotal').text(tot);*/
-        }
-    });
-    tempTotal = Total;
-}
-
-/*Cash*/
-$("#txtCash").on('keyup', function (event) {
-    if (event.key == "Enter") {
-        event.preventDefault();
-    }
-    let cash = parseFloat($("#txtCash").val());
-    let total = $("#txtTotal").text();
-    if (cash > total) {
-        let Total = parseFloat($("#subTotal").text());
-        let balance = cash - Total;
-
-        $("#txtBalance").val(balance);
-    }
-});
-
-$('#txtDiscount').on('keyup', function () {
-    if ($("#txtDiscount").val() === "") {
-        $("#subTotal").text($("#txtTotal").text());
-    } else {
-        let tot = parseFloat(tempTotal);
-        let dis = tot / 100 * parseFloat($("#txtDiscount").val());
-
-        $("#subTotal").text(tot - dis);
-
-        let cash = parseInt($("#txtCash").val());
-        let subTot = parseInt($("#subTotal").text());
-        $("#txtBalance").val(cash - subTot);
-    }
-});

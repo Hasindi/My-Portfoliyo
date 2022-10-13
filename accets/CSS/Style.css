@@ -1298,6 +1298,54 @@ header > nav > ul > li > a:hover {
     filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.25));
 }
 
+.pt1, .pt2, .pt3, .pt4, .pt5 {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+
+.pt1{
+    top: 375px;
+    left: 132px;
+}
+
+.pt2{
+    top: 375px;
+    right: 176px;
+}
+
+.pt3{
+    top: 375px;
+    left: 644px;
+}
+
+.pt4{
+    top: 663px;
+    left: 380px;
+}
+
+.pt5{
+    top: 663px;
+    right: 438px;
+}
+
+.pt1 > a, .pt2 > a, .pt3 > a, .pt4 > a, .pt5 > a {
+    color: white;
+}
+
+/*Added mouse point for names*/
+.pt1 > a:hover, .pt2 > a:hover, .pt3 > a:hover, .pt4 > a:hover, .pt5 > a:hover {
+    color: #F3BC17;
+    cursor: pointer;
+}
+
+.pt1 > a, .pt2 > a, .pt3 > a, .pt4 > a, .pt5 > a, u {
+    text-decoration: none;
+}
+
 /*=======================================================================================================*/
 /*Assignment SECTION*/
 /*=======================================================================================================*/
