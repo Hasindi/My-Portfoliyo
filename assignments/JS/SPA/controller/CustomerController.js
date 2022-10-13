@@ -141,6 +141,15 @@ function deleteCustomer(customerID) {
     }
 }
 
+/*search bar*/
+$('#txtInput').on('keyup', function () {
+    var value = $(this).val().toLowerCase();
+    $('#tblCustomer>tr').filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+});
+
+
 //////////////////////////////////////////////////////////////////////////////////////
 /*validation*/
 
