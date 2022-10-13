@@ -73,6 +73,22 @@ function addToCart() {
     Cart.push(CartObject);
 }
 
+/*update quntity*/
+function updateQty() {
+    let qtyOnHand = $('#qtyOnHand').val();
+    let orderqty = $('#buyQty').val();
+    let newQTY = qtyOnHand - orderqty;
+
+    for (let item of Items) {
+        if ($("#inputItemCode").val() === item.code) {
+            item.qty = newQTY;
+            $('#qtyOnHand').val(item.qty);
+
+            loadAllCartDetails();
+        }
+    }
+}
+
 /*load all*/
 function loadAllCartDetails() {
     $("#orderTable").empty();
@@ -96,3 +112,6 @@ function clearInputQuntity() {
     $("#buyQty").val("");
 }
 
+/*disable button*/
+$("#btnAddToCart").attr('disabled', true);
+$("#btnPlaceOrder").attr('disabled', true);
