@@ -44,9 +44,10 @@ $('#btnAddToCart').click(function () {
         if (QTYOnHand < orderQTY) {
             alert("There is no item Avilable for this Quntity...!")
         } else {
+            updateQty();
             addToCart();
             loadAllCartDetails();
-            clearTextFields();
+            clearInputQuntity();
         }
     } else {
         alert("Plese enter your Order Quntity...!");
@@ -83,8 +84,15 @@ function loadAllCartDetails() {
     }
 }
 
+/*clear text fields*/
 function clearTextFields() {
     $("#inputCustomerID,#customerName,#customerAddress,#customerSalary").val("");
     $("#inputItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty").val("");
+}
+
+
+/*clear item text fields*/
+function clearInputQuntity() {
+    $("#buyQty").val("");
 }
 
