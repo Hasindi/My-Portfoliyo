@@ -28,7 +28,6 @@ $("#btnUpdateItem").click(function () {
         setTextfieldValues("", "", "", "");
     } else {
         alert("Update Failed..!");
-
     }
 });
 
@@ -37,7 +36,7 @@ $("#btnDeleteIItem").click(function () {
     let deleteID = $("#txtItemCode").val();
 
     let option = confirm("Do you really want to delete Item code :" + deleteID);
-    if (option){
+    if (option) {
         if (deleteItem(deleteID)) {
             alert("Item Successfully Deleted...!");
             setTextfieldValues("", "", "", "");
@@ -48,10 +47,10 @@ $("#btnDeleteIItem").click(function () {
     loadAllItems();
 });
 
-function loadAllItems(){
+function loadAllItems() {
     $("#tblItems").empty();
 
-    for (var item of Items){
+    for (var item of Items) {
 
         var row = `<tr><td>${item.code}</td><td>${item.name}</td><td>${item.qty}</td><td>${item.unitPrice}</td></tr>`;
 
@@ -82,12 +81,12 @@ function bindRowClickEvents() {
 
 $("#txtItemCode").on('keyup', function (event) {
     if (event.code == "Enter") {
-        let typedId = $("#txtItemCode").val();
-        let item = searchItem(typedId);
-        if (item != null) {
-            setTextfieldValues(item.code, item.name, item.qty, item.unitPrice);
+        let typedCode = $("#txtItemCode").val();
+        let Item = searchItem(typedCode);
+        if (Item != null) {
+            setTextfieldValues(Item.code, Item.name, Item.qty, Item.unitPrice);
         } else {
-            alert("There is no item available for that " + typedId);
+            alert("There is no item available for that " + typedCode);
             setTextfieldValues("", "", "", "");
         }
     }
