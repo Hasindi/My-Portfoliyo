@@ -164,7 +164,7 @@ $("#txtItemCode").focus();
 // item reguler expressions
 const itemCodeRegEx = /^(I00-)[0-9]{1,3}$/;
 const itemNameRegEx = /^[A-z ]{4,20}$/;
-const qtyRegEx = /^[1-9/A-z. ,]{2,}$/;
+const qtyRegEx = /^[0-9/A-z. ,]{2,}$/;
 const unitPriceRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
 
 let itemValidations = [];
