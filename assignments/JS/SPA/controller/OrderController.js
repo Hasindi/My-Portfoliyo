@@ -2,6 +2,7 @@
 $("#btnAddToCart").attr('disabled', true);
 $("#btnPlaceOrder").attr('disabled', true);
 
+/*load customer ids to combobox*/
 function loadAllCustomersForOption() {
     $("#inputCustomerID").empty();
     for (let cus of Customers) {
@@ -61,8 +62,6 @@ $("#btnAddToCart").click(function () {
 });
 
 subTotalArray = [];
-
-//function add to cart
 function addToCart() {
     let iCode = $("#inputItemCode").val();
     let iName = $("#itemName").val();
@@ -145,7 +144,7 @@ function loadAllCartDetails() {
     CartItemRemove();
 }
 
-/*clear text fields*/
+/*clear all text fields*/
 function clearTextFields() {
     $("#orderId,#orderDate").val("");
     $("#inputCustomerID,#customerName,#customerAddress,#customerSalary").val("");
@@ -156,17 +155,19 @@ function clearTextFields() {
 
 }
 
-/*clear item text fields*/
+/*clear item text(quntity) fields*/
 function clearInputQuntity() {
     $("#buyQty").val("");
 }
 
+/*remove item in table*/
 function CartItemRemove() {
     $("#orderTable>tr").on('dblclick', function () {
         $(this).remove();
     });
 }
 
+/*place order*/
 $("#btnPlaceOrder").click(function () {
     let oID = $("#orderId").val();
     let oDate = $("#orderDate").val();
@@ -187,4 +188,3 @@ $("#btnPlaceOrder").click(function () {
     alert("Order Saved Successfully...!");
     clearTextFields();
 });
-
