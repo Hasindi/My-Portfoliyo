@@ -201,3 +201,11 @@ $("#allOrder").click(function () {
         $("#tblAllOrders").append(row);
     }
 });
+
+/*search bar*/
+$("#txtAllDetalsInput").on('keyup', function () {
+    var value = $(this).val().toLowerCase();
+    $("#tblAllOrders>tr").filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+});
