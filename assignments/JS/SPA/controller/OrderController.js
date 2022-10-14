@@ -62,6 +62,7 @@ $("#btnAddToCart").click(function () {
 });
 
 subTotalArray = [];
+
 function addToCart() {
     let iCode = $("#inputItemCode").val();
     let iName = $("#itemName").val();
@@ -88,7 +89,7 @@ function getAmount() {
     for (var i = 0; i < subTotalArray.length; i++) {
         amount += subTotalArray[i];
     }
-    $("#txtTotal").text(amount+".00");
+    $("#txtTotal").text(amount + ".00");
 }
 
 /*discount*/
@@ -99,7 +100,7 @@ $("#txtDiscount").on('keydown', function (event) {
         var genarateDis = tot * discount / 100;
 
         var subValue = tot - genarateDis;
-        $("#txtSubTotal").text(subValue+".00");
+        $("#txtSubTotal").text(subValue + ".00");
     }
 });
 
@@ -110,7 +111,7 @@ $("#txtCash").on('keydown', function (event) {
         var cash = $("#txtCash").val();
         var balance = cash - subTotal;
 
-        $("#txtBalance").val(balance+".00");
+        $("#txtBalance").val(balance + ".00");
         $("#btnPlaceOrder").attr('disabled', false);
     }
 });
@@ -187,4 +188,16 @@ $("#btnPlaceOrder").click(function () {
 
     alert("Order Saved Successfully...!");
     clearTextFields();
+});
+
+/*all details*/
+$("#allOrder").click(function () {
+    $("#tblAllOrders").empty();
+
+    for (var orderDetails of Order) {
+        var row = `<tr><td>${orderDetails.oID}</td><td>${orderDetails.oDate}</td>
+                    <td>${orderDetails.cusID}</td><td>${orderDetails.dis}</td><td>${orderDetails.total}</td></tr>`;
+
+        $("#tblAllOrders").append(row);
+    }
 });
