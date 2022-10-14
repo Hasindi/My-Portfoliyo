@@ -89,8 +89,19 @@ function getAmount() {
     for (var i = 0; i < subTotalArray.length; i++) {
         amount += subTotalArray[i];
     }
-    $("#txtTotal").text("Rs."+amount+".00");
+    $("#txtTotal").text(amount);
 }
+
+$("#txtDiscount").on('keydown', function (event){
+    if (event.key == 'Enter'){
+        var discount = $("#txtDiscount").val();
+        var tot = $("#txtTotal").text();
+        var genarateDis = tot * discount/100;
+
+        var subValue =  tot - genarateDis;
+        $("#txtSubTotal").text(subValue);
+    }
+});
 
 /*update quntity*/
 function updateQty() {
