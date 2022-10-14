@@ -124,3 +124,4 @@ function CartItemRemove() {
         $(this).remove();
     });
 }
+
