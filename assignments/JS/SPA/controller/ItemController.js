@@ -64,6 +64,7 @@ function loadAllItems() {
 
         $("#tblItems").append(row);
     }
+    bindRowItemClickEvents();
 }
 
 /*select data in table*/

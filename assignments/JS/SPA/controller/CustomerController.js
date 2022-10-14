@@ -62,6 +62,7 @@ function loadAllCustomers() {
 
         $("#tblCustomer").append(row);
     }
+    bindRowClickEvents();
 }
 
 /*select data in table*/
