@@ -5,6 +5,7 @@ $("#btnPlaceOrder").attr('disabled', true);
 /*load customer ids to combobox*/
 function loadAllCustomersForOption() {
     $("#inputCustomerID").empty();
+    $("#inputCustomerID").prepend(`<option>Select ID</option>`);
     for (let cus of Customers) {
         $("#inputCustomerID").append(`<option>${cus.id}</option>`);
     }
@@ -13,6 +14,7 @@ function loadAllCustomersForOption() {
 /*load item ids to combobox*/
 function loadAllItemsForOption() {
     $("#inputItemCode").empty();
+    $("#inputItemCode").prepend(`<option>Select Code</option>`);
     for (let item of Items) {
         $("#inputItemCode").append(`<option>${item.code}</option>`);
     }
