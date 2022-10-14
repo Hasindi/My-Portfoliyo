@@ -58,7 +58,10 @@ $("#btnAddToCart").click(function () {
         alert("Plese enter your Order Quntity...!");
     }
     $("#btnPlaceOrder").attr('disabled', false);
+    getAmount();
 });
+
+subTotalArray = [];
 
 //function add to cart
 function addToCart() {
@@ -67,6 +70,8 @@ function addToCart() {
     let iPrice = $("#itemPrice").val();
     let buyqty = $('#buyQty').val();
     let total = iPrice * buyqty;
+
+    subTotalArray.push(total);
 
     var CartObject = {
         iCode: iCode,
@@ -77,6 +82,14 @@ function addToCart() {
     }
 
     Cart.push(CartObject);
+}
+
+function getAmount() {
+    var amount = 0;
+    for (var i = 0; i < subTotalArray.length; i++) {
+        amount += subTotalArray[i];
+    }
+    $("#txtTotal").text("Rs."+amount+".00");
 }
 
 /*update quntity*/
