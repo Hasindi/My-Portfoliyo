@@ -84,6 +84,7 @@ function addToCart() {
     Cart.push(CartObject);
 }
 
+/*total*/
 function getAmount() {
     var amount = 0;
     for (var i = 0; i < subTotalArray.length; i++) {
@@ -92,6 +93,7 @@ function getAmount() {
     $("#txtTotal").text(amount);
 }
 
+/*discount*/
 $("#txtDiscount").on('keydown', function (event){
     if (event.key == 'Enter'){
         var discount = $("#txtDiscount").val();
@@ -100,6 +102,17 @@ $("#txtDiscount").on('keydown', function (event){
 
         var subValue =  tot - genarateDis;
         $("#txtSubTotal").text(subValue);
+    }
+});
+
+/*balance*/
+$("#txtCash").on('keydown', function (event){
+    if (event.key == 'Enter'){
+        var subTotal = $("#txtSubTotal").text();
+        var cash = $("#txtCash").val();
+        var balance = cash - subTotal;
+
+        $("#txtBalance").val(balance);
     }
 });
 
