@@ -9,12 +9,14 @@ function saveCustomer(){
     let customerAddress = $("#txtCustomerAddress").val();
     let customerSalary = $("#txtCustomerSalary").val();
 
-    var CustomerObject = {
+    /*var CustomerObject = {
         id: customerID,
         name: customerName,
         address: customerAddress,
         salary: customerSalary
-    }
+    }*/
+
+    let CustomerObject = new CustomerDTO(customerID, customerName, customerAddress, customerSalary);
 
     Customers.push(CustomerObject);
 

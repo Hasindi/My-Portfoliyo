@@ -74,13 +74,15 @@ function addToCart() {
 
     subTotalArray.push(total);
 
-    var CartObject = {
+   /* var CartObject = {
         iCode: iCode,
         iName: iName,
         iPrice: iPrice,
         buyqty: buyqty,
         total: total
-    }
+    }*/
+
+    let CartObject = new CartDTO(iCode, iName, iPrice, buyqty, total);
 
     Cart.push(CartObject);
 }
@@ -179,13 +181,15 @@ $("#btnPlaceOrder").click(function () {
     let dis = $("#txtDiscount").val();
     let total = $("#txtTotal").text();
 
-    var orderObject = {
+    /*var orderObject = {
         oID: oID,
         oDate: oDate,
         cusID: cusID,
         dis: dis,
         total: total
-    }
+    }*/
+
+    let orderObject = new OrderDTO(oID, oDate, cusID, dis, total);
 
     Order.push(orderObject);
 

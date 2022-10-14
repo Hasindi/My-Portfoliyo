@@ -10,12 +10,14 @@ function saveItem(){
     let qty = $("#txtQTY").val();
     let unitPrice = $("#txtUnitPrice").val();
 
-    var ItemObject = {
+    /*var ItemObject = {
         code: itemCode,
         name: itemName,
         qty: qty,
         unitPrice: unitPrice
-    }
+    }*/
+
+    let ItemObject = new ItemDTO(itemCode, itemName, qty, unitPrice);
 
     Items.push(ItemObject);
 
