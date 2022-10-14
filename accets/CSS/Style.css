@@ -4732,9 +4732,9 @@ html {
     .contactD1 {
         position: absolute;
         text-align: center;
-        left: 149px;
+        left: 298px;
         top: 177px;
-        width: 348px;
+        width: 50px;
     }
 
     /*adjust paragraph*/
@@ -5739,9 +5739,9 @@ html {
     .contactD1 {
         position: absolute;
         text-align: center;
-        left: 124px;
+        left: 292px;
         top: 177px;
-        width: 348px;
+        width: 3px;
     }
 
     /*adjust paragraph*/
@@ -5902,6 +5902,7 @@ html {
     .T1, .T2, .T3, .T4, .T5, .T6, .T7 {
         font-size: 38px;
         top: -9px;
+        width: 258px;
     }
 
     /*titles: About me, Service, Skills, Education, Projects, Contact me*/
@@ -5909,6 +5910,7 @@ html {
         font-size: 24px;
         top: -64px;
         color: #ffffff;
+        width: 163px;
 
     }
 
@@ -6707,7 +6709,8 @@ html {
     /*Github link box paragraph*/
     .githubP {
         font-size: 12px;
-        top: 16px;
+        top: 14px;
+        width: 225px;
     }
 
     /*Button Github*/
@@ -6719,7 +6722,7 @@ html {
         left: 0;
         right: 0;
         top: 0;
-        bottom: -58px;
+        bottom: -53px;
     }
 
     /*=======================================================================================================*/
@@ -6743,9 +6746,9 @@ html {
     .contactD1 {
         position: absolute;
         text-align: center;
-        left: 95px;
+        left: 262px;
         top: 177px;
-        width: 348px;
+        width: 3px;
     }
 
     /*adjust paragraph*/
@@ -6765,15 +6768,15 @@ html {
 
     /*Address*/
     .address1 {
-        top: 440px;
-        left: 221px;
+        top: 373px;
+        left: 130px;
         font-size: 10px;
     }
 
     /*Contact*/
     .contact1 {
-        top: 540px;
-        left: 221px;
+        top: 483px;
+        left: 80px;
         font-size: 10px;
     }
 
@@ -6787,30 +6790,32 @@ html {
 
     /*contact details image*/
     .imgC2 {
-        top: 445px;
-        left: 175px;
+        top: 377px;
+        left: 82px;
         width: 15px;
         height: 16px;
     }
 
     /*contact details image*/
     .imgC3 {
-        top: 548px;
-        left: 182px;
+        top: 489px;
+        left: 36px;
         width: 15px;
         height: 15px;
     }
 
     .sec2 {
-        top: -30px;
+        top: 37px;
         position: absolute;
-        width: 312px;
+        width: 297px;
+        left: 92px;
     }
 
     .sec3 {
-        top: -50px;
+        top: 3px;
         position: absolute;
-        width: 312px;
+        width: 156px;
+        left: 143px;
     }
 
     /*Button send Massages*/
