@@ -3,12 +3,28 @@ My Personal Web Page
 
 
 #
-* <a href="https://github.com/Hasindi" target="_blank">GitHub</a>
+Reference
+
 * <a href="https://www.gloomaps.com/GP22PWs9hs" target="_blank">Site-Map</a>
 * <a href="https://wireframe.cc/loWpT3" target="_blank">Wire-Frame</a>
 * <a href="https://www.figma.com/proto/BaKcwU2yoLE4SgFG4oRZ0F/My-Portfolio?scaling=min-zoom&page-id=0%3A1&node-id=1%3A2
 " target="_blank">Mock-Up</a>
-* <a href="https://www.linkedin.com/in/hasindi-mudithya" target="_blank">Linked-In</a>
+#
+
+#
+This Site was build Using
+
+* <a href="https://hasindi.github.io/My-Portfoliyo/" target="_blank">GitHub Page</a>
+* <a href="http://hasindi.epizy.com/" target="_blank">000WebHost</a>
+#
+
+#
+Framework Used
+
+* HTML
+* CSS
+* Java Script
+
 #
 
 
