@@ -57,7 +57,6 @@ $("#btnAddToCart").click(function () {
     } else {
         alert("Plese enter your Order Quntity...!");
     }
-    $("#btnPlaceOrder").attr('disabled', false);
     getAmount();
 });
 
@@ -94,25 +93,26 @@ function getAmount() {
 }
 
 /*discount*/
-$("#txtDiscount").on('keydown', function (event){
-    if (event.key == 'Enter'){
+$("#txtDiscount").on('keydown', function (event) {
+    if (event.key == 'Enter') {
         var discount = $("#txtDiscount").val();
         var tot = $("#txtTotal").text();
-        var genarateDis = tot * discount/100;
+        var genarateDis = tot * discount / 100;
 
-        var subValue =  tot - genarateDis;
+        var subValue = tot - genarateDis;
         $("#txtSubTotal").text(subValue);
     }
 });
 
 /*balance*/
-$("#txtCash").on('keydown', function (event){
-    if (event.key == 'Enter'){
+$("#txtCash").on('keydown', function (event) {
+    if (event.key == 'Enter') {
         var subTotal = $("#txtSubTotal").text();
         var cash = $("#txtCash").val();
         var balance = cash - subTotal;
 
         $("#txtBalance").val(balance);
+        $("#btnPlaceOrder").attr('disabled', false);
     }
 });
 
@@ -147,8 +147,12 @@ function loadAllCartDetails() {
 
 /*clear text fields*/
 function clearTextFields() {
+    $("#orderId,#orderDate").val("");
     $("#inputCustomerID,#customerName,#customerAddress,#customerSalary").val("");
     $("#inputItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty").val("");
+    $("#txtTotal,#txtCash,#txtDiscount,#txtSubTotal,#txtBalance").val("");
+    $("#orderTable").empty();
+
 }
 
 /*clear item text fields*/
@@ -162,7 +166,7 @@ function CartItemRemove() {
     });
 }
 
-$("#btnPlaceOrder").click(function (){
+$("#btnPlaceOrder").click(function () {
     let oID = $("#orderId").val();
     let oDate = $("#orderDate").val();
     let cusID = $("#inputCustomerID").val();
@@ -179,10 +183,7 @@ $("#btnPlaceOrder").click(function (){
 
     Order.push(orderObject);
 
-    if (Order != null) {
-        alert("Order Saved Successfully...!");
-    } else {
-        alert("Order Failed..!");
-    }
+    alert("Order Saved Successfully...!");
+    clearTextFields();
 });
 
