@@ -162,3 +162,27 @@ function CartItemRemove() {
     });
 }
 
+$("#btnPlaceOrder").click(function (){
+    let oID = $("#orderId").val();
+    let oDate = $("#orderDate").val();
+    let cusID = $("#inputCustomerID").val();
+    let dis = $("#txtDiscount").val();
+    let total = $("#txtTotal").text();
+
+    var orderObject = {
+        oID: oID,
+        oDate: oDate,
+        cusID: cusID,
+        dis: dis,
+        total: total
+    }
+
+    Order.push(orderObject);
+
+    if (Order != null) {
+        alert("Order Saved Successfully...!");
+    } else {
+        alert("Order Failed..!");
+    }
+});
+
