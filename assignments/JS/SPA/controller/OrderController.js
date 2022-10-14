@@ -155,7 +155,8 @@ function clearTextFields() {
     $("#txtCash,#txtDiscount,#txtBalance").val("");
     $("#txtTotal,#txtSubTotal").text("");
     $("#orderTable").empty();
-
+    $("#btnAddToCart").attr('disabled', true);
+    $("#btnPlaceOrder").attr('disabled', true);
 }
 
 /*clear item text(quntity) fields*/
@@ -211,3 +212,5 @@ $("#txtAllDetalsInput").on('keyup', function () {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
 });
+
+
