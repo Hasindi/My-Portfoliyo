@@ -89,7 +89,7 @@ function getAmount() {
     for (var i = 0; i < subTotalArray.length; i++) {
         amount += subTotalArray[i];
     }
-    $("#txtTotal").text(amount);
+    $("#txtTotal").text(amount+".00");
 }
 
 /*discount*/
@@ -100,7 +100,7 @@ $("#txtDiscount").on('keydown', function (event) {
         var genarateDis = tot * discount / 100;
 
         var subValue = tot - genarateDis;
-        $("#txtSubTotal").text(subValue);
+        $("#txtSubTotal").text(subValue+".00");
     }
 });
 
@@ -111,7 +111,7 @@ $("#txtCash").on('keydown', function (event) {
         var cash = $("#txtCash").val();
         var balance = cash - subTotal;
 
-        $("#txtBalance").val(balance);
+        $("#txtBalance").val(balance+".00");
         $("#btnPlaceOrder").attr('disabled', false);
     }
 });
@@ -150,7 +150,8 @@ function clearTextFields() {
     $("#orderId,#orderDate").val("");
     $("#inputCustomerID,#customerName,#customerAddress,#customerSalary").val("");
     $("#inputItemCode,#itemName,#itemPrice,#qtyOnHand,#buyQty").val("");
-    $("#txtTotal,#txtCash,#txtDiscount,#txtSubTotal,#txtBalance").val("");
+    $("#txtCash,#txtDiscount,#txtBalance").val("");
+    $("#txtTotal,#txtSubTotal").text("");
     $("#orderTable").empty();
 
 }
