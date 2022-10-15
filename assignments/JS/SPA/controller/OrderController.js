@@ -74,13 +74,13 @@ function addToCart() {
 
     subTotalArray.push(total);
 
-   /* var CartObject = {
-        iCode: iCode,
-        iName: iName,
-        iPrice: iPrice,
-        buyqty: buyqty,
-        total: total
-    }*/
+    /* var CartObject = {
+         iCode: iCode,
+         iName: iName,
+         iPrice: iPrice,
+         buyqty: buyqty,
+         total: total
+     }*/
 
     let CartObject = new CartDTO(iCode, iName, iPrice, buyqty, total);
 
@@ -216,5 +216,3 @@ $("#txtAllDetalsInput").on('keyup', function () {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
 });
-
-
