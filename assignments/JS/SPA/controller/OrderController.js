@@ -175,7 +175,7 @@ function CartItemRemove() {
 
 /*place order*/
 $("#btnPlaceOrder").click(function () {
-    let oID = $("#orderId").val();
+    let oID = genarateAutoID();/*$("#orderId").val();*/
     let oDate = $("#orderDate").val();
     let cusID = $("#inputCustomerID").val();
     let dis = $("#txtDiscount").val();
@@ -216,3 +216,23 @@ $("#txtAllDetalsInput").on('keyup', function () {
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
 });
+
+
+function genarateAutoID() {
+    var x = 0;
+    var oId = 'OID-00';
+
+    if (Order.length == 0) {
+        x = x + 1;
+        return oId + x;
+    } else {
+        var detail = Order[Order.length - 1];
+
+        var id = detail.oId;
+        var y = id.substr(5,);
+        var intZ = parseInt(y);
+        intZ = intZ + 1;
+        var newID = 'OID-00' + intZ;
+        return newID;
+    }
+}
