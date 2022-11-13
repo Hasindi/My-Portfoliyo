@@ -1,0 +1,32 @@
+body{
+    background-color: #5c636a;
+}
+
+h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    margin: auto;
+    width: max-content;
+    padding-bottom: 15px;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#content{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 500px;
+    width: 80vw;
+}
+
+#content> div{
+    width: 130px;
+    height: 70px;
+
+}
