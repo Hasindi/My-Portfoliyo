@@ -21,12 +21,29 @@ h1{
     left: 0;
     right: 0;
     margin: auto;
-    top: 500px;
-    width: 80vw;
+    top: 200px;
+    width: 95vw;
 }
 
 #content> div{
     width: 130px;
     height: 70px;
+    border: 1px solid red;
+}
 
+#btnContent > button{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+#btnContent{
+    position: absolute;
+    display: flex;
+    width: 95vw;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 290px;
+    justify-content: center;
 }
