@@ -2,7 +2,9 @@ var input = {
     persons: [
         {name: "Pawani", color: "red"},
         {name: "Dilki", color: "green"},
-        {name: "Nuwan", color: "orange"}
+        {name: "Nuwan", color: "orange"},
+        {name: "Hasindi", color: "pink"},
+        {name: "Ruwan", color: "blue"}
     ],
 
     nextPerson: function () {
