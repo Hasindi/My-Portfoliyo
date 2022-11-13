@@ -21,29 +21,48 @@ h1{
     left: 0;
     right: 0;
     margin: auto;
-    top: 200px;
-    width: 95vw;
+    top: 260px;
+    width: 80vw;
+    justify-content: center;
 }
 
 #content> div{
-    width: 130px;
-    height: 70px;
-    border: 1px solid red;
+    width: 200px;
+    height: 80px;
+    border: 1px solid #855630FF;
 }
 
-#btnContent > button{
+#btnStart{
+    width: 150px;
+    height: 50px;
+    background-color: #0b2e13;
+    color: white;
+    font-weight: bold;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+    margin-right: 10px;
+}
+
+#btnEnd{
+    width: 150px;
+    height: 50px;
+    background-color: #4b0707;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
     margin-left: 10px;
 }
 
 #btnContent{
     position: absolute;
     display: flex;
-    width: 95vw;
+    width: 80vw;
     left: 0;
     right: 0;
     margin: auto;
-    top: 290px;
+    top: 434px;
     justify-content: center;
 }
