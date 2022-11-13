@@ -33,4 +33,9 @@ $("#btn").click(function () {
     }
 
     input.persons.unshift(Object);
+    clearText();
 });
+
+function clearText(){
+    $("#name,#color").val("");
+}
