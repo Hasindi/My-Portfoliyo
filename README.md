@@ -79,3 +79,20 @@ This is Framework Assigment (JS)
 * <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/JS/Calculator/" target="_blank">Calculator</a>
 #
 
+
+# Que
+This is JS Assigment
+
+
+#
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/JS/Que/" target="_blank">Que</a>
+#
+
+
+# Knight Rider
+This is JS Assigment
+
+
+#
+* <a href="http://Hasindi.github.io/My-Portfoliyo/assignments/JS/KnightRider/" target="_blank">Knight Rider</a>
+#
