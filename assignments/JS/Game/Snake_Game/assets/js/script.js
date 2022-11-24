@@ -55,6 +55,14 @@ function update() {
         setFoodPlace();
     }
 
+    /*collect food for body part*/
+    for (let i=snakeBody.length-1; i>0; i--){
+        snakeBody[i]=snakeBody[i-1];
+    }
+    if (snakeBody.length){
+        snakeBody[0]=[snakeX,snakeY];
+    }
+
     /*snake head style*/
     grid.fillStyle = "green";
     snakeX+=timerX* blockSize;
