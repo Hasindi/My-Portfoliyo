@@ -35,7 +35,7 @@ window.onload = function () {
     setFoodPlace();
     document.addEventListener("keyup", setSnakeMove);
     /*update();*/
-    setInterval(update, 1000 / 10);
+    setInterval(update, 1000 / 5);
 }
 
 /*snake and food*/
