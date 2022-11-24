@@ -46,7 +46,7 @@ function update() {
     }
 
     /*game board style*/
-    grid.fillStyle = "black";
+    grid.fillStyle = "#001F3C";
     grid.fillRect(0, 0, board.width, board.height);
 
     /*food style*/
@@ -71,7 +71,7 @@ function update() {
     }
 
     /*snake head style*/
-    grid.fillStyle = "green";
+    grid.fillStyle = "#9FC323";
     snakeX += timerX * blockSize;
     snakeY += timerY * blockSize;
     grid.fillRect(snakeX, snakeY, blockSize, blockSize);
