@@ -15,13 +15,13 @@ var foodX;
 var foodY;
 
 /*snake speed*/
-var timerX=0;
-var timerY=0;
+var timerX = 0;
+var timerY = 0;
 
 /*snake body*/
-var snakeBody=[];
+var snakeBody = [];
 
-var gameOver=false;
+var gameOver = false;
 
 window.onload = function () {
     board = document.getElementById("board");
@@ -35,13 +35,13 @@ window.onload = function () {
     setFoodPlace();
     document.addEventListener("keyup", setSnakeMove);
     /*update();*/
-    setInterval(update, 1000/10);
+    setInterval(update, 1000 / 10);
 }
 
 /*snake and food*/
 function update() {
     /*if game over make retur*/
-    if (gameOver){
+    if (gameOver) {
         return;
     }
 
@@ -54,7 +54,7 @@ function update() {
     grid.fillRect(foodX, foodY, blockSize, blockSize);
 
     /*snake touch foods*/
-    if (snakeX==foodX&&snakeY==foodY){
+    if (snakeX == foodX && snakeY == foodY) {
 
         /*push food for body*/
         snakeBody.push([foodX, foodY]);
@@ -63,34 +63,34 @@ function update() {
     }
 
     /*collect food for body part*/
-    for (let i=snakeBody.length-1; i>0; i--){
-        snakeBody[i]=snakeBody[i-1];
+    for (let i = snakeBody.length - 1; i > 0; i--) {
+        snakeBody[i] = snakeBody[i - 1];
     }
-    if (snakeBody.length){
-        snakeBody[0]=[snakeX,snakeY];
+    if (snakeBody.length) {
+        snakeBody[0] = [snakeX, snakeY];
     }
 
     /*snake head style*/
     grid.fillStyle = "green";
-    snakeX+=timerX* blockSize;
-    snakeY+=timerY* blockSize;
+    snakeX += timerX * blockSize;
+    snakeY += timerY * blockSize;
     grid.fillRect(snakeX, snakeY, blockSize, blockSize);
 
     /*push food for body part*/
-    for (let i=0; i<snakeBody.length; i++){
+    for (let i = 0; i < snakeBody.length; i++) {
         grid.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
     }
 
 
     /*game over Conditions*/
-    if (snakeX<0 || snakeX>column*blockSize || snakeY<0 || snakeY>row*blockSize ){
-        gameOver=true;
+    if (snakeX < 0 || snakeX > column * blockSize || snakeY < 0 || snakeY > row * blockSize) {
+        gameOver = true;
         alert("Game Over...!!!");
     }
 
-    for (let i=0; i<snakeBody.length; i++){
-        if (snakeX==snakeBody[i][0] && snakeY==snakeBody[i][1]){
-            gameOver=true;
+    for (let i = 0; i < snakeBody.length; i++) {
+        if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
+            gameOver = true;
             alert("Game Over...!!!");
         }
     }
@@ -98,21 +98,18 @@ function update() {
 
 /*snake move*/
 function setSnakeMove(s) {
-    if (s.code == "ArrowUp"){
-        timerX=0;
-        timerY=-1;
-    }
-    else if (s.code == "ArrowDown"){
-        timerX=0;
-        timerY=1;
-    }
-    else if (s.code == "ArrowLeft"){
-        timerX=-1;
-        timerY=0;
-    }
-    else if (s.code == "ArrowRight"){
-        timerX=1;
-        timerY=0;
+    if (s.code == "ArrowUp") {
+        timerX = 0;
+        timerY = -1;
+    } else if (s.code == "ArrowDown") {
+        timerX = 0;
+        timerY = 1;
+    } else if (s.code == "ArrowLeft") {
+        timerX = -1;
+        timerY = 0;
+    } else if (s.code == "ArrowRight") {
+        timerX = 1;
+        timerY = 0;
     }
 
 }
