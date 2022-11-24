@@ -18,6 +18,9 @@ var foodY;
 var timerX=0;
 var timerY=0;
 
+/*snake body*/
+var snakeBody=[];
+
 window.onload = function () {
     board = document.getElementById("board");
 
@@ -43,8 +46,12 @@ function update() {
     grid.fillStyle = "crimson";
     grid.fillRect(foodX, foodY, blockSize, blockSize);
 
-    /*snake  touch foods*/
+    /*snake touch foods*/
     if (snakeX==foodX&&snakeY==foodY){
+
+        /*push food for body*/
+        snakeBody.push([foodX, foodY]);
+
         setFoodPlace();
     }
 
@@ -53,6 +60,11 @@ function update() {
     snakeX+=timerX* blockSize;
     snakeY+=timerY* blockSize;
     grid.fillRect(snakeX, snakeY, blockSize, blockSize);
+
+    /*push food for body part*/
+    for (let i=0; i<snakeBody.length; i++){
+        grid.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
+    }
 }
 
 /*snake move*/
