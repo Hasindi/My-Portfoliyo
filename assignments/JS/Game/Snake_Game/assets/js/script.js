@@ -21,6 +21,8 @@ var timerY=0;
 /*snake body*/
 var snakeBody=[];
 
+var gameOver=false;
+
 window.onload = function () {
     board = document.getElementById("board");
 
@@ -38,6 +40,11 @@ window.onload = function () {
 
 /*snake and food*/
 function update() {
+    /*if game over make retur*/
+    if (gameOver){
+        return;
+    }
+
     /*game board style*/
     grid.fillStyle = "black";
     grid.fillRect(0, 0, board.width, board.height);
@@ -72,6 +79,20 @@ function update() {
     /*push food for body part*/
     for (let i=0; i<snakeBody.length; i++){
         grid.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
+    }
+
+
+    /*game over Conditions*/
+    if (snakeX<0 || snakeX>column*blockSize || snakeY<0 || snakeY>row*blockSize ){
+        gameOver=true;
+        alert("Game Over...!!!");
+    }
+
+    for (let i=0; i<snakeBody.length; i++){
+        if (snakeX==snakeBody[i][0] && snakeY==snakeBody[i][1]){
+            gameOver=true;
+            alert("Game Over...!!!");
+        }
     }
 }
 
