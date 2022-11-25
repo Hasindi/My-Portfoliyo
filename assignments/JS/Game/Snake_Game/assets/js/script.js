@@ -23,6 +23,16 @@ var snakeBody = [];
 
 var gameOver = false;
 
+var score = 0;
+
+function updateScore() {
+    score += 1;
+    document.getElementById("score").innerHTML = score;
+    if (score == 1000) {
+        alert("level completed!!!");
+    }
+}
+
 window.onload = function () {
     board = document.getElementById("board");
 
@@ -32,10 +42,12 @@ window.onload = function () {
 
     grid = board.getContext("2d");
 
+
     setFoodPlace();
     document.addEventListener("keyup", setSnakeMove);
     /*update();*/
     setInterval(update, 1000 / 5);
+    updateScore();
 }
 
 /*snake and food*/
@@ -58,8 +70,8 @@ function update() {
 
         /*push food for body*/
         snakeBody.push([foodX, foodY]);
-
         setFoodPlace();
+
     }
 
     /*collect food for body part*/
@@ -81,17 +93,18 @@ function update() {
         grid.fillRect(snakeBody[i][0], snakeBody[i][1], blockSize, blockSize);
     }
 
-
     /*game over Conditions*/
     if (snakeX < 0 || snakeX > column * blockSize || snakeY < 0 || snakeY > row * blockSize) {
         gameOver = true;
         alert("Game Over...!!!");
+        score = 0;
     }
 
     for (let i = 0; i < snakeBody.length; i++) {
         if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
             gameOver = true;
             alert("Game Over...!!!");
+            score = 0;
         }
     }
 }

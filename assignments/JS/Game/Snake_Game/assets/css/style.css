@@ -25,3 +25,9 @@ body {
     margin-top: 100px;
 }
 
+div{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+}
