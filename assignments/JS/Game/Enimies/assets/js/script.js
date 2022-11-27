@@ -1,8 +1,8 @@
 var girl = document.getElementById("girl");
 
-var idleImageNumber = 0;
+var idleImageNumber = 1;
 var idleAnimationNumber = 0;
-var runImageNumber = 0;
+var runImageNumber = 1;
 var runAnimationNumber = 0;
 var backgroundPositionX = 0;
 var moveBackgroundAnimationID = 0;
@@ -32,7 +32,6 @@ function runAnimation() {
         runImageNumber = 1;
     }
 
-
     girl.src = "assets/Run (" + runImageNumber + ").png";
 
 }
@@ -51,11 +50,11 @@ function keyCheck(event) {
         if (runAnimationNumber === 0) {
             runAnimationStart();
         }
-    }
 
-    /*move background*/
-    if (moveBackgroundAnimationID == 0) {
-        moveBackgroundAnimationID = setInterval(moveBackground, 100);
+        /*move background*/
+        if (moveBackgroundAnimationID == 0) {
+            moveBackgroundAnimationID = setInterval(moveBackground, 100);
+        }
     }
 }
 
