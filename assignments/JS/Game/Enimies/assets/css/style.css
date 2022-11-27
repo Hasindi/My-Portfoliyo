@@ -8,6 +8,8 @@ body{
     background-image: url("../vecteezy_creepy-halloween-background-with-ghost-and-zombie-in-dark_11187535.jpg");
     background-size: cover;
     background-repeat: repeat-x;
+    overflow: hidden;
+    position: absolute;
 }
 
 #girl{
