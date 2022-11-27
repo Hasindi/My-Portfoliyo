@@ -12,7 +12,7 @@ var girlMarginTop = 567;
 var boxAnimationID = 0;
 var deadImageNumber = 1;
 var deadAnimationNumber = 0;
-
+var score=0;
 
 
 /*girl Animation*/
@@ -92,6 +92,10 @@ function moveBackground() {
     backgroundPositionX = backgroundPositionX - 20;
 
     document.getElementById("background").style.backgroundPositionX = backgroundPositionX + "px";
+
+    /*score*/
+    score=score+10;
+    document.getElementById("score").innerHTML=score;
 }
 
 function jumpAnimation() {
