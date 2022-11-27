@@ -27,7 +27,10 @@ body {
 
 div{
     font-family: 'Berkshire Swash', cursive;
-    font-weight: 700;
-    font-size: 64px;
+    font-weight: 600;
+    font-size: 45px;
     color: #FFFFFF;
+    margin-top: -515px;
+    margin-right: -20px;
+    position: absolute;
 }

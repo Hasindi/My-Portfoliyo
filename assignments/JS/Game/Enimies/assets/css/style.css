@@ -5,6 +5,12 @@ body{
 .background{
     width: 100%;
     height: 100vh;
-    background-image: url("../nzgs_lmrq_210318.jpg");
+    background-image: url("../vecteezy_creepy-halloween-background-with-ghost-and-zombie-in-dark_11187535.jpg");
     background-size: cover;
+}
+
+#girl{
+    position: absolute;
+    margin-top: 567px;
+    height: 150px;
 }
