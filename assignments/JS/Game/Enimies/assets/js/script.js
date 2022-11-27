@@ -10,6 +10,8 @@ var jumpImageNumber = 1;
 var jumpAnimationNumber = 0;
 var girlMarginTop = 567;
 var boxAnimationID = 0;
+var deadImageNumber = 1;
+var deadAnimationNumber = 0;
 
 
 
@@ -168,7 +170,21 @@ function boxAnimation(){
                 clearInterval(moveBackgroundAnimationID);
                 moveBackgroundAnimationID=-1;
 
+                deadAnimationNumber=setInterval(deadAnimation,100);
+
             }
         }
     }
+}
+
+/*dead for girl*/
+function deadAnimation() {
+    deadImageNumber = deadImageNumber + 1;
+
+    if (deadImageNumber == 11) {
+        deadImageNumber = 10;
+    }
+
+    girl.src = "assets/Dead (" + deadImageNumber + ").png";
+
 }
