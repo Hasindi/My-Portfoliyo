@@ -95,7 +95,7 @@ function moveBackground() {
 
     /*score*/
     score=score+10;
-    document.getElementById("score").innerHTML=score;
+    document.getElementById("score").innerHTML="Score"+score;
 }
 
 function jumpAnimation() {
