@@ -96,12 +96,12 @@ function jumpAnimation() {
     jumpImageNumber = jumpImageNumber + 1;
 
     if (jumpImageNumber <= 6) {
-        girlMarginTop = girlMarginTop - 20;
+        girlMarginTop = girlMarginTop - 35;
         girl.style.marginTop = girlMarginTop + "px";
     }
 
     if (jumpImageNumber >= 7) {
-        girlMarginTop = girlMarginTop + 20;
+        girlMarginTop = girlMarginTop + 35;
         girl.style.marginTop = girlMarginTop + "px";
     }
 
@@ -138,7 +138,7 @@ function createBarriers() {
         /*boxMarginLeft = boxMarginLeft + 1000;*/
 
         if (i<5){
-            boxMarginLeft+=1300;
+            boxMarginLeft+=2000;
         }
 
         if (i>=5){
@@ -151,7 +151,24 @@ function boxAnimation(){
     for (var i = 0; i < 10; i++) {
         var box = document.getElementById("box"+i);
         var currentMarginLeft=getComputedStyle(box).marginLeft;
-        var newMarginLeft=parseInt(currentMarginLeft)-25;
+        var newMarginLeft=parseInt(currentMarginLeft)-35;
         box.style.marginLeft = newMarginLeft + "px";
+
+
+        if (newMarginLeft>=-110 & newMarginLeft<=100){
+            if (girlMarginTop>500){
+                clearInterval(boxAnimationID);
+
+                clearInterval(runAnimationNumber);
+                runAnimationNumber=-1;
+
+                clearInterval(jumpAnimationNumber);
+                jumpAnimationNumber=-1;
+
+                clearInterval(moveBackgroundAnimationID);
+                moveBackgroundAnimationID=-1;
+
+            }
+        }
     }
 }
