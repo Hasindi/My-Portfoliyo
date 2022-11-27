@@ -6,6 +6,8 @@ var runImageNumber = 1;
 var runAnimationNumber = 0;
 var backgroundPositionX = 0;
 var moveBackgroundAnimationID = 0;
+var jumpImageNumber = 1;
+var jumpAnimationNumber = 0;
 
 
 /*girl Animation*/
@@ -56,6 +58,18 @@ function keyCheck(event) {
             moveBackgroundAnimationID = setInterval(moveBackground, 100);
         }
     }
+
+    /*space button for jump*/
+    if (keyCode === 32) {
+        if (jumpAnimationNumber === 0) {
+            jumpAnimationStart();
+        }
+
+        /*move background*/
+        if (moveBackgroundAnimationID === 0) {
+            moveBackgroundAnimationID = setInterval(moveBackground, 100);
+        }
+    }
 }
 
 
@@ -63,4 +77,26 @@ function moveBackground() {
     backgroundPositionX = backgroundPositionX - 20;
 
     document.getElementById("background").style.backgroundPositionX = backgroundPositionX + "px";
+}
+
+function jumpAnimation() {
+    jumpImageNumber = jumpImageNumber + 1;
+
+    if (jumpImageNumber === 11) {
+        jumpImageNumber = 1;
+        clearInterval(jumpAnimationNumber);
+        jumpAnimationNumber = 0;
+        runImageNumber = 0;
+        runAnimationStart();
+    }
+
+    girl.src = "assets/Jump (" + jumpImageNumber + ").png";
+}
+
+function jumpAnimationStart() {
+    clearInterval(idleAnimationNumber);
+    runImageNumber = 0;
+    clearInterval(runAnimationNumber);
+    jumpAnimationNumber = setInterval(jumpAnimation, 100);
+
 }
