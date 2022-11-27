@@ -8,6 +8,7 @@ var backgroundPositionX = 0;
 var moveBackgroundAnimationID = 0;
 var jumpImageNumber = 1;
 var jumpAnimationNumber = 0;
+var girlMarginTop = 567;
 
 
 /*girl Animation*/
@@ -81,6 +82,16 @@ function moveBackground() {
 
 function jumpAnimation() {
     jumpImageNumber = jumpImageNumber + 1;
+
+    if (jumpImageNumber <= 6) {
+        girlMarginTop = girlMarginTop - 20;
+        girl.style.marginTop = girlMarginTop + "px";
+    }
+
+    if (jumpImageNumber >= 7) {
+        girlMarginTop = girlMarginTop + 20;
+        girl.style.marginTop = girlMarginTop + "px";
+    }
 
     if (jumpImageNumber === 11) {
         jumpImageNumber = 1;
