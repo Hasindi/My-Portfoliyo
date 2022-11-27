@@ -27,3 +27,12 @@ body{
     position: absolute;
     margin-top: 630px;
 }
+
+#score{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    color: #FFA500;
+}
