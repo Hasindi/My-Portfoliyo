@@ -112,7 +112,7 @@ function jumpAnimationStart() {
 
 }
 
-let boxMarginLeft = 1600;
+let boxMarginLeft = 400;
 
 /*barriers*/
 function createBarriers() {

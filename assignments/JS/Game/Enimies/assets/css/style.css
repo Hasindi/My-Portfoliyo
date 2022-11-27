@@ -21,7 +21,9 @@ body{
 .box{
     width: 100px;
     height: 100px;
-    background-color: #af810e;
+    background-image: url("../3aeD.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
-    margin-top: 615px;
+    margin-top: 630px;
 }
