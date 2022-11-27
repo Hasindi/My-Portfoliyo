@@ -4,6 +4,8 @@ var idleImageNumber = 0;
 var idleAnimationNumber = 0;
 var runImageNumber = 0;
 var runAnimationNumber = 0;
+var backgroundPositionX = 0;
+var moveBackgroundAnimationID = 0;
 
 
 /*girl Animation*/
@@ -50,4 +52,16 @@ function keyCheck(event) {
             runAnimationStart();
         }
     }
+
+    /*move background*/
+    if (moveBackgroundAnimationID == 0) {
+        moveBackgroundAnimationID = setInterval(moveBackground, 100);
+    }
+}
+
+
+function moveBackground() {
+    backgroundPositionX = backgroundPositionX - 20;
+
+    document.getElementById("background").style.backgroundPositionX = backgroundPositionX + "px";
 }
