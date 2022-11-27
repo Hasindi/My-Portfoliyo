@@ -15,3 +15,10 @@ body{
     margin-top: 567px;
     height: 150px;
 }
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #af810e;
+    position: absolute;
+}

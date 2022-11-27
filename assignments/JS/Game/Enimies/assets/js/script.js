@@ -111,3 +111,12 @@ function jumpAnimationStart() {
     jumpAnimationNumber = setInterval(jumpAnimation, 100);
 
 }
+
+/*barriers*/
+function createBarriers(){
+    var box = document.createElement("div");
+    box.className="box";
+    document.getElementById("background").appendChild(box);
+
+
+}
