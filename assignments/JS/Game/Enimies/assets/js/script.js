@@ -112,11 +112,12 @@ function jumpAnimationStart() {
 
 }
 
+var boxMarginLeft=400;
 /*barriers*/
 function createBarriers(){
     var box = document.createElement("div");
     box.className="box";
     document.getElementById("background").appendChild(box);
-
+    box.style.marginLeft=boxMarginLeft+"px";
 
 }
