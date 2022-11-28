@@ -194,5 +194,6 @@ function deadAnimation() {
     if (deadImageNumber==10){
         alert("Game Over...!!!");
         score = 0;
+        clearInterval(deadAnimationNumber);
     }
 }
