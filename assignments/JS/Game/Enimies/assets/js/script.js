@@ -137,7 +137,7 @@ let boxMarginLeft = 1600;
 /*barriers*/
 function createBarriers() {
 
-    for (var i = 0; i <= 10; i++) {
+    for (var i = 0; i <= 40; i++) {
         var box = document.createElement("div");
         box.className = "box";
         document.getElementById("background").appendChild(box);
@@ -146,12 +146,20 @@ function createBarriers() {
 
         /*boxMarginLeft = boxMarginLeft + 1000;*/
 
-        if (i < 5) {
-            boxMarginLeft += 2000;
+        if (i < 10) {
+            boxMarginLeft += 1000;
         }
 
-        if (i >= 5) {
-            boxMarginLeft += 1000;
+        if (i < 20) {
+            boxMarginLeft += 500;
+        }
+
+        if (i < 30) {
+            boxMarginLeft += 250;
+        }
+
+        if (i >= 30) {
+            boxMarginLeft += 100;
         }
     }
 }
@@ -196,5 +204,12 @@ function deadAnimation() {
     if (deadImageNumber==10){
         alert("Game Over...!!!");
         score = 0;
+        clearInterval(deadAnimationNumber);
+    }
+}
+
+function level(){
+    if (score==3000){
+        alert("Level 1 Completed...!");
     }
 }
