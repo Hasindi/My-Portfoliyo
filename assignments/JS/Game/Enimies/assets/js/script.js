@@ -176,7 +176,6 @@ function boxAnimation() {
                 moveBackgroundAnimationID = -1;
 
                 deadAnimationNumber = setInterval(deadAnimation, 100);
-
             }
         }
     }
@@ -192,4 +191,8 @@ function deadAnimation() {
 
     girl.src = "assets/Dead (" + deadImageNumber + ").png";
 
+    if (deadImageNumber==10){
+        alert("Game Over...!!!");
+        score = 0;
+    }
 }
