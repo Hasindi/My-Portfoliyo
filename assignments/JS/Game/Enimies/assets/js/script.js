@@ -12,7 +12,7 @@ var girlMarginTop = 567;
 var boxAnimationID = 0;
 var deadImageNumber = 1;
 var deadAnimationNumber = 0;
-var score=0;
+var score = 0;
 
 
 /*girl Animation*/
@@ -94,8 +94,8 @@ function moveBackground() {
     document.getElementById("background").style.backgroundPositionX = backgroundPositionX + "px";
 
     /*score*/
-    score=score+10;
-    document.getElementById("score").innerHTML="Score"+score;
+    score = score + 10;
+    document.getElementById("score").innerHTML = "Score : " + score;
 }
 
 function jumpAnimation() {
@@ -131,6 +131,7 @@ function jumpAnimationStart() {
 }
 
 let boxMarginLeft = 1600;
+
 /*barriers*/
 function createBarriers() {
 
@@ -139,42 +140,42 @@ function createBarriers() {
         box.className = "box";
         document.getElementById("background").appendChild(box);
         box.style.marginLeft = boxMarginLeft + "px";
-        box.id="box"+i;
+        box.id = "box" + i;
 
         /*boxMarginLeft = boxMarginLeft + 1000;*/
 
-        if (i<5){
-            boxMarginLeft+=2000;
+        if (i < 5) {
+            boxMarginLeft += 2000;
         }
 
-        if (i>=5){
-            boxMarginLeft+=1000;
+        if (i >= 5) {
+            boxMarginLeft += 1000;
         }
     }
 }
 
-function boxAnimation(){
+function boxAnimation() {
     for (var i = 0; i < 10; i++) {
-        var box = document.getElementById("box"+i);
-        var currentMarginLeft=getComputedStyle(box).marginLeft;
-        var newMarginLeft=parseInt(currentMarginLeft)-35;
+        var box = document.getElementById("box" + i);
+        var currentMarginLeft = getComputedStyle(box).marginLeft;
+        var newMarginLeft = parseInt(currentMarginLeft) - 35;
         box.style.marginLeft = newMarginLeft + "px";
 
 
-        if (newMarginLeft>=-110 & newMarginLeft<=100){
-            if (girlMarginTop>500){
+        if (newMarginLeft >= -110 & newMarginLeft <= 100) {
+            if (girlMarginTop > 500) {
                 clearInterval(boxAnimationID);
 
                 clearInterval(runAnimationNumber);
-                runAnimationNumber=-1;
+                runAnimationNumber = -1;
 
                 clearInterval(jumpAnimationNumber);
-                jumpAnimationNumber=-1;
+                jumpAnimationNumber = -1;
 
                 clearInterval(moveBackgroundAnimationID);
-                moveBackgroundAnimationID=-1;
+                moveBackgroundAnimationID = -1;
 
-                deadAnimationNumber=setInterval(deadAnimation,100);
+                deadAnimationNumber = setInterval(deadAnimation, 100);
 
             }
         }
