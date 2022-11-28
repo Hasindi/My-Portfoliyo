@@ -35,7 +35,7 @@ function idleStartAnimation() {
 function runAnimation() {
     runImageNumber = runImageNumber + 1;
 
-    if (runImageNumber === 11) {
+    if (runImageNumber === 9) {
         runImageNumber = 1;
     }
 
