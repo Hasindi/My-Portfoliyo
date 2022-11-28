@@ -146,8 +146,12 @@ function createBarriers() {
 
         /*boxMarginLeft = boxMarginLeft + 1000;*/
 
-        if (i < 10) {
+        if (i < 5) {
             boxMarginLeft += 2000;
+        }
+
+        if (i >= 5) {
+            boxMarginLeft += 1000;
         }
     }
 }
@@ -192,14 +196,5 @@ function deadAnimation() {
     if (deadImageNumber==10){
         alert("Game Over...!!!");
         score = 0;
-        clearInterval(deadAnimationNumber);
-    }
-}
-
-
-function level(){
-    if (score==3000){
-        alert("Level 1 Completed...!");
-
     }
 }
