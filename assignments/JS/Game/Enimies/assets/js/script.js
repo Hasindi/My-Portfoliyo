@@ -97,14 +97,13 @@ function moveBackground() {
     score = score + 10;
     document.getElementById("score").innerHTML = "Score : " + score;
 
-    if (score === 1000) {
+    if (score === 3000) {
         document.getElementById("win").style.visibility="visible";
         document.getElementById("lastScore").innerHTML=score;
 
         clearInterval(boxAnimationID);
         clearInterval(runAnimationNumber);
         clearInterval(moveBackgroundAnimationID);
-
     }
 }
 
@@ -221,38 +220,3 @@ function deadAnimation() {
 function reloard(){
     location.reload();
 }
-/*
-
-function level1() {
-    if (score === 1000) {
-
-        document.getElementById("girl").className="levelCompleted";
-        document.getElementById("win").style.visibility="visible";
-        document.getElementById("finalScore").innerHTML=score;
-
-        clearInterval(boxAnimationID);
-        clearInterval(runAnimationNumber);
-        clearInterval(moveBackgroundAnimationID);
-
-    }
-}
-*/
-/*
-
-function level2() {
-    if (score === 6000) {
-        alert("Level 2 Completed...!");
-    }
-}
-
-function level3() {
-    if (score === 9000) {
-        alert("Level 3 Completed...!");
-    }
-}
-
-function level4() {
-    if (score === 10000) {
-        alert("Level 4 Completed...!");
-    }
-}*/
