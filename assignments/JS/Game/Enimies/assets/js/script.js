@@ -215,6 +215,9 @@ function deadAnimation() {
         document.getElementById("finalScore").innerHTML=score;
     }
 }
+function reloard(){
+    location.reload();
+}
 
 function level1() {
     if (score === 3000) {
