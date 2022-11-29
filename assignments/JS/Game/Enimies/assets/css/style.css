@@ -5,8 +5,9 @@
 .background{
     width: 100%;
     height: 100vh;
-    background-image: url("../vecteezy_creepy-halloween-background-with-ghost-and-zombie-in-dark_11187535.jpg");
+    background-image: url("../spooky_halloween_background_2009.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: repeat-x;
     overflow: hidden;
     position: absolute;
