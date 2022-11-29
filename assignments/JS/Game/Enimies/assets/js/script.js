@@ -96,6 +96,16 @@ function moveBackground() {
     /*score*/
     score = score + 10;
     document.getElementById("score").innerHTML = "Score : " + score;
+
+    if (score === 1000) {
+        document.getElementById("win").style.visibility="visible";
+        document.getElementById("lastScore").innerHTML=score;
+
+        clearInterval(boxAnimationID);
+        clearInterval(runAnimationNumber);
+        clearInterval(moveBackgroundAnimationID);
+
+    }
 }
 
 function jumpAnimation() {
@@ -144,27 +154,20 @@ function createBarriers() {
 
         /*boxMarginLeft = boxMarginLeft + 1000;*/
 
-        if (i < 10) {
+        if (i < 4) {
             boxMarginLeft += 1000;
-            level1();
         }
 
         if (i < 20) {
             boxMarginLeft += 500;
-            level2();
-
         }
 
         if (i < 30) {
             boxMarginLeft += 250;
-            level3();
-
         }
 
         if (i >= 30) {
             boxMarginLeft += 100;
-            level4();
-
         }
     }
 }
@@ -218,12 +221,23 @@ function deadAnimation() {
 function reloard(){
     location.reload();
 }
+/*
 
 function level1() {
-    if (score === 3000) {
-        alert("Level 1 Completed...!");
+    if (score === 1000) {
+
+        document.getElementById("girl").className="levelCompleted";
+        document.getElementById("win").style.visibility="visible";
+        document.getElementById("finalScore").innerHTML=score;
+
+        clearInterval(boxAnimationID);
+        clearInterval(runAnimationNumber);
+        clearInterval(moveBackgroundAnimationID);
+
     }
 }
+*/
+/*
 
 function level2() {
     if (score === 6000) {
@@ -241,4 +255,4 @@ function level4() {
     if (score === 10000) {
         alert("Level 4 Completed...!");
     }
-}
+}*/
