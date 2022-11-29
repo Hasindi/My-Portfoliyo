@@ -59,12 +59,12 @@ function keyCheck(event) {
         }
 
         /*move background*/
-        if (moveBackgroundAnimationID == 0) {
+        if (moveBackgroundAnimationID === 0) {
             moveBackgroundAnimationID = setInterval(moveBackground, 100);
         }
 
         /*move gif*/
-        if (boxAnimationID == 0) {
+        if (boxAnimationID === 0) {
             boxAnimationID = setInterval(boxAnimation, 100);
         }
     }
@@ -81,7 +81,7 @@ function keyCheck(event) {
         }
 
         /*move gif*/
-        if (boxAnimationID == 0) {
+        if (boxAnimationID === 0) {
             boxAnimationID = setInterval(boxAnimation, 100);
         }
     }
@@ -96,8 +96,6 @@ function moveBackground() {
     /*score*/
     score = score + 10;
     document.getElementById("score").innerHTML = "Score : " + score;
-
-    level();
 }
 
 function jumpAnimation() {
@@ -148,18 +146,25 @@ function createBarriers() {
 
         if (i < 10) {
             boxMarginLeft += 1000;
+            level1();
         }
 
         if (i < 20) {
             boxMarginLeft += 500;
+            level2();
+
         }
 
         if (i < 30) {
             boxMarginLeft += 250;
+            level3();
+
         }
 
         if (i >= 30) {
             boxMarginLeft += 100;
+            level4();
+
         }
     }
 }
@@ -195,21 +200,39 @@ function boxAnimation() {
 function deadAnimation() {
     deadImageNumber = deadImageNumber + 1;
 
-    if (deadImageNumber == 11) {
+    if (deadImageNumber === 11) {
         deadImageNumber = 10;
     }
 
     girl.src = "assets/Dead (" + deadImageNumber + ").png";
 
-    if (deadImageNumber==10){
+    if (deadImageNumber === 10) {
         alert("Game Over...!!!");
         score = 0;
         clearInterval(deadAnimationNumber);
     }
 }
 
-function level(){
-    if (score==3000){
+function level1() {
+    if (score === 3000) {
         alert("Level 1 Completed...!");
+    }
+}
+
+function level2() {
+    if (score === 6000) {
+        alert("Level 2 Completed...!");
+    }
+}
+
+function level3() {
+    if (score === 9000) {
+        alert("Level 3 Completed...!");
+    }
+}
+
+function level4() {
+    if (score === 10000) {
+        alert("Level 4 Completed...!");
     }
 }
