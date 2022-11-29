@@ -105,6 +105,7 @@ body{
     font-weight: 600;
     color: white;
     position: absolute;
+    visibility: hidden;
 }
 
 .startAgain {
@@ -147,6 +148,7 @@ body{
     font-weight: 600;
     color: white;
     position: absolute;
+    visibility: hidden;
 }
 
 .nextLevel {

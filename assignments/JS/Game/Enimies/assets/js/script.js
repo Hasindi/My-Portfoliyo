@@ -202,14 +202,17 @@ function deadAnimation() {
 
     if (deadImageNumber === 11) {
         deadImageNumber = 10;
+
     }
 
     girl.src = "assets/Dead (" + deadImageNumber + ").png";
 
     if (deadImageNumber === 10) {
-        alert("Game Over...!!!");
-        score = 0;
+        /*alert("Game Over...!!!");
+        score = 0;*/
         clearInterval(deadAnimationNumber);
+        document.getElementById("end").style.visibility="visible";
+        document.getElementById("finalScore").innerHTML=score;
     }
 }
 
